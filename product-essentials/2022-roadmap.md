@@ -14,6 +14,72 @@ We want to get to a point, quickly, where we can provide compelling answers to �
 
 Equally important as a focus area is deeper integrations with the Cosmos and wider Web 3.0 ecosystem. Digital identity is a burning need across DeFi, CeDeFi, and “traditional” Web 2.0 apps that cuts across as a “horizontal”, as well as being extremely important in “verticals” such as NFTs and online/offline reputation.
 
+## H1 2022: Identity
+
+### **Tutorials for developers using the identity and token functionality of cheqd network**
+
+* [x] Status: Completed / Ongoing
+
+From our Product research that we have carried out this year ([find our general Survey results summarised here](https://www.cheqd.io/blog/top-5-trends-in-decentralised-self-sovereign-identity-and-privacy-preserving-technology-in-web-3.0-2022)), creating documentation that is both simple to understand, and easy to implement, has been a paramount product goal for 2022.&#x20;
+
+We have split our documentation into separate repositories for clarity and convenience (below). We will continually improve, add-to and iterate this documentation to keep it up to date.
+
+#### Documentation for help setting up and managing a node
+
+{% embed url="https://docs.cheqd.io/node" %}
+
+#### Documentation detailing our identity functionality and decisions
+
+{% embed url="https://docs.cheqd.io/identity" %}
+
+#### What is the core business value of this work?
+
+Easily digestible and clear documentation is crucial for giving cheqd's partners a smooth experience using the Network's utility. It will also make it easier for developers and end-customers to begin using the cheqd network and to quickly understand how to integrate with the network, SDK and token functionality.&#x20;
+
+
+
+### DID Resolver
+
+* [x] Full DID Resolver: Completed
+* [ ] Proxy DID Resolver: Ongoing
+* [ ] Universal Resolver: Ongoing
+
+After we released our [cheqd DID method in 2021](https://github.com/cheqd/cheqd-node/blob/main/architecture/adr-list/adr-002-cheqd-did-method.md), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.&#x20;
+
+We are pleased to have designed a modular architecture for DID resolution, with multiple options for using and implementing our work.&#x20;
+
+#### Full DID Resolver
+
+Our primary DID resolver is a full resolver package which can be implemented directly into clients' own infrastructure as a library written in Golang. This provides full support for cheqd's resolver, and can be run by anyone, creating a secure and client-controlled environment for resolving cheqd DIDs.
+
+#### Proxy DID Resolver
+
+For those who do not want to run infrastructure themselves, but want to be able to resolve cheqd DIDs, we have created a DID Resolver as a Service - which routes requests to resolve DIDs to our cheqd gRPC endpoint to fetch a valid JSON response.&#x20;
+
+This is lightweight, simple and easy to use.&#x20;
+
+#### Universal Resolver
+
+The Universal Resolver is a project maintained by DIF which hosts drivers of many different DID Resolvers in a compatible and easy-to-integrate format (Docker Containers).&#x20;
+
+Through the Universal Resolver, cheqd's DID Resolver will be packaged as a Docker Container, making it compatible with any infrastructure stack.  &#x20;
+
+#### What is the core business value of this work?
+
+Having multiple implementations of a DID Resolver accommodates for different clients, developers and customers - each with different needs. The flexibility and modular architecture exhibited here will allow cheqd DIDs to be resolved simply and securely within closed, controlled ecosystems with tight security protocols - as well as by community members who want to try our our identity functionality. Catering to both parties' needs makes the cheqd DID Resolver valuable in both everyday use, and for enterprise use.&#x20;
+
+#### Want to test it out?
+
+You can see our resolver in action, resolving our first DID here:
+
+{% embed url="https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:zF7rhDBfUt9d1gJPjx7s1JXfUY7oVWkY" %}
+
+#### Learn more
+
+Learn about DIDs and what DID resolution is here:
+
+{% embed url="https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/how-do-you-resolve-a-did" %}
+
 ### Quick Wins - Q1 2022
 
 Each new release of cheqd software that we ship would aim for incrementally improving core functionality, which improves life for users (individual and enterprise), token holders, node operators and app developers.&#x20;
