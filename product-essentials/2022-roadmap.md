@@ -14,7 +14,7 @@ We want to get to a point, quickly, where we can provide compelling answers to �
 
 Equally important as a focus area is deeper integrations with the Cosmos and wider Web 3.0 ecosystem. Digital identity is a burning need across DeFi, CeDeFi, and “traditional” Web 2.0 apps that cuts across as a “horizontal”, as well as being extremely important in “verticals” such as NFTs and online/offline reputation.
 
-## H1 2022: Identity
+## Roadmap 2022: Identity
 
 ### **Tutorials for developers using the identity and token functionality of cheqd network**
 
@@ -41,8 +41,8 @@ Easily digestible and clear documentation is crucial for giving cheqd's partners
 ### DID Resolver
 
 * [x] Full DID Resolver: Completed
-* [ ] Proxy DID Resolver: Ongoing
-* [ ] Universal Resolver: Ongoing
+* [ ] Proxy DID Resolver: Ongoing - Q2 expected release
+* [ ] Universal Resolver: Ongoing - Q2 expected release
 
 After we released our [cheqd DID method in 2021](https://github.com/cheqd/cheqd-node/blob/main/architecture/adr-list/adr-002-cheqd-did-method.md), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.&#x20;
 
@@ -83,7 +83,7 @@ Learn about DIDs and what DID resolution is here:
 ### DID URL Dereferencer
 
 * [x] Simple dereferencer: Completed
-* [ ] Complex dereferencer: Ongoing
+* [ ] Complex dereferencer: Ongoing - Q3 expected release
 
 Similar to a DID Resolver, a DID URL Dereferencer is used to take the input of a DID URL, and return a particular resource.
 
@@ -160,9 +160,9 @@ There are two ways cheqd intends to support AnonCreds:
 
 * [x] Issuer DID Documents: Completed
 * [x] Schema DID Documents: Completed
-* [ ] Resource Collections: Ongoing
-* [ ] Schema Objects on-ledger: Ongoing
-* [ ] Credential Definition Composition: Ongoing
+* [ ] Resource Collections: Ongoing - Q2 expected release
+* [ ] Schema Objects on-ledger: Ongoing - Q2 expected release
+* [ ] Credential Definition Composition: Ongoing - Q3 expected release
 
 It is not easy to support AnonCreds directly on a non-Indy network. However, we have created an architecture that replicates the function of AnonCreds using W3C compliant standards. To make this work, there are a few components at play:
 
@@ -189,9 +189,9 @@ By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platfo
 ### Interop SDK
 
 * [x] Veramo SDK for JSON / JSON-LD: Completed
-* [ ] Aries based SDKs supporting cheqd: Ongoing
-* [ ] cheqd direct SDK support for AnonCreds: Ongoing
-* [ ] API routing logic: Backlog
+* [ ] Aries based SDKs supporting cheqd: Ongoing - Q3 expected release
+* [ ] cheqd direct SDK support for AnonCreds: Ongoing - Q3 expected release
+* [ ] API routing logic: Backlog - Q3 expected release
 
 Achieving support for multiple Verifiable Credential standards within one unified, interop SDK would tie the SSI community together. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
 
@@ -205,7 +205,7 @@ This type of interoperability is similar to how Visa, Mastercard and Amex can al
 
 ### cheqd Revocation Registry
 
-* [ ] Status: Commencing soon
+* [ ] Status: Ongoing - Q3 expected release
 
 Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.&#x20;
 
@@ -220,9 +220,9 @@ Proponents of Hyperledger Indy will often point to the way it carries out revoca
 
 ### cheqd Payment rails&#x20;
 
-* [ ] Verifier-pays-issuer: Backlog
-* [ ] Holder-pays issuer: Backlog
-* [ ] Verifier-pays-holder: Backlog
+* [ ] Verifier-pays-issuer: Backlog - Q4 expected release
+* [ ] Holder-pays issuer: Backlog - Q4 expected release
+* [ ] Verifier-pays-holder: Backlog - Q4 expected release
 
 
 
