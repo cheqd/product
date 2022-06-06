@@ -203,6 +203,27 @@ This type of interoperability is similar to how Visa, Mastercard and Amex can al
 
 
 
+### cheqd Revocation Registry
+
+* [ ] Status: Commencing soon
+
+Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.&#x20;
+
+The revocation registry is also central to how cheqd intends to monetise the use of Verifiable Credentials - via gating requests made to check revocation status.&#x20;
+
+Proponents of Hyperledger Indy will often point to the way it carries out revocation as a gold standard, since it is functional and privacy-preserving. cheqd intends to extend the way Indy carries out revocation, making it scalable and applicable within W3C-based ecosystems.&#x20;
+
+#### What is the core business value in this work?
+
+1. This is a highly requested and necessary feature of W3C-based SSI
+2. This lays the foundation for payment rails for Verifiable Credentials
+
+### cheqd Payment rails&#x20;
+
+* [ ] Verifier-pays-issuer: Backlog
+* [ ] Holder-pays issuer: Backlog
+* [ ] Verifier-pays-holder: Backlog
+
 
 
 
