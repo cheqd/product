@@ -105,6 +105,26 @@ This will enable compatibility between Credential types in a way far greater tha
 
 
 
+### Veramo Plugin for cheqd DID Method
+
+In order to issue and verify Verifiable Credentials using cheqd DIDs, software must be used that is able to communicate with the ledger and understands the DID method accordingly. This type of software is generally packaged as a Software Development Kit (SDK).&#x20;
+
+cheqd has imbedded its DID method into the [Veramo SDK](https://veramo.io/) as a plugin, which enables users to issue and verify JSON-LD Credentials, signed by cheqd DIDs. This SDK was used for cheqd's [demo at Internet Identity Workshop 34](https://typefully.com/ankurb/PDcaiMP) in April 2022.&#x20;
+
+#### What is the core business value of this work?
+
+cheqd's intention is to create a "Interop" or "Unified" cheqd SDK, which is able to handle any mainstream Verifiable Credential type and route it through a compatible SDK module.
+
+Using Veramo's SDK to handle JSON-LD Credentials is 1 component of the overall architecture here.
+
+From a business perspective, this architecture is important to create interoperable production environments, where different companies, building on separate standards, can share a customer base.&#x20;
+
+#### Want to test it out?
+
+You can find our open sourced repository for our Veramo plugin here:
+
+{% embed url="https://github.com/cheqd/did-provider-cheqd/" %}
+
 
 
 Quick Wins - Q1 2022
