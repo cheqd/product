@@ -56,7 +56,7 @@ Our primary DID resolver is a full resolver package which can be implemented dir
 
 For those who do not want to run infrastructure themselves, but want to be able to resolve cheqd DIDs, we have created a DID Resolver as a Service - which routes requests to resolve DIDs to our cheqd gRPC endpoint to fetch a valid JSON response.&#x20;
 
-This is lightweight, simple and easy to use.&#x20;
+This is lightweight, simple and easy to use. It is written as a tiny Node.js package designed to run on [Cloudflare Workers](https://workers.cloudflare.com/) which is an extremely light serverless platform for those who want a lower compute footprint that essentially acts as a proxy to a Golang-based “full” resolver.
 
 #### Universal Resolver
 
@@ -224,81 +224,44 @@ As laid out in much of our content, payment rails for Verifiable Credentials and
 
 
 
+## Roadmap 2022: Network Infrastructure
+
+### Testnet token faucet UI
+
+Todo
+
+### Tooling, hosting and analytics
+
+Todo
+
+###
+
+## Roadmap 2022: Cosmos and Web 3.0
+
+Todo
+
+### Ethereum bridge
+
+Todo
+
+### Airdrop Frontend and UI
+
+Todo
+
+### Cosmos chain address convertor
+
+Todo
+
+### Cosmos Data APIs
+
+Todo
 
 
 
-
-Quick Wins - Q1 2022
-
-Each new release of cheqd software that we ship would aim for incrementally improving core functionality, which improves life for users (individual and enterprise), token holders, node operators and app developers.&#x20;
-
-In this category (which we’ve called “Quick Wins”), we have product features and improvements where the approach is well-known and understood within the SSI and Web 3.0 industries.
+To explore our initial roadmap from the beginning of 2022, [please read our blog here](https://blog.cheqd.io/cheqds-product-vision-for-2022-6a92e8e4d296).\
 
 
-
-<details>
-
-<summary>Identity</summary>
-
-* Tutorials for developers on using the identity and token functionality of cheqd network
-* Integrations with industry-standard identity projects such as DIF’s Universal DID Resolver project
-* New & improved decentralised identity functionality
-
-</details>
-
-<details>
-
-<summary>Web 3.0 Core</summary>
-
-* Wider integration with Cosmos ecosystem
-* Bridge to Ethereum networks
-* Improved automation & tooling for managing validator nodes on cheqd network
-
-</details>
-
-
-
-### Strategic aims: Identity (Q2 2022 and beyond)
-
-Much of the basic identity functionality is currently live on the cheqd mainnet, but we’ve been working on stability and security improvements (due to go-live by the end of January 2022) before we begin guiding app developers in earnest. Here are our product ideas in the identity space we believe will have the greatest impact in the short-term.\
-\
-For a deeper dive, [please read our blog here](https://blog.cheqd.io/cheqds-product-vision-for-2022-6a92e8e4d296).\
-
-
-<details>
-
-<summary>Identity</summary>
-
-* Payment rails for digital identity exchange
-  * Robust, secure, and privacy-preserving payment mechanisms
-  * Flexibility - no single payment fits every use case
-  * “Payment” doesn’t _necessarily_ mean “locked” credential
-* Client SDKs in more programming languages
-* Better interoperability and support for emerging identity standards
-
-</details>
-
-<details>
-
-<summary>Web 3.0 Core</summary>
-
-* Native, cross-chain identity primitives for Cosmos ecosystem
-* Smart contracts using CosmWasm
-* Establish ourselves as a leader in decentralised governance for identity
-
-</details>
-
-<details>
-
-<summary>Web 3.0 Exploratory</summary>
-
-* Explore partnership for use-cases across DeFi, NFTs and much more
-
-</details>
-
-
-
-We would love your feedback on our product vision for 2022. We welcome engagement and feedback across a range of different forums, such as our [Community Slack](http://cheqd.link/join-cheqd-slack), [Governance Framework discussion board](https://github.com/cheqd/cheqd-governance/discussions), and [Telegram Group](https://t.me/cheqd), or drop us an email using the form below.
+We would love your feedback on our product vision for 2022. We welcome engagement and feedback across a range of different forums, such as our [Community Slack](http://cheqd.link/join-cheqd-slack), [Governance forum](https://commonwealth.im/cheqd), and [Telegram Group](https://t.me/cheqd).
 
 \
 
