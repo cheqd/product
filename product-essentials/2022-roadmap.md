@@ -143,6 +143,74 @@ The wallet demonstrates how Verifiable Credentials and $CHEQ tokens could be hel
 
 We also want to use the cheqd wallet to issue the cheqd community reward Credentials, based on their engagement and loyalty to cheqd. Through gamifying engagement, we can showcase the value of Verifiable Credentials to a much larger audience than the identity ecosystem.&#x20;
 
+
+
+## H2 2022: Identity
+
+### AnonCreds support
+
+To date, cheqd is able to support JSON and JSON-LD Credentials natively on cheqd. However, this excludes a large portion of the identity ecosystem which have built out their products on Hyperledger Indy based networks using AnonCreds: a privacy-preserving Credential specification which is intrinsically tied to Indy.&#x20;
+
+There are two ways cheqd intends to support AnonCreds:
+
+1. cheqd AnonCreds bridge: AnonCreds-like support on-ledger
+2. Interop SDK: Routing AnonCreds to appropriate SDK
+
+### cheqd AnonCreds bridge&#x20;
+
+* [x] Issuer DID Documents: Completed
+* [x] Schema DID Documents: Completed
+* [ ] Resource Collections: Ongoing
+* [ ] Schema Objects on-ledger: Ongoing
+* [ ] Credential Definition Composition: Ongoing
+
+It is not easy to support AnonCreds directly on a non-Indy network. However, we have created an architecture that replicates the function of AnonCreds using W3C compliant standards. To make this work, there are a few components at play:
+
+1. Issuer DID Documents
+2. Schema DID Documents
+3. Resource Collections
+4. Schema Objects on-ledger
+5. Credential Definition Composition
+
+Each of these parts will be discussed in further detail in our Identity Documentation page:
+
+{% embed url="https://docs.cheqd.io/identity" %}
+
+#### What is the core business value in this work?
+
+Through augmenting and replicating the structure of AnonCreds on cheqd, our partners will seamlessly be able to carry across their customer base from Hyperledger Indy based networks to cheqd.&#x20;
+
+cheqd offers a far more scalable platform, with decentralised governance, and future capacity for payments for Verifiable Credentials.
+
+By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platform for identity, which champions interoperability and vendor-choice at its core.&#x20;
+
+
+
+### Interop SDK
+
+* [x] Veramo SDK for JSON / JSON-LD: Completed
+* [ ] Aries based SDKs supporting cheqd: Ongoing
+* [ ] cheqd direct SDK support for AnonCreds: Ongoing
+* [ ] API routing logic: Backlog
+
+Achieving support for multiple Verifiable Credential standards within one unified, interop SDK would tie the SSI community together. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
+
+#### What is the core business value in this work?
+
+Through creating an AnonCreds bridge to support AnonCreds-like Credentials on cheqd - vendors who were previously shoehorned into the Indy world, would now be able to share a customer base with those working in other W3C-based ecosystems.
+
+This type of interoperability is similar to how Visa, Mastercard and Amex can all work interchangeably with payment terminals. Although built separately, on different tech stacks - they can all be understood, used and accepted equally by end-customers and everyday people. This enhances the value of each company, because they are now able to collaborate  as well as compete.&#x20;
+
+
+
+
+
+
+
+
+
+
+
 Quick Wins - Q1 2022
 
 Each new release of cheqd software that we ship would aim for incrementally improving core functionality, which improves life for users (individual and enterprise), token holders, node operators and app developers.&#x20;
