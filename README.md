@@ -15,7 +15,7 @@ Through the cheqd network and cheqd SDK, we aim to provide our partners a more e
 Before you dive into the cheqd product, if you are not familiar with self-sovereign identity and the function of the $CHEQ token, we suggest you first dive into our learning page:
 
 {% content-ref url="https://app.gitbook.com/o/-MiQSPMufVJdYEwQHd2c/s/5j0qcgqqFLaVpv4dlkgf/" %}
-[Learn about cheqd](https://app.gitbook.com/o/-MiQSPMufVJdYEwQHd2c/s/5j0qcgqqFLaVpv4dlkgf/)
+[cheqd: Learning](https://app.gitbook.com/o/-MiQSPMufVJdYEwQHd2c/s/5j0qcgqqFLaVpv4dlkgf/)
 {% endcontent-ref %}
 
 ### Product Essentials
@@ -28,6 +28,10 @@ To learn about what we have built so far, and what our roadmap for the future is
 
 {% content-ref url="product-essentials/changelog/" %}
 [changelog](product-essentials/changelog/)
+{% endcontent-ref %}
+
+{% content-ref url="product-essentials/tutorials/" %}
+[tutorials](product-essentials/tutorials/)
 {% endcontent-ref %}
 
 ### cheqd Product

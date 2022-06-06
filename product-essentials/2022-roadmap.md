@@ -80,7 +80,34 @@ Learn about DIDs and what DID resolution is here:
 
 {% embed url="https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/how-do-you-resolve-a-did" %}
 
-### Quick Wins - Q1 2022
+### DID URL Dereferencer
+
+* [x] Simple dereferencer: Completed
+* [ ] Complex dereferencer: Ongoing
+
+Similar to a DID Resolver, a DID URL Dereferencer is used to take the input of a DID URL, and return a particular resource.
+
+This can be used to point-to and fetch resources which are stored on ledger, using DIDs, such as:
+
+* Other DIDs or DID Documents
+* Parts of a DID Document (verification keys, sections, etc)
+* Simple files (images, documents)
+* Non-Fungible tokens (NFTs)
+* Resources on-ledger (schemas)
+
+#### What is the core business value of this work?
+
+Being able to fetch resources from DIDs is something that hasn't properly been explored by the identity community. However, there is a vast amount of value that can be drawn out of fetching a resource from a DID.
+
+At cheqd, we are using dereferencing to be able to fetch schemas which are stored on-ledger. The core goal of this is to be able to provide equivalence and compatibility with the AnonCreds spec, whilst remaining compliant with the W3C specifications.&#x20;
+
+This will enable compatibility between Credential types in a way far greater than on any other network - giving all cheqd's partners a platform to build on, using their existing tech stack and clients.&#x20;
+
+
+
+
+
+Quick Wins - Q1 2022
 
 Each new release of cheqd software that we ship would aim for incrementally improving core functionality, which improves life for users (individual and enterprise), token holders, node operators and app developers.&#x20;
 
