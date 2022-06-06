@@ -107,6 +107,8 @@ This will enable compatibility between Credential types in a way far greater tha
 
 ### Veramo Plugin for cheqd DID Method
 
+* [x] Status: Completed
+
 In order to issue and verify Verifiable Credentials using cheqd DIDs, software must be used that is able to communicate with the ledger and understands the DID method accordingly. This type of software is generally packaged as a Software Development Kit (SDK).&#x20;
 
 cheqd has imbedded its DID method into the [Veramo SDK](https://veramo.io/) as a plugin, which enables users to issue and verify JSON-LD Credentials, signed by cheqd DIDs. This SDK was used for cheqd's [demo at Internet Identity Workshop 34](https://typefully.com/ankurb/PDcaiMP) in April 2022.&#x20;
@@ -125,7 +127,21 @@ You can find our open sourced repository for our Veramo plugin here:
 
 {% embed url="https://github.com/cheqd/did-provider-cheqd/" %}
 
+### cheqd wallet
 
+* [x] Demo wallet: completed
+
+To showcase cheqd's identity capabilities, as well as the token functionality, we built an identity wallet which is able to hold Verifiable Credentials, as well as manage $CHEQ tokens via the Keplr browser extension.&#x20;
+
+The wallet can be found here:
+
+{% embed url="https://wallet.cheqd.io/" %}
+
+#### What is the core business value of this work?
+
+The wallet demonstrates how Verifiable Credentials and $CHEQ tokens could be held in the same place and managed with one UI. This is the kind of work that cheqd wants to approach alongside its partners in H2 2022.&#x20;
+
+We also want to use the cheqd wallet to issue the cheqd community reward Credentials, based on their engagement and loyalty to cheqd. Through gamifying engagement, we can showcase the value of Verifiable Credentials to a much larger audience than the identity ecosystem.&#x20;
 
 Quick Wins - Q1 2022
 
