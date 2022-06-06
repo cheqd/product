@@ -143,10 +143,6 @@ The wallet demonstrates how Verifiable Credentials and $CHEQ tokens could be hel
 
 We also want to use the cheqd wallet to issue the cheqd community reward Credentials, based on their engagement and loyalty to cheqd. Through gamifying engagement, we can showcase the value of Verifiable Credentials to a much larger audience than the identity ecosystem.&#x20;
 
-
-
-## H2 2022: Identity
-
 ### AnonCreds support
 
 To date, cheqd is able to support JSON and JSON-LD Credentials natively on cheqd. However, this excludes a large portion of the identity ecosystem which have built out their products on Hyperledger Indy based networks using AnonCreds: a privacy-preserving Credential specification which is intrinsically tied to Indy.&#x20;
@@ -224,7 +220,7 @@ Proponents of Hyperledger Indy will often point to the way it carries out revoca
 * [ ] Holder-pays issuer: Backlog - Q4 expected release
 * [ ] Verifier-pays-holder: Backlog - Q4 expected release
 
-
+As laid out in much of our content, payment rails for Verifiable Credentials and customisable commercial models is a fundamental goal and objective of the cheqd project.&#x20;
 
 
 
