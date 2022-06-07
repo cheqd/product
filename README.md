@@ -38,8 +38,8 @@ If you want to dive deeper into the specific function and technical details of o
 [cheqd-network](cheqd-product/cheqd-network/)
 {% endcontent-ref %}
 
-{% content-ref url="cheqd-product/cheqd-network/did-resolver.md" %}
-[did-resolver.md](cheqd-product/cheqd-network/did-resolver.md)
+{% content-ref url="cheqd-product/did-resolver.md" %}
+[did-resolver.md](cheqd-product/did-resolver.md)
 {% endcontent-ref %}
 
 {% content-ref url="cheqd-product/cheqd-software-development-kit-sdk/" %}

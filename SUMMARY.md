@@ -15,7 +15,7 @@
 
 * [🔘 cheqd Network](cheqd-product/cheqd-network/README.md)
   * [Decentralised Identifiers (DIDs)](cheqd-product/cheqd-network/decentralised-identifiers-dids.md)
-  * [DID Resolver](cheqd-product/cheqd-network/did-resolver.md)
+  * [DID Resolver](cheqd-product/did-resolver.md)
   * [Resources and Schemas](cheqd-product/cheqd-network/schemas.md)
   * [Revocation Registry](cheqd-product/cheqd-network/revocation-registry.md)
 * [📦 cheqd Software Development Kit (SDK)](cheqd-product/cheqd-software-development-kit-sdk/README.md)
