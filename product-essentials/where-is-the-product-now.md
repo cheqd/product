@@ -1,4 +1,4 @@
-# 🗳 Where is the Product now?
+# ❓ Where is the Product now?
 
 ### Publish to the cheqd Network
 
