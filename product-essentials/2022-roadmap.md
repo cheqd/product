@@ -18,7 +18,8 @@ Equally important as a focus area is deeper integrations with the Cosmos and wid
 
 ### **Tutorials for developers using the identity and token functionality of cheqd network**
 
-* [x] Status: Completed / Ongoing
+* [x] Tutorials for Creating DIDs: Completed
+* [ ] Tutorials for Creating Resources/Schemas: Ongoing
 
 From our Product research that we have carried out this year ([find our general Survey results summarised here](https://www.cheqd.io/blog/top-5-trends-in-decentralised-self-sovereign-identity-and-privacy-preserving-technology-in-web-3.0-2022)), creating documentation that is both simple to understand, and easy to implement, has been a paramount product goal for 2022.&#x20;
 
@@ -187,7 +188,7 @@ By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platfo
 * [x] Veramo SDK for JSON / JSON-LD: Completed
 * [ ] Aries based SDKs supporting cheqd: Ongoing - Q3 expected release
 * [ ] cheqd direct SDK support for AnonCreds: Ongoing - Q3 expected release
-* [ ] API routing logic: Backlog - Q3 expected release
+* [ ] API routing logic and rules: Backlog - Q3 expected release
 
 Achieving support for multiple Verifiable Credential standards within one unified, interop SDK would tie the SSI community together. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
 
@@ -222,17 +223,67 @@ Proponents of Hyperledger Indy will often point to the way it carries out revoca
 
 As laid out in much of our content, payment rails for Verifiable Credentials and customisable commercial models is a fundamental goal and objective of the cheqd project.&#x20;
 
+Learn more about how the $CHEQ token works on our learning site:
+
+{% embed url="https://learn.cheqd.io/overview/introduction-to-usdcheq" %}
+
 
 
 ## Roadmap 2022: Network Infrastructure
 
-### Testnet token faucet UI
-
-Todo
-
 ### Tooling, hosting and analytics
 
-Todo
+* [x] Terraform: Completed
+* [x] Terragrunt: Completed
+* [ ] Ansible: Ongoing
+* [x] DataDog: Completed
+* [x] SSH certificates for admin access via Cloudflare Teams: Completed
+* [x] HashiCorp Vault: Completed
+* [ ] Terraform, Terragrunt and Ansible package for other Cosmos networks
+
+We've spent a lot of time in the first half of 2022 improving the infrastructure that cheqd is run on, and designing infrastructure packages that could benefit any project running a blockchain.
+
+Through a combination of this infrastructure, Validator nodes will be able to spin up nodes on cheqd in a way which is far more efficient than before.&#x20;
+
+#### Terraform
+
+We have started using Terraform to define consistent and automated workflows - in order to improve efficiency and streamline the process of setting up a node on cheqd. Terraform is a form of Infra-as-code which is essentially the managing and provisioning of infrastructure through code instead of through manual processes.
+
+You can think of it like dominos - one click of a button can result in a whole series of outcomes.
+
+#### Terragrunt
+
+Terragrunt works hand-in-hand with Terraform, making code more modular and facilitating different configurations of code for different use cases. You can plug in config information like CPU, RAM, Static IPs, Storage, etc., which speed things up whilst making the code more modular and reusable.
+
+#### Ansible&#x20;
+
+Ansible code wraps around the package established by Terraform and Terragrunt to convert the same code into more interoperable formats.&#x20;
+
+Using Ansible, the same configurations created for setting up nodes on cheqd could be packaged in a format which could be consumed by other Cosmos networks.&#x20;
+
+#### DataDog
+
+DataDog is an analytics tool that records logs from cheqd network for debugging purposes, logs Tendermint metrics, Cosmos SDK based metrics and is able to connect with third party software such as Slack for notifications.&#x20;
+
+Using DataDog enables anyone to be more proactive in monitoring the cheqd network; quickly finding and resolving issues in order to keep the network running smoothly.&#x20;
+
+#### SSH certificates for admin access via Cloudflare Teams
+
+This infrastructure provides **** secure one-time SSH certificates for admin access into one of the cheqd nodes. Cloudflare teams enables roles and authorisation management to set different privilege and access levels for working on the node.&#x20;
+
+This work can be extended and used by other projects to help manage authorisation around nodes more securely and effectively.
+
+#### HashiCorp Vault
+
+HashiCorp Vault is about backup and secret management.
+
+It runs a script that copies private key and node key over to the HashiCorp vault. It can be thought of as a password manager for cryptographic key material, secret management, sharing and access control.
+
+This is valuable for anyone managing private keys, since if a key is lost or accidentally deleted, through HashiCorp Vault it can easily be restored.
+
+### Testnet token faucet UI
+
+
 
 ###
 
