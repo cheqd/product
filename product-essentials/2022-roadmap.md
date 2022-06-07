@@ -283,6 +283,10 @@ This is valuable for anyone managing private keys, since if a key is lost or acc
 
 ### Testnet token faucet UI
 
+This allows developers to acquire testnet tokens to start testing out and using the identity functionality on the cheqd network.
+
+This will reduce operational overheads and simplify the process of issuing testnet tokens to developers, validators, users and clients on the network.
+
 
 
 ###
