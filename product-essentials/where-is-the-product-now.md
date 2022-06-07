@@ -2,25 +2,25 @@
 
 ### Publish to the cheqd Network
 
-| Now                                      | Next                                                   | Future                                                              |
-| ---------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------- |
-| Create a DID (did:cheqd method) with CLI | Create Schema objects on Ledger (e.g. type: CL-Schema) | Create entry in Revocation Registry                                 |
-| Create a DID Document with CLI           | Mimic CredDef functionality with DID Docs + Schema     | Manage credential revocation status using cheqd Revocation Registry |
-|                                          | Create a Schema DID Document with CLI                  |                                                                     |
+| Now                                                                                                                   | Next                                                                                                                                  | Future                                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Create a DID ([did:cheqd method](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method)) with CLI | Create [Schema objects on Ledger](https://docs.cheqd.io/node/architecture/adr-list/adr-008-identity-resources) (e.g. type: CL-Schema) | Create entry in [Revocation Registry](https://product.cheqd.io/cheqd-product/cheqd-network/revocation-registry)                                     |
+| Create a DID Document with CLI                                                                                        | Mimic [CredDef functionality](https://docs.cheqd.io/node/architecture/adr-list/adr-008-identity-resources) with DID Docs + Schema     | Manage credential revocation status using [cheqd Revocation Registry](https://docs.cheqd.io/node/architecture/adr-list/adr-007-revocation-registry) |
+|                                                                                                                       | Create a Schema DID Document with CLI                                                                                                 |                                                                                                                                                     |
 
 ### Leverage the cheqd Network
 
-| Now                                                                | Next                                                                | Future                                     |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------ |
-| Issue and verify JWT/JSON Verifiable Credentials with Veramo SDK   | Issue and verify JSON-LD credential using Veramo SDK                | Setup payment flow from verifier to issuer |
-| Interact with network with web-app Wallet (+ hold JSON credential) | Issue and verify AnonCreds-like credential on-ledger with cheqd SDK | Setup payment flow from verifier to holder |
-|                                                                    | Use Interop SDK to route credentials to appropriate SDK             | Setup payment flow from holder to issuer   |
+| Now                                                                                                                                           | Next                                                                                           | Future                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Issue and verify JWT/JSON Verifiable Credentials with [Veramo SDK](https://product.cheqd.io/cheqd-product/cheqd-software-development-kit-sdk) | Issue and verify [JSON-LD](https://github.com/cheqd/identity-docs) credential using Veramo SDK | Setup payment flow from [verifier-to-issuer](https://learn.cheqd.io/overview/introduction-to-usdcheq#holder-pays-issuer) |
+| Interact with network with [web-app Wallet](https://wallet.cheqd.io/welcome) (+ hold JSON credential)                                         | Issue and verify AnonCreds-like credential on-ledger with cheqd SDK                            | Setup payment flow from [verifier-to-holder](https://learn.cheqd.io/overview/introduction-to-usdcheq#holder-pays-issuer) |
+|                                                                                                                                               | Use Interop SDK to route credentials to appropriate SDK                                        | Setup payment flow from [holder-to-issuer](https://learn.cheqd.io/overview/introduction-to-usdcheq#holder-pays-issuer)   |
 
 ### Resolve on the cheqd network
 
-| Now                                        | Next                                                       | Future                                           |
-| ------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------ |
-| Resolve a DID with Full cheqd DID Resolver | Resolve a DID with Proxy DID Resolver (Cloudflare workers) | Dereference DID URL to fetch Revocation Registry |
-|                                            | Resolve a DID with the Universal Resolver (Docker)         |                                                  |
-|                                            | Dereference DID URL to fetch schemas                       |                                                  |
-|                                            | Dereference DID URL to fetch resources                     |                                                  |
+| Now                                                                                               | Next                                                                              | Future                                           |
+| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Resolve a DID with [Full cheqd DID Resolver](https://product.cheqd.io/cheqd-product/did-resolver) | Resolve a DID with Proxy DID Resolver (Cloudflare workers)                        | Dereference DID URL to fetch Revocation Registry |
+|                                                                                                   | Resolve a DID with the [Universal Resolver (Docker)](https://dev.uniresolver.io/) |                                                  |
+|                                                                                                   | Dereference DID URL to fetch schemas                                              |                                                  |
+|                                                                                                   | Dereference DID URL to fetch resources                                            |                                                  |
