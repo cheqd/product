@@ -33,3 +33,11 @@ Therefore, cheqd has developed functionality to anchor schemas directly to the l
 ## What is the business value?
 
 The core value here is interoperability and support for a much broader set of partners and enterprises than previously possible. Through supporting each Credential type (JSON / JSON-LD and AnonCreds) cheqd positions itself as the Layer 1 most ready for production environments and cross-ecosystem Credential interoperability.&#x20;
+
+
+
+### Learn more
+
+Read more about our approach to resources in our Identity Documentation:
+
+{% embed url="https://docs.cheqd.io/identity/architecture/resources-and-schemas" %}

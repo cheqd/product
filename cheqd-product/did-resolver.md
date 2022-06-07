@@ -52,7 +52,7 @@ Learn about DIDs and what DID resolution is here:
 
 {% embed url="https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/how-do-you-resolve-a-did" %}
 
-### Overall Architecture of DID Resolver(s)
+#### Overall Architecture of DID Resolver(s)
 
 You can look into our architecture and decision making in more detail in our Identity docs:
 

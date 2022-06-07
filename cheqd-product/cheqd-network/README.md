@@ -1,4 +1,4 @@
-# 🔘 cheqd Network
+# 🛤 cheqd Network
 
 cheqd is a public, permissionless Layer 1 Network, built on the Cosmos Software Development Kit (SDK) designed to carry out the following functions:
 
