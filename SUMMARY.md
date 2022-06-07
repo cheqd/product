@@ -5,6 +5,7 @@
 ## 🚀 Product Essentials
 
 * [🛣 2022 Roadmap](product-essentials/2022-roadmap.md)
+* [🗳 Where is the Product now?](product-essentials/where-is-the-product-now.md)
 * [🗓 Changelog](product-essentials/changelog/README.md)
   * [2⃣ 2022 Changelog](product-essentials/changelog/2022-changelog.md)
   * [1⃣ 2021 Changelog](product-essentials/changelog/2021-changelog.md)
