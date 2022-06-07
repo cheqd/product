@@ -20,6 +20,12 @@ To learn more about DIDs, check out our Learning site where we go into more deta
 
 When a DID is created, it is typically associated with a private and public key pair. The public key will be visible in the DID Document. This allows the controller/subject of the DID to generate proofs that are verifiable by anyone that has the corresponding DID Document for that DID. The process of retrieving the DID Document from a DID is called DID Resolution.
 
+Take a look at our tutorials for creating DIDs on cheqd:
+
+{% embed url="https://docs.cheqd.io/identity/tutorials/cheqd-cli/dids-and-did-docs/creating-did-+-did-doc-with-cheqd-cli" %}
+
+{% embed url="https://docs.cheqd.io/identity/tutorials/cheqd-cli/dids-and-did-docs/using-cheqd-cosmos-cli-to-manage-did-documents" %}
+
 #### DID Resolution <a href="#did-resolution" id="did-resolution"></a>
 
 A DID Resolver can take DID as input and resolve the DID Document. This is an important concept in how data flows in verifiable data systems.
