@@ -1,4 +1,4 @@
-# Network & Token information
+# ℹ Network & Token information
 
 {% hint style="info" %}
 The below table is the relevant information for the **cheqd Mainnet**
