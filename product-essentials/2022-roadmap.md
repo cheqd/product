@@ -162,10 +162,10 @@ To date, cheqd is able to support JSON and JSON-LD Credentials natively on cheqd
 
 There are two ways cheqd intends to support AnonCreds:
 
-1. cheqd AnonCreds bridge: AnonCreds-like support on-ledger
-2. Interop SDK: Routing AnonCreds to appropriate SDK
+1. cheqd AnonCreds compatibility: AnonCreds-like support on-ledger
+2. SDK Routing Layer: Routing AnonCreds and other Credential types to appropriate SDK
 
-### cheqd AnonCreds bridge&#x20;
+### cheqd AnonCreds compatibility&#x20;
 
 * [x] Issuer DID Documents: Completed
 * [x] Schema DID Documents: Completed
@@ -195,18 +195,18 @@ By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platfo
 
 
 
-### Interop SDK
+### SDK Routing Layer
 
 * [x] Veramo SDK for JSON / JSON-LD: Completed
 * [ ] Aries based SDKs supporting cheqd: Ongoing - Q3 expected release
 * [ ] cheqd direct SDK support for AnonCreds: Ongoing - Q3 expected release
 * [ ] API routing logic and rules: Backlog - Q3 expected release
 
-Achieving support for multiple Verifiable Credential standards within one unified, interop SDK would tie the SSI community together. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
+Achieving support for multiple Verifiable Credential standards within one SDK Routing Layer would help enterprises consume Credentials from multiple sources. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
 
 #### What is the core business value in this work?
 
-Through creating an AnonCreds bridge to support AnonCreds-like Credentials on cheqd - vendors who were previously shoehorned into the Indy world, would now be able to share a customer base with those working in other W3C-based ecosystems.
+Through creating AnonCreds compatibility to support AnonCreds-like Credentials on cheqd - vendors who were previously shoehorned into the Indy world, would now be able to share a customer base with those working in other W3C-based ecosystems.
 
 This type of interoperability is similar to how Visa, Mastercard and Amex can all work interchangeably with payment terminals. Although built separately, on different tech stacks - they can all be understood, used and accepted equally by end-customers and everyday people. This enhances the value of each company, because they are now able to collaborate  as well as compete.&#x20;
 
@@ -238,8 +238,6 @@ As laid out in much of our content, payment rails for Verifiable Credentials and
 Learn more about how the $CHEQ token works on our learning site:
 
 {% embed url="https://learn.cheqd.io/overview/introduction-to-usdcheq" %}
-
-
 
 ## Roadmap 2022: Network Infrastructure
 
@@ -300,8 +298,6 @@ This allows developers to acquire testnet tokens to start testing out and using 
 This will reduce operational overheads and simplify the process of issuing testnet tokens to developers, validators, users and clients on the network.
 
 
-
-###
 
 ## Roadmap 2022: Cosmos and Web 3.0
 
