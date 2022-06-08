@@ -21,6 +21,8 @@ Equally important as a focus area is deeper integrations with the Cosmos and wid
 * [x] Tutorials for Creating DIDs: Completed
 * [ ] Tutorials for Creating Resources/Schemas: Ongoing
 
+**Context**
+
 From our Product research that we have carried out this year ([find our general Survey results summarised here](https://www.cheqd.io/blog/top-5-trends-in-decentralised-self-sovereign-identity-and-privacy-preserving-technology-in-web-3.0-2022)), creating documentation that is both simple to understand, and easy to implement, has been a paramount product goal for 2022.&#x20;
 
 We have split our documentation into separate repositories for clarity and convenience (below). We will continually improve, add-to and iterate this documentation to keep it up to date.
@@ -44,6 +46,8 @@ Easily digestible and clear documentation is crucial for giving cheqd's partners
 * [x] Full DID Resolver: Completed
 * [ ] Proxy DID Resolver: Ongoing - Q2 expected release
 * [ ] Universal Resolver: Ongoing - Q2 expected release
+
+**Context**
 
 After we released our [cheqd DID method in 2021](https://github.com/cheqd/cheqd-node/blob/main/architecture/adr-list/adr-002-cheqd-did-method.md), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.&#x20;
 
@@ -86,6 +90,8 @@ Learn about DIDs and what DID resolution is here:
 * [x] Simple dereferencer: Completed
 * [ ] Complex dereferencer: Ongoing - Q3 expected release
 
+**Context**
+
 Similar to a DID Resolver, a DID URL Dereferencer is used to take the input of a DID URL, and return a particular resource.
 
 This can be used to point-to and fetch resources which are stored on ledger, using DIDs, such as:
@@ -110,6 +116,8 @@ This will enable compatibility between Credential types in a way far greater tha
 
 * [x] Status: Completed
 
+**Context**
+
 In order to issue and verify Verifiable Credentials using cheqd DIDs, software must be used that is able to communicate with the ledger and understands the DID method accordingly. This type of software is generally packaged as a Software Development Kit (SDK).&#x20;
 
 cheqd has imbedded its DID method into the [Veramo SDK](https://veramo.io/) as a plugin, which enables users to issue and verify JSON-LD Credentials, signed by cheqd DIDs. This SDK was used for cheqd's [demo at Internet Identity Workshop 34](https://typefully.com/ankurb/PDcaiMP) in April 2022.&#x20;
@@ -132,6 +140,8 @@ You can find our open sourced repository for our Veramo plugin here:
 
 * [x] Demo wallet: completed
 
+**Context**
+
 To showcase cheqd's identity capabilities, as well as the token functionality, we built an identity wallet which is able to hold Verifiable Credentials, as well as manage $CHEQ tokens via the Keplr browser extension.&#x20;
 
 The wallet can be found here:
@@ -145,6 +155,8 @@ The wallet demonstrates how Verifiable Credentials and $CHEQ tokens could be hel
 We also want to use the cheqd wallet to issue the cheqd community reward Credentials, based on their engagement and loyalty to cheqd. Through gamifying engagement, we can showcase the value of Verifiable Credentials to a much larger audience than the identity ecosystem.&#x20;
 
 ### AnonCreds support
+
+**Context**
 
 To date, cheqd is able to support JSON and JSON-LD Credentials natively on cheqd. However, this excludes a large portion of the identity ecosystem which have built out their products on Hyperledger Indy based networks using AnonCreds: a privacy-preserving Credential specification which is intrinsically tied to Indy.&#x20;
 
@@ -293,28 +305,80 @@ This will reduce operational overheads and simplify the process of issuing testn
 
 ## Roadmap 2022: Cosmos and Web 3.0
 
-Todo
+* [x] Ceate an ERC20 representation of the Cosmos based CHEQ token bridge on Ethereum&#x20;
+* [x] Build Airdrop Frontend and UI
+* [x] Build Cosmos Chain Address converter&#x20;
+* [x] Build custom Cosmos Data APIs&#x20;
 
 ### Ethereum bridge
 
-Todo
+**Context**
+
+To create an ERC20 representation of the Cosmos based CHEQ token we’ve used a bridge. A blockchain bridge or ‘cross-chain bridge’ enables users to transfer assets or any form of data seamlessly from one entirely separate protocol or ecosystem to another (i.e. Solana to Ethereum, or in our case Cosmos to Ethereum and vice versa).
+
+The [CHEQ-ERC20 wrapped token can be found here](https://etherscan.io/address/0x70EDF1c215D0ce69E7F16FD4E6276ba0d99d4de7) (you can also add it to your MetaMask wallet through this link — _go to profile summary > click ‘more’ > ‘add token to MetaMask’_ )
+
+\
+**Why did we decide on a bridge to Ethereum?**
+
+As we build payment rails for trusted data (more on that below), we want to offer issuers, verifiers (the receivers of trusted data), and holders a choice on the means of settlement. We expect a preference for [_stablecoins_](https://en.wikipedia.org/wiki/Stablecoin) to eliminate the volatility in either pricing or settling payments for trusted data.
+
+Find out more on our learn site below:
+
+{% embed url="https://learn.cheqd.io/getting-set-up-on-cheqd/cheq-erc20-wrapped-token" %}
 
 ### Airdrop Frontend and UI
 
-Todo
+**Context**
+
+We’ve open sourced the community airdrop rewards site which is built using Cloudflare Pages and designed it to be highly scalable.
+
+Airdrop reward sites need to be more resilient to traffic spikes than most websites because, when announced, community members will tend to flock to the site to claim their rewards generating a large spike in traffic, followed by a period of much lower traffic**.** This type of traffic pattern can make prepping the server to host airdrop claim websites particularly difficult.
+
+For example, many projects will choose to purchase a large server capacity to prevent server lag, whilst others may simply become overwhelmed with the traffic
+
+Through using Cloudflare Pages one-to-one scaling, we made our airdrop reward site far cheaper, ensured spikes were handled with efficiency, and the likelihood of server-lag or timeouts was greatly decreased.
+
+Check this out below:&#x20;
+
+{% embed url="https://github.com/cheqd/airdrop-ui" %}
 
 ### Cosmos chain address convertor
 
-Todo
+**Context**\
+There is an assumption in the CosmosEcosystem  that wallet addresses across different chains, such as, Cosmos (ATOM), Osmosis (OSMO)  and[ ](https://twitter.com/cheqd\_io)cheqd (CHEQ), are all identical. This is because they all look very similar. However, each chain's wallet address is actually unique**.**
+
+Our cross-chain address convertor is able to automate the derivation of any chain address from **Cosmos** address.
+
+Want to leverage this for your project? Find out more in the link below:&#x20;
+
+{% embed url="https://github.com/cheqd/cosmjs-cli-converter%E2%80%A6" %}
+**Cosmos cross-chain address convertor**
+{% endembed %}
 
 ### Cosmos Data APIs
 
-Todo
+**Context**
 
+We found on our journey that there’s a LOT of stuff that we needed APIs for, but couldn’t directly fetch from base Cosmos SDK’s.
 
+This collection of custom APIs can be deployed as a @Cloudflare Worker or compatible serverless platforms. APIs include:&#x20;
 
-To explore our initial roadmap from the beginning of 2022, [please read our blog here](https://blog.cheqd.io/cheqds-product-vision-for-2022-6a92e8e4d296).\
+1. Total Supply
+2. Circulating Supply
+3. Vesting Account Balance
+4. Liquid Account Balance
+5. Total Account Balance&#x20;
 
+Further context on each and how you can leverage these APIs in your project can be found through the link below:
+
+{% embed url="https://github.com/cheqd/data-api" %}
+**Cosmos Data APIs**
+{% endembed %}
+
+{% hint style="success" %}
+To explore our initial roadmap from the beginning of 2022, [please read our blog here](https://blog.cheqd.io/cheqds-product-vision-for-2022-6a92e8e4d296).
+{% endhint %}
 
 We would love your feedback on our product vision for 2022. We welcome engagement and feedback across a range of different forums, such as our [Community Slack](http://cheqd.link/join-cheqd-slack), [Governance forum](https://commonwealth.im/cheqd), and [Telegram Group](https://t.me/cheqd).
 
