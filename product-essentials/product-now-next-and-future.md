@@ -5,10 +5,10 @@ For a quick overview of current and future functionality on the cheqd network ta
 {% endhint %}
 
 {% file src="../.gitbook/assets/cheqd now, next, future graphic.pdf" %}
-Accessible file for clickable cheqd now, next, future graphic
+Clickable graphic for cheqd now, next, future
 {% endfile %}
 
-![Graphic showing cheqd now, next and future](<../.gitbook/assets/cheqd now, next, future.png>)
+![Graphic showing cheqd's product: now, next and future](<../.gitbook/assets/cheqd now, next, future.png>)
 
 ### Creating & Managing DIDs on the cheqd network
 
