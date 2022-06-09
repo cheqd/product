@@ -1,11 +1,14 @@
 # ⏭ Product: Now, Next & Future
 
 {% hint style="info" %}
-For a quick overview of current and future functionality on the cheqd network take a look at the one pager overview. For more detail use the tables below to dig deeper into our tutorials, docs and relevat ADRs.
+For a quick overview of current and future functionality on the cheqd network take a look at the one pager overview. For more detail use the tables below to dig deeper into our tutorials, docs and relevant ADRs.
 {% endhint %}
 
-![cheqd Now, Next and Future functionality on a page.&#x20;
-Icons made by Freepik and Pixel perfect from www.flaticon.com"](<../.gitbook/assets/Product\_ Now, Next, Future.png>)
+{% file src="../.gitbook/assets/cheqd now, next, future graphic.pdf" %}
+Accessible file for clickable cheqd now, next, future graphic
+{% endfile %}
+
+![Graphic showing cheqd now, next and future](<../.gitbook/assets/cheqd now, next, future.png>)
 
 ### Creating & Managing DIDs on the cheqd network
 
