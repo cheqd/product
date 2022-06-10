@@ -22,8 +22,8 @@ Before you dive into the cheqd product, if you are not familiar with self-sovere
 
 To learn about what we have built so far, and what our roadmap for the future is, _cheq_ out our Product Roadmap and detailed technical changelog.
 
-{% content-ref url="product-essentials/2022-roadmap.md" %}
-[2022-roadmap.md](product-essentials/2022-roadmap.md)
+{% content-ref url="product-essentials/product-roadmap-deepdive.md" %}
+[product-roadmap-deepdive.md](product-essentials/product-roadmap-deepdive.md)
 {% endcontent-ref %}
 
 {% content-ref url="product-essentials/changelog/" %}

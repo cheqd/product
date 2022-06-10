@@ -4,8 +4,8 @@
 
 ## 🚀 Product Essentials
 
-* [🛣 2022 Roadmap](product-essentials/2022-roadmap.md)
-* [⏭ Product: Now, Next & Future](product-essentials/product-now-next-and-future.md)
+* [🛣 Product Roadmap](product-essentials/product-roadmap.md)
+* [🔎 Product Roadmap Deepdive](product-essentials/product-roadmap-deepdive.md)
 * [ℹ Network & Token information](cheqd-product/cheqd-network/network-and-token-information.md)
 * [🗓 Changelog](product-essentials/changelog/README.md)
   * [2⃣ 2022 Changelog](product-essentials/changelog/2022-changelog.md)

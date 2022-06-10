@@ -1,4 +1,4 @@
-# ⏭ Product: Now, Next & Future
+# 🛣 Product Roadmap
 
 {% hint style="info" %}
 For a quick overview of current and future functionality on the cheqd network take a look at the one pager overview. For more detail use the tables below to dig deeper into our tutorials, docs and relevant ADRs.
@@ -14,6 +14,8 @@ To view a clickable copy of the image above, open the PDF version below&#x20;
 {% file src="../.gitbook/assets/cheqd now, next, future graphic (1).pdf" %}
 PDF version of now, next, future graphic
 {% endfile %}
+
+
 
 ### Creating & Managing DIDs on the cheqd network
 
