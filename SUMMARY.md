@@ -4,7 +4,7 @@
 
 ## 🚀 Product Essentials
 
-* [🛣 Product Roadmap](product-essentials/product-roadmap.md)
+* [🛣 cheqd Product Roadmap](product-essentials/cheqd-product-roadmap.md)
 * [🔎 Product Roadmap Deepdive](product-essentials/product-roadmap-deepdive.md)
 * [ℹ Network & Token information](cheqd-product/cheqd-network/network-and-token-information.md)
 * [🗓 Changelog](product-essentials/changelog/README.md)
