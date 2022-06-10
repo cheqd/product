@@ -14,10 +14,10 @@ Clickable graphic for cheqd now, next, future
 
 #### Create
 
-| Now (current functionality)                                                                                                                                                                                                | Next (Q2/Q3) | Future (Q4) |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------- |
-| [Create a DID ](https://docs.cheqd.io/identity/tutorials/vdr-tools/identity-transactions-with-vdr-tools-cli)([did:cheqd method](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method)) with cheqd CLI |              |             |
-| [Create a DID Document ](https://docs.cheqd.io/identity/tutorials/cheqd-cli/dids-and-did-docs/creating-did-+-did-doc-with-cheqd-cli)with cheqd CLI                                                                         |              |             |
+| Now (current functionality)                                                                                                                                                                                                | Next (Q2/Q3) | Future (Q3/Q4) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------- |
+| [Create a DID ](https://docs.cheqd.io/identity/tutorials/vdr-tools/identity-transactions-with-vdr-tools-cli)([did:cheqd method](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method)) with cheqd CLI |              |                |
+| [Create a DID Document ](https://docs.cheqd.io/identity/tutorials/cheqd-cli/dids-and-did-docs/creating-did-+-did-doc-with-cheqd-cli)with cheqd CLI                                                                         |              |                |
 
 #### Resolve
 
