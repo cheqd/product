@@ -109,17 +109,17 @@ With JWK, cheqd now supports a broader selection of Public Key encoding schemes,
 
 #### Fixed date/time representation in DID Resolution&#x20;
 
-What has changed?&#x20;
+**What has changed?**&#x20;
 
 Previously, we were using a Cosmos format of datetime, rather than what is defined in the DID core spec. Now this has been changed to align with DID Core.&#x20;
 
-Why is this important?&#x20;
+**Why is this important?**&#x20;
 
 This aligns our DID Document metadata with DID Core, making it more semantically interoperable and spec compliant.&#x20;
 
-DID metadata VersionId now populates a Tendermint’s tx\_hash in the correct format&#x20;
+**DID metadata VersionId now populates a Tendermint’s tx\_hash in the correct format**&#x20;
 
-What has changed?&#x20;
+**What has changed?**&#x20;
 
 As cheqd is a chain built on the Cosmos SDK, it relies on Tendermint as its consensus mechanism.&#x20;
 
@@ -129,7 +129,7 @@ Within DID Document metadata, there is a field called VersionID which, as the na
 
 Previously, in this field, we were generating a hash from the transaction itself to calculate the DIDDoc version ID. We have now changed this to populate a Tendermint transaction hash.&#x20;
 
-Why is this important?&#x20;
+**Why is this important?**&#x20;
 
 This is important because the DIDDoc VersionID can now be retrieved right after the creation of the DID, with the DID now more easily searchable on a Block Explorer. Previously, we needed to create the DID, THEN ask it to create version ID, then update.&#x20;
 
