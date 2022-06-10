@@ -4,11 +4,16 @@
 For a quick overview of current and future functionality on the cheqd network take a look at the one pager overview. For more detail use the tables below to dig deeper into our tutorials, docs and relevant ADRs.
 {% endhint %}
 
-{% file src="../.gitbook/assets/cheqd now, next, future graphic.pdf" %}
-Clickable graphic for cheqd now, next, future
-{% endfile %}
+![Graphic showing cheqd's product: now, next and future
+Icons made by Freepik and Pixel perfect from www.flaticon.com](<../.gitbook/assets/cheqd now, next, future graphic.png>)
 
-![Graphic showing cheqd's product: now, next and future](<../.gitbook/assets/cheqd now, next, future.png>)
+{% hint style="info" %}
+To view a clickable copy of the image above, open the PDF version below&#x20;
+{% endhint %}
+
+{% file src="../.gitbook/assets/cheqd now, next, future graphic (1).pdf" %}
+PDF version of now, next, future graphic
+{% endfile %}
 
 ### Creating & Managing DIDs on the cheqd network
 
