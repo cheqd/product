@@ -25,7 +25,7 @@ cheqd wants to make it as easy as possible to create **commercially viable SSI e
 
 ### 💰Get paid for your part
 
-* Whether running a Node on the cheqd network, or delegating tokens to a Node Operator to stake on your behalf, you can earn a strong yield from staking rewards.
+* Whether running a [Node on the cheqd network,](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-a-validator-node-operator) or [delegating tokens to a Node Operator](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation) to stake on your behalf, you can earn a strong yield from staking rewards.
 * The average APR for token staking is [8.97%](https://explorer.cheqd.io/)
 * As a token holder you can also have your say on decisions, whilst you earn...&#x20;
 
