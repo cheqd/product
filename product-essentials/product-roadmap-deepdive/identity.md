@@ -1,20 +1,18 @@
----
-description: >-
-  A high-level overview of our Product Roadmap for 2022. This will be
-  continually fleshed out
----
-
-# 🔎 Product Roadmap Deepdive
-
-## Roadmap Overview
-
-Our focus is to expand the utility of the cheqd network for decentralised identity use cases. This is our core mission and vision and - the reason why - we have such a broad interest within the self-sovereign identity (SSI) vendor ecosystem.
-
-We want to get to a point, quickly, where we can provide compelling answers to “What identity capabilities does cheqd network provide, and how do I build it into my apps as an app developer / software vendor?”
-
-Equally important as a focus area is deeper integrations with the Cosmos and wider Web 3.0 ecosystem. Digital identity is a burning need across DeFi, CeDeFi, and “traditional” Web 2.0 apps that cuts across as a “horizontal”, as well as being extremely important in “verticals” such as NFTs and online/offline reputation.
+# 🆔 Identity
 
 ## Roadmap 2022: Identity
+
+### Contents
+
+* [Tutorials for developers using the identity and token functionality of cheqd network](identity.md#tutorials-for-developers-using-the-identity-and-token-functionality-of-cheqd-network)
+* [DID Resolver](identity.md#did-resolver)
+* [DID URL Dereferencer](identity.md#did-url-dereferencer)
+* [Veramo plugin for cheqd DID method](identity.md#veramo-plugin-for-cheqd-did-method)
+* [cheqd browser plug-in](identity.md#cheqd-wallet)
+* [cheqd AnonCreds compatibility](identity.md#cheqd-anoncreds-compatibility)
+* [Routing layer](identity.md#routing-layer)
+* [cheqd Revocation registry](identity.md#cheqd-revocation-registry)
+* [cheqd Payment rails](identity.md#cheqd-payment-rails)
 
 ### **Tutorials for developers using the identity and token functionality of cheqd network**
 
@@ -136,13 +134,13 @@ You can find our open sourced repository for our Veramo plugin here:
 
 {% embed url="https://github.com/cheqd/did-provider-cheqd/" %}
 
-### cheqd wallet
+### cheqd browser plug-in
 
 * [x] Demo wallet: completed
 
 **Context**
 
-To showcase cheqd's identity capabilities, as well as the token functionality, we built an identity wallet which is able to hold Verifiable Credentials, as well as manage $CHEQ tokens via the Keplr browser extension.&#x20;
+To showcase cheqd's identity capabilities, as well as the token functionality, we built an identity wallet browser plug-in which is able to hold Verifiable Credentials, as well as manage $CHEQ tokens via the Keplr browser extension.&#x20;
 
 The wallet can be found here:
 
@@ -154,9 +152,7 @@ The wallet demonstrates how Verifiable Credentials and $CHEQ tokens could be hel
 
 We also want to use the cheqd wallet to issue the cheqd community reward Credentials, based on their engagement and loyalty to cheqd. Through gamifying engagement, we can showcase the value of Verifiable Credentials to a much larger audience than the identity ecosystem.&#x20;
 
-### AnonCreds support
-
-**Context**
+### cheqd AnonCreds compatibility&#x20;
 
 To date, cheqd is able to support JSON and JSON-LD Credentials natively on cheqd. However, this excludes a large portion of the identity ecosystem which have built out their products on Hyperledger Indy based networks using AnonCreds: a privacy-preserving Credential specification which is intrinsically tied to Indy.&#x20;
 
@@ -164,8 +160,6 @@ There are two ways cheqd intends to support AnonCreds:
 
 1. cheqd AnonCreds compatibility: AnonCreds-like support on-ledger
 2. SDK Routing Layer: Routing AnonCreds and other Credential types to appropriate SDK
-
-### cheqd AnonCreds compatibility&#x20;
 
 * [x] Issuer DID Documents: Completed
 * [x] Schema DID Documents: Completed
@@ -195,18 +189,21 @@ By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platfo
 
 
 
-### SDK Routing Layer
+### Routing Layer
 
 * [x] Veramo SDK for JSON / JSON-LD: Completed
 * [ ] Aries based SDKs supporting cheqd: Ongoing - Q3 expected release
-* [ ] cheqd direct SDK support for AnonCreds: Ongoing - Q3 expected release
-* [ ] API routing logic and rules: Backlog - Q3 expected release
+* [ ] API routing logic and rules: Backlog
 
-Achieving support for multiple Verifiable Credential standards within one SDK Routing Layer would help enterprises consume Credentials from multiple sources. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
+Achieving support for multiple Verifiable Credential standards using a Routing Layer into multiple SDKs would help enterprises consume Credentials from multiple sources. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
+
+This is a long term goal, after building cheqd support into more existing SDKs.&#x20;
 
 #### What is the core business value in this work?
 
 Through creating AnonCreds compatibility to support AnonCreds-like Credentials on cheqd - vendors who were previously shoehorned into the Indy world, would now be able to share a customer base with those working in other W3C-based ecosystems.
+
+A routing layer would also create a harmonised interface with AnonCreds based on Indy AND JSON/JSON-LD Credentials anchored elsewhere.&#x20;
 
 This type of interoperability is similar to how Visa, Mastercard and Amex can all work interchangeably with payment terminals. Although built separately, on different tech stacks - they can all be understood, used and accepted equally by end-customers and everyday people. This enhances the value of each company, because they are now able to collaborate  as well as compete.&#x20;
 
@@ -239,145 +236,4 @@ Learn more about how the $CHEQ token works on our learning site:
 
 {% embed url="https://learn.cheqd.io/overview/introduction-to-usdcheq" %}
 
-## Roadmap 2022: Network Infrastructure
-
-### Tooling, hosting and analytics
-
-* [x] Terraform: Completed
-* [x] Terragrunt: Completed
-* [ ] Ansible: Ongoing
-* [x] DataDog: Completed
-* [x] SSH certificates for admin access via Cloudflare Teams: Completed
-* [x] HashiCorp Vault: Completed
-* [ ] Terraform, Terragrunt and Ansible package for other Cosmos networks
-
-We've spent a lot of time in the first half of 2022 improving the infrastructure that cheqd is run on, and designing infrastructure packages that could benefit any project running a blockchain.
-
-Through a combination of this infrastructure, Validator nodes will be able to spin up nodes on cheqd in a way which is far more efficient than before.&#x20;
-
-#### Terraform
-
-We have started using Terraform to define consistent and automated workflows - in order to improve efficiency and streamline the process of setting up a node on cheqd. Terraform is a form of Infra-as-code which is essentially the managing and provisioning of infrastructure through code instead of through manual processes.
-
-You can think of it like dominos - one click of a button can result in a whole series of outcomes.
-
-#### Terragrunt
-
-Terragrunt works hand-in-hand with Terraform, making code more modular and facilitating different configurations of code for different use cases. You can plug in config information like CPU, RAM, Static IPs, Storage, etc., which speed things up whilst making the code more modular and reusable.
-
-#### Ansible&#x20;
-
-Ansible code wraps around the package established by Terraform and Terragrunt to convert the same code into more interoperable formats.&#x20;
-
-Using Ansible, the same configurations created for setting up nodes on cheqd could be packaged in a format which could be consumed by other Cosmos networks.&#x20;
-
-#### DataDog
-
-DataDog is an analytics tool that records logs from cheqd network for debugging purposes, logs Tendermint metrics, Cosmos SDK based metrics and is able to connect with third party software such as Slack for notifications.&#x20;
-
-Using DataDog enables anyone to be more proactive in monitoring the cheqd network; quickly finding and resolving issues in order to keep the network running smoothly.&#x20;
-
-#### SSH certificates for admin access via Cloudflare Teams
-
-This infrastructure provides **** secure one-time SSH certificates for admin access into one of the cheqd nodes. Cloudflare teams enables roles and authorisation management to set different privilege and access levels for working on the node.&#x20;
-
-This work can be extended and used by other projects to help manage authorisation around nodes more securely and effectively.
-
-#### HashiCorp Vault
-
-HashiCorp Vault is about backup and secret management.
-
-It runs a script that copies private key and node key over to the HashiCorp vault. It can be thought of as a password manager for cryptographic key material, secret management, sharing and access control.
-
-This is valuable for anyone managing private keys, since if a key is lost or accidentally deleted, through HashiCorp Vault it can easily be restored.
-
-### Testnet token faucet UI
-
-This allows developers to acquire testnet tokens to start testing out and using the identity functionality on the cheqd network.
-
-This will reduce operational overheads and simplify the process of issuing testnet tokens to developers, validators, users and clients on the network.
-
-
-
-## Roadmap 2022: Cosmos and Web 3.0
-
-* [x] Ceate an ERC20 representation of the Cosmos based CHEQ token bridge on Ethereum&#x20;
-* [x] Build Airdrop Frontend and UI
-* [x] Build Cosmos Chain Address converter&#x20;
-* [x] Build custom Cosmos Data APIs&#x20;
-
-### Ethereum bridge
-
-**Context**
-
-To create an ERC20 representation of the Cosmos based CHEQ token we’ve used a bridge. A blockchain bridge or ‘cross-chain bridge’ enables users to transfer assets or any form of data seamlessly from one entirely separate protocol or ecosystem to another (i.e. Solana to Ethereum, or in our case Cosmos to Ethereum and vice versa).
-
-The [CHEQ-ERC20 wrapped token can be found here](https://etherscan.io/address/0x70EDF1c215D0ce69E7F16FD4E6276ba0d99d4de7) (you can also add it to your MetaMask wallet through this link — _go to profile summary > click ‘more’ > ‘add token to MetaMask’_ )
-
-\
-**Why did we decide on a bridge to Ethereum?**
-
-As we build payment rails for trusted data (more on that below), we want to offer issuers, verifiers (the receivers of trusted data), and holders a choice on the means of settlement. We expect a preference for [_stablecoins_](https://en.wikipedia.org/wiki/Stablecoin) to eliminate the volatility in either pricing or settling payments for trusted data.
-
-Find out more on our learn site below:
-
-{% embed url="https://learn.cheqd.io/getting-set-up-on-cheqd/cheq-erc20-wrapped-token" %}
-
-### Airdrop Frontend and UI
-
-**Context**
-
-We’ve open sourced the community airdrop rewards site which is built using Cloudflare Pages and designed it to be highly scalable.
-
-Airdrop reward sites need to be more resilient to traffic spikes than most websites because, when announced, community members will tend to flock to the site to claim their rewards generating a large spike in traffic, followed by a period of much lower traffic**.** This type of traffic pattern can make prepping the server to host airdrop claim websites particularly difficult.
-
-For example, many projects will choose to purchase a large server capacity to prevent server lag, whilst others may simply become overwhelmed with the traffic
-
-Through using Cloudflare Pages one-to-one scaling, we made our airdrop reward site far cheaper, ensured spikes were handled with efficiency, and the likelihood of server-lag or timeouts was greatly decreased.
-
-Check this out below:&#x20;
-
-{% embed url="https://github.com/cheqd/airdrop-ui" %}
-
-### Cosmos chain address convertor
-
-**Context**\
-There is an assumption in the CosmosEcosystem  that wallet addresses across different chains, such as, Cosmos (ATOM), Osmosis (OSMO)  and[ ](https://twitter.com/cheqd\_io)cheqd (CHEQ), are all identical. This is because they all look very similar. However, each chain's wallet address is actually unique**.**
-
-Our cross-chain address convertor is able to automate the derivation of any chain address from **Cosmos** address.
-
-Want to leverage this for your project? Find out more in the link below:&#x20;
-
-{% embed url="https://github.com/cheqd/cosmjs-cli-converter%E2%80%A6" %}
-**Cosmos cross-chain address convertor**
-{% endembed %}
-
-### Cosmos Data APIs
-
-**Context**
-
-We found on our journey that there’s a LOT of stuff that we needed APIs for, but couldn’t directly fetch from base Cosmos SDK’s.
-
-This collection of custom APIs can be deployed as a @Cloudflare Worker or compatible serverless platforms. APIs include:&#x20;
-
-1. Total Supply
-2. Circulating Supply
-3. Vesting Account Balance
-4. Liquid Account Balance
-5. Total Account Balance&#x20;
-
-Further context on each and how you can leverage these APIs in your project can be found through the link below:
-
-{% embed url="https://github.com/cheqd/data-api" %}
-**Cosmos Data APIs**
-{% endembed %}
-
-{% hint style="success" %}
-To explore our initial roadmap from the beginning of 2022, [please read our blog here](https://blog.cheqd.io/cheqds-product-vision-for-2022-6a92e8e4d296).
-{% endhint %}
-
-We would love your feedback on our product vision for 2022. We welcome engagement and feedback across a range of different forums, such as our [Community Slack](http://cheqd.link/join-cheqd-slack), [Governance forum](https://commonwealth.im/cheqd), and [Telegram Group](https://t.me/cheqd).
-
-\
-
-
+##

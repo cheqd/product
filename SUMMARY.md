@@ -5,13 +5,16 @@
 ## 🚀 Product Essentials
 
 * [🛣 cheqd Product Roadmap](product-essentials/cheqd-product-roadmap.md)
-* [🔎 Product Roadmap Deepdive](product-essentials/product-roadmap-deepdive.md)
+* [🔎 Product Roadmap Deepdive](product-essentials/product-roadmap-deepdive/README.md)
+  * [🆔 Identity](product-essentials/product-roadmap-deepdive/identity.md)
+  * [🏗 Network Infrastructure](product-essentials/product-roadmap-deepdive/network-infrastructure.md)
+  * [☄ Cosmos and Web 3.0](product-essentials/product-roadmap-deepdive/cosmos-and-web-3.0.md)
 * [ℹ Network & Token information](cheqd-product/cheqd-network/network-and-token-information.md)
 * [🗓 Changelog](product-essentials/changelog/README.md)
   * [2⃣ 2022 Changelog](product-essentials/changelog/2022-changelog.md)
   * [1⃣ 2021 Changelog](product-essentials/changelog/2021-changelog.md)
 
-## 🆔 cheqd Product
+## 🎁 cheqd Product
 
 * [🔘 cheqd Network](cheqd-product/cheqd-network/README.md)
   * [Decentralised Identifiers (DIDs)](cheqd-product/cheqd-network/decentralised-identifiers-dids.md)

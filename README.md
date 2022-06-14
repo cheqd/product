@@ -22,8 +22,8 @@ Before you dive into the cheqd product, if you are not familiar with self-sovere
 
 To learn about what we have built so far, and what our roadmap for the future is, _cheq_ out our Product Roadmap and detailed technical changelog.
 
-{% content-ref url="product-essentials/product-roadmap-deepdive.md" %}
-[product-roadmap-deepdive.md](product-essentials/product-roadmap-deepdive.md)
+{% content-ref url="product-essentials/product-roadmap-deepdive/" %}
+[product-roadmap-deepdive](product-essentials/product-roadmap-deepdive/)
 {% endcontent-ref %}
 
 {% content-ref url="product-essentials/changelog/" %}
