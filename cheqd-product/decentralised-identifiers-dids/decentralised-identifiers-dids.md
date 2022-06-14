@@ -11,13 +11,9 @@ This functionality allows third parties to query the ledger in order to verify t
 * [x] Security of data
 * [x] Reusability of data, reducing costs
 
-## Decentralised Identifiers (DIDs)
-
-Decentralised Identifiers (DIDs) are the most common identity primitive to exist on-ledger.&#x20;
-
 ### What is a DID?
 
-DIDs are unique identifiers, used to identity an organisation, individual, object or process. They can be used to enable trust between parties, without any direct relationship or centralised intermediary.&#x20;
+DIDs are persistent unique identifiers, used to identity an organisation, individual, object or process. They can be used to enable trust between parties, without any direct relationship or centralised intermediary.&#x20;
 
 To learn more about DIDs, check out our Learning site where we go into more detail:
 
@@ -83,7 +79,7 @@ A DID Resolver can take DID as input and resolve the DID Document. This is an im
 
 This is expanded on in the section:
 
-{% content-ref url="../did-resolver.md" %}
-[did-resolver.md](../did-resolver.md)
+{% content-ref url="did-resolver.md" %}
+[did-resolver.md](did-resolver.md)
 {% endcontent-ref %}
 

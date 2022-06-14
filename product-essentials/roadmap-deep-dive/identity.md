@@ -4,17 +4,22 @@
 
 ### Contents
 
-* [Tutorials for developers using the identity and token functionality of cheqd network](identity.md#tutorials-for-developers-using-the-identity-and-token-functionality-of-cheqd-network)
-* [DID Resolver](identity.md#did-resolver)
-* [DID URL Dereferencer](identity.md#did-url-dereferencer)
-* [Veramo plugin for cheqd DID method](identity.md#veramo-plugin-for-cheqd-did-method)
-* [cheqd browser plug-in](identity.md#cheqd-wallet)
-* [cheqd AnonCreds compatibility](identity.md#cheqd-anoncreds-compatibility)
-* [Routing layer](identity.md#routing-layer)
-* [cheqd Revocation registry](identity.md#cheqd-revocation-registry)
-* [cheqd Payment rails](identity.md#cheqd-payment-rails)
+* Decentralised Identifiers (DIDs)
+  * [Tutorials for developers](identity.md#tutorials-for-developers-using-the-identity-and-token-functionality-of-cheqd-network)
+  * [DID Resolver](identity.md#did-resolver)
+  * [DID URL Dereferencer](identity.md#did-url-dereferencer)
+  * [cheqd Revocation registry](identity.md#cheqd-revocation-registry)
+* Verifiable Credentials
+  * [Veramo plugin for cheqd DID method](identity.md#veramo-plugin-for-cheqd-did-method)
+  * [cheqd browser plug-in](identity.md#cheqd-wallet)
+  * [cheqd AnonCreds compatibility](identity.md#cheqd-anoncreds-compatibility)
+  * [Routing layer](identity.md#routing-layer)
+* Payment rails
+  * [cheqd Payment rails](identity.md#cheqd-payment-rails)
 
-### **Tutorials for developers using the identity and token functionality of cheqd network**
+## Decentralised Identifiers (DIDs)
+
+### **Tutorials for developers**
 
 * [x] Tutorials for Creating DIDs: Completed
 * [ ] Tutorials for Creating Resources/Schemas: Ongoing
@@ -108,7 +113,22 @@ At cheqd, we are using dereferencing to be able to fetch schemas which are store
 
 This will enable compatibility between Credential types in a way far greater than on any other network - giving all cheqd's partners a platform to build on, using their existing tech stack and clients.&#x20;
 
+### cheqd Revocation Registry
 
+* [ ] Status: Ongoing - Q3 expected release
+
+Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.&#x20;
+
+The revocation registry is also central to how cheqd intends to monetise the use of Verifiable Credentials - via gating requests made to check revocation status.&#x20;
+
+Proponents of Hyperledger Indy will often point to the way it carries out revocation as a gold standard, since it is functional and privacy-preserving. cheqd intends to extend the way Indy carries out revocation, making it scalable and applicable within W3C-based ecosystems.&#x20;
+
+#### What is the core business value in this work?
+
+1. This is a highly requested and necessary feature of W3C-based SSI
+2. This lays the foundation for payment rails for Verifiable Credentials
+
+## Verifiable Credentials
 
 ### Veramo Plugin for cheqd DID Method
 
@@ -207,24 +227,7 @@ A routing layer would also create a harmonised interface with AnonCreds based on
 
 This type of interoperability is similar to how Visa, Mastercard and Amex can all work interchangeably with payment terminals. Although built separately, on different tech stacks - they can all be understood, used and accepted equally by end-customers and everyday people. This enhances the value of each company, because they are now able to collaborate  as well as compete.&#x20;
 
-
-
-### cheqd Revocation Registry
-
-* [ ] Status: Ongoing - Q3 expected release
-
-Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.&#x20;
-
-The revocation registry is also central to how cheqd intends to monetise the use of Verifiable Credentials - via gating requests made to check revocation status.&#x20;
-
-Proponents of Hyperledger Indy will often point to the way it carries out revocation as a gold standard, since it is functional and privacy-preserving. cheqd intends to extend the way Indy carries out revocation, making it scalable and applicable within W3C-based ecosystems.&#x20;
-
-#### What is the core business value in this work?
-
-1. This is a highly requested and necessary feature of W3C-based SSI
-2. This lays the foundation for payment rails for Verifiable Credentials
-
-### cheqd Payment rails&#x20;
+## cheqd Payment rails&#x20;
 
 * [ ] Verifier-pays-issuer: Backlog - Q4 expected release
 * [ ] Holder-pays issuer: Backlog - Q4 expected release

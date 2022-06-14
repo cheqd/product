@@ -12,9 +12,9 @@ We are pleased to have designed a modular architecture for DID resolution, with 
 
 #### Full DID Resolver
 
-Our primary DID resolver is a full resolver package which can be implemented directly into clients' own infrastructure as a library written in Golang. This provides full support for cheqd's resolver, and can be run by anyone, creating a secure and client-controlled environment for resolving cheqd DIDs.
+Our primary DID resolver is a full resolver package which can be implemented directly into clients' own infrastructure as a library written in Golang. This will likely be required by app developers or partners looking at processing high volumes of DID resolution requests since they can pull the data from their own cheqd node, and/or if they want the highest levels of assurance that the data pulled was untampered.
 
-#### Proxy DID Resolver
+#### Light DID Resolver
 
 For those who do not want to run infrastructure themselves, but want to be able to resolve cheqd DIDs, we have created a DID Resolver as a Service - which routes requests to resolve DIDs to our cheqd gRPC endpoint to fetch a valid JSON response.&#x20;
 
@@ -37,8 +37,6 @@ In short, this architecture improves:
 * [x] Accessibility to cheqd DIDs
 * [x] Interoperability with other networks
 * [x] Flexibility for different users (enterprises and individuals)
-
-
 
 #### Want to test it out?
 
