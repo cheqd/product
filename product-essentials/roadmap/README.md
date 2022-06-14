@@ -4,7 +4,7 @@ description: >-
   continually fleshed out
 ---
 
-# 🔎 Roadmap Deep Dive
+# 🛣 Roadmap
 
 ## Roadmap Overview
 
@@ -19,6 +19,20 @@ To explore our initial roadmap from the beginning of 2022, [please read our blog
 {% endhint %}
 
 ### Product roadmap quick start
+
+For a quick overview of current, next and future functionality on the cheqd network take a look at our simple breakdown here:
+
+{% content-ref url="now-next-and-future.md" %}
+[now-next-and-future.md](now-next-and-future.md)
+{% endcontent-ref %}
+
+For a clickable graphic of cheqd's functionality now, next and future: use the download link below:
+
+{% file src="../../.gitbook/assets/cheqd now, next, future graphic (1).pdf" %}
+PDF version of now, next, future graphic
+{% endfile %}
+
+### Product Roadmap Deep Dive
 
 We have broken our roadmap down into three sections:
 

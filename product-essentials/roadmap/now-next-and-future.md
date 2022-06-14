@@ -1,12 +1,4 @@
-# 🛣 Roadmap
-
-{% hint style="info" %}
-For a quick overview of current and future functionality on the cheqd network take a look at the one pager overview below. For more detail use the tables below to dig deeper into our tutorials, docs and relevant ADRs.
-{% endhint %}
-
-{% file src="../.gitbook/assets/cheqd now, next, future graphic (1).pdf" %}
-PDF version of now, next, future graphic
-{% endfile %}
+# 🔜 Now, next and future
 
 ### Creating & Managing DIDs on the cheqd network
 
@@ -55,8 +47,6 @@ PDF version of now, next, future graphic
 | [Stake CHEQ tokens ](https://wallet.cheqd.io/staking)as a validator                       |              | [Verifier-to-holder](https://learn.cheqd.io/overview/introduction-to-usdcheq#holder-pays-issuer): Verifier pay holder for credential presentation with CHEQ token (settled in stablecoin) |
 | [Delegate CHEQ tokens](https://wallet.cheqd.io/staking) to a validator to stake           |              | [Holder-to-issuer](https://learn.cheqd.io/overview/introduction-to-usdcheq#holder-pays-issuer): Holder pay issuer for credential issuance with CHEQ token (settled in stablecoin)         |
 | [Vote on governance proposals](https://commonwealth.im/cheqd/proposals) using CHEQ tokens |              |                                                                                                                                                                                           |
-
-
 
 
 
