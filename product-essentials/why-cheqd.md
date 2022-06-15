@@ -129,29 +129,30 @@ We are happy to workshop through different technology approaches and explore how
 > "As SSI matures we're seeing innovation at every layer of the Trust Over IP stack. cheqd is the only ToIP Layer 1 public utility I've seen with a governance framework designed explicitly to evolve from permissioned to permissionless. Add to that cheqd's commitment to interoperability across all SSI ecosystems and its unique focus on SSI-based value exchange and you have one of the most exciting projects in SSI today."
 >
 > **Drummond Reed** \
-> **Chief Trust Officer, Evernym; Co-Chair, ToIP Governance Stack Working Group; co-author, "Self-Sovereign Identity"**
+> ****- **** Chief Trust Officer, Avast \
+> \- Co-chair, Trust over IP (ToIP) Governance Stack Working Group\
+> \- Co-author, "Self-Sovereign Identity"
 
 > "Danube Tech has been a pionieer in DID technologies, and we see cheqd as a promising next step in the evolution of SSI networks. Operating a cheqd node will add value to our mission of enabling global interoperability of decentralized identity infrastructures."
 >
 > **Markus Sabadello**\
-> **CEO, DanubeTech**
+> ****- **** CEO, DanubeTech
 
 > _"You can't have Web 3 until you have decentralised identity that works at scale and has a business model for network participants hardcoded into it._\
 > \
 > _For this reason we're helping cheqd bring a permissionless, token optimised form of SSI and verifiable claims"_
 >
 > **Jamie Burke**\
-> **Founder & CEO, Outlier Ventures**
+> ****- **** Founder & CEO, Outlier Ventures
 
 > _“Our well-being depends on reliable data provenance and secure authentication/authorization across humans, organizations, and systems. All the exciting use-cases for digital-first processes are in need of a truly open and portable identity & credentialing fabric, which is exactly what Cheqd provides. Our joint vision is that decentralized identity will be at the core of every cyber-physical system in the near future.”_
 >
-> **Carsten Stöcker,**
->
-> **CEO, Spherity**
+> **Carsten Stöcker**\
+> ****- **** CEO, Spherity
 
 > _"We're excited to join the cheqd community because of its focus on operationalising SSI business models through payment rails. For companies like us that want to build applications based on SSI that enable users to access services, the payment rail component is critical in ensuring that we offer customers a seamless payment experience. Gravity's business model is based on "pay per data", such that customers pay for the data exchanged based on the number of credentials and the types of claims contained within them. Leveraging cheqd's payment rail infrastructure is therefore vital for Gravity as our customer base expands and credential exchanges grow."_
 >
 > **Sharanya Thakur**\
-> **Project Manager, Gravity Earth**
+> ****- **** Project Manager, Gravity Earth
 
 ****
