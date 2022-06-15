@@ -1,12 +1,14 @@
-# 🤔 Why cheqd?
+# 🟢 Why cheqd?
 
-## #Web5 before it was cool.
+cheqd is a **technology scale-up company** that provides a **market-leading solution** for **data** **ownership and value creation.**&#x20;
 
-cheqd is a **technology scale-up company** that provides a **market-leading solution** for **data** **ownership and value creation.** The [cheqd network](https://www.cheqd.io/) delivers first of its kind **payment rails, customisable commercial models and governance structures for trusted**\* (also referred as authentic) data, including self-sovereign identity (SSI).&#x20;
+The [cheqd network](https://www.cheqd.io/) delivers first of its kind **payment rails, customisable commercial models and governance structures for trusted**\* (also referred as authentic) data, including **Self-Sovereign Identity (SSI).**&#x20;
 
 SSI is a user-centric methodology for **exchanging trusted data in a more secure manner**. It is also widely believed to be the next generation of digital identities across open networks and is the technical foundation of **#Web5**.
 
-cheqd brings **simplicity, ease and fairness** by inverting existing models of data ownership. Individuals can build profiles of their own data that they have full control over, sharing access to organisations only when needed and with express consent. This makes it **quicker, safer and cheaper** to create a profile on a new digital service, and to be able to switch to any competing offerings easily. No more forms. No more hassle. For the first time, individuals and the companies that validate their online identity, such as passport offices, banks and utilities, are financially rewarded.
+cheqd brings **simplicity, ease and fairness** by inverting existing models of data ownership. Individuals can build profiles of their own data that they have full control over, sharing access to organisations only when needed and with express consent.&#x20;
+
+This makes it **quicker, safer and cheaper** to create a profile on a new digital service, and to be able to switch to any competing offerings easily. No more forms. No more hassle. For the first time, individuals and the companies that validate their online identity, such as passport offices, banks and utilities, are financially rewarded.
 
 cheqd wants to make it as easy as possible to create **commercially viable SSI ecosystems** through enabling **native payments alongside the flow of Verifiable Credentials**. This will be achieved through a new Layer 1, the cheqd Network, which enables native payments in a token, the [$CHEQ](https://coinmarketcap.com/currencies/cheqd/), in exchange for standardised [W3C Verifiable Credentials](https://www.w3.org/TR/did-core/). ‌To support this objective, cheqd has built its own blockchain, using the [Cosmos SDK.](https://v1.cosmos.network/sdk)
 
@@ -57,11 +59,17 @@ _note: cheqd's estimated 10,000 TPS is based on the CosmosSDK estimations which 
 * You are able to easily propose a new on-chain proposal with a deposit of 8000 $CHEQ using our [governance forum](https://commonwealth.im/cheqd)
 * As an interested community member, you can use our [off-chain governance forum](https://commonwealth.im/cheqd) to propose changes and engage in discussion with the rest of the cheqd community without needing tokens
 
+{% embed url="https://gov.cheqd.io/" %}
+
 ### 🌎 **Community Pool**
 
 * With every transaction on the cheqd network [2% of the transaction fee](https://gov.cheqd.io/getting-started/learning-the-basics/network-parameters) is collected and added to a savings pot known as a [Community Pool](https://gov.cheqd.io/contributing/community-pool)&#x20;
 * This Community Pool  that can be used accelerating the development of new features on cheqd, or even donating to good causes, such as environmental sustainability
 * The cheqd Community Pool is currently just shy of [500,000 CHEQ](https://explorer.cheqd.io/), and [anyone can propose](https://gov.cheqd.io/contributing/community-pool) how this is used&#x20;
+
+{% hint style="success" %}
+### cheqd provides the technical foundation for **emerging** #Web5 ecosystems
+{% endhint %}
 
 ## So who is involved already?&#x20;
 
