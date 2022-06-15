@@ -18,7 +18,7 @@ Before you dive into the cheqd product, if you are not familiar with [cheqd](htt
 
 cheqd has built a blockchain, the [cheqd network](https://explorer.cheqd.io/), using the [Cosmos SDK](https://v1.cosmos.network/sdk). The network facilitates the exchange of trusted, verifiable data _off-chain_ ([Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)), using _on-chain_ identifiers ([Decentralised Identifiers 'DIDs'](https://www.w3.org/TR/did-core/)) to authenticate the verifiable data. This technology is called **"Self-Sovereign Identity"** and has since been labelled **"Web5"**.
 
-cheqd's identity product consists of network infrastructure, tooling and software kits to enable our partners to utilise the cheqd network's functionality, including:
+cheqd's identity product consists of **network infrastructure, tooling and software kits** to enable our partners to utilise the cheqd network's functionality, including:
 
 {% content-ref url="cheqd-product/decentralised-identifiers-dids/" %}
 [decentralised-identifiers-dids](cheqd-product/decentralised-identifiers-dids/)
