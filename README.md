@@ -1,7 +1,5 @@
 ---
 description: Everything you need to know about the cheqd product.
-cover: .gitbook/assets/Orange_Mobius_03.jpg
-coverY: 0
 ---
 
 # Product Oveview
