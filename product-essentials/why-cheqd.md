@@ -1,10 +1,16 @@
 # 🟢 Why cheqd?
 
+## Introduction
+
 cheqd is a **technology scale-up company** that provides a **market-leading solution** for **data** **ownership and value creation.**&#x20;
 
 The [cheqd network](https://www.cheqd.io/) delivers first of its kind **payment rails, customisable commercial models and governance structures for trusted**\* (also referred as authentic) data, including **Self-Sovereign Identity (SSI).**&#x20;
 
 SSI is a user-centric methodology for **exchanging trusted data in a more secure manner**. It is also widely believed to be the next generation of digital identities across open networks and is the technical foundation of **#Web5**.
+
+{% hint style="success" %}
+### cheqd provides the technical foundation for **emerging** #Web5 ecosystems
+{% endhint %}
 
 cheqd brings **simplicity, ease and fairness** by inverting existing models of data ownership. Individuals can build profiles of their own data that they have full control over, sharing access to organisations only when needed and with express consent.&#x20;
 
@@ -66,10 +72,6 @@ _note: cheqd's estimated 10,000 TPS is based on the CosmosSDK estimations which 
 * With every transaction on the cheqd network [2% of the transaction fee](https://gov.cheqd.io/getting-started/learning-the-basics/network-parameters) is collected and added to a savings pot known as a [Community Pool](https://gov.cheqd.io/contributing/community-pool)&#x20;
 * This Community Pool  that can be used accelerating the development of new features on cheqd, or even donating to good causes, such as environmental sustainability
 * The cheqd Community Pool is currently just shy of [500,000 CHEQ](https://explorer.cheqd.io/), and [anyone can propose](https://gov.cheqd.io/contributing/community-pool) how this is used&#x20;
-
-{% hint style="success" %}
-### cheqd provides the technical foundation for **emerging** #Web5 ecosystems
-{% endhint %}
 
 ## So who is involved already?&#x20;
 
