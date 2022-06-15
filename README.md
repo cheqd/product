@@ -4,9 +4,7 @@ description: Everything you need to know about the cheqd product.
 
 # Product Oveview
 
-## :rocket: Getting started with cheqd Product
-
-### Learn about cheqd
+## Learn about cheqd
 
 Before you dive into the cheqd product, if you are not familiar with cheqd, Self-Sovereign Identity and the function of the [$CHEQ token](https://learn.cheqd.io/overview/introduction-to-usdcheq), we suggest you first _cheq out_ our learning page:
 
@@ -14,7 +12,9 @@ Before you dive into the cheqd product, if you are not familiar with cheqd, Self
 [Learn about cheqd](https://app.gitbook.com/o/-MiQSPMufVJdYEwQHd2c/s/5j0qcgqqFLaVpv4dlkgf/)
 {% endcontent-ref %}
 
-### Why cheqd?
+
+
+## Why cheqd?
 
 The most important question newcomers to the project who are considering the use of the network is: **why cheqd?**&#x20;
 
@@ -24,7 +24,9 @@ Let's answer that for you.
 [why-cheqd.md](product-essentials/why-cheqd.md)
 {% endcontent-ref %}
 
-### What _is_ the cheqd product?
+###
+
+## What _is_ the cheqd product?
 
 cheqd's identity product consists of network infrastructure and tooling to support our partners utilise the following:
 
@@ -40,7 +42,9 @@ cheqd's identity product consists of network infrastructure and tooling to suppo
 [payment-rails.md](cheqd-product/cheqd-network/payment-rails.md)
 {% endcontent-ref %}
 
-### Where are we going?
+###
+
+## :motorway: Where are we going?
 
 We are constantly developing our product in different ways - we have broken down our 2022 roadmap into digestible sections.
 
@@ -70,7 +74,9 @@ If you want to explore what we have already released in our latest software upda
 [changelog](product-essentials/changelog/)
 {% endcontent-ref %}
 
-### Standards
+###
+
+## Standards
 
 Building cheqd's product and network in line with formal technical standards is vital to ensure interoperability and to avoid vendor-lock-in. As such, we believe it is important to transparently lay out the technical standards and components of our network, token and identity functionality.&#x20;
 
@@ -86,7 +92,9 @@ We have also Open Sourced all our Product work, so our partners and community ca
 
 {% embed url="https://github.com/cheqd" %}
 
-### Support
+###
+
+## Support
 
 For any help using the cheqd network or product, or for bugs/issues that arise, please get in contact using our community support page:
 
