@@ -2,21 +2,19 @@
 
 ## Introduction
 
-cheqd is a **technology scale-up company** that provides a **market-leading solution** for **data** **ownership and value creation.**&#x20;
+cheqd is a **technology scale-up company** that provides a **market-leading solution** for **verifiable data, enabling** **participants to share, co-create value and transact.**
 
-The [cheqd network](https://www.cheqd.io/) delivers first of its kind **payment rails, customisable commercial models and governance structures for trusted**\* (also referred as authentic) data, including **Self-Sovereign Identity (SSI).**&#x20;
+The [cheqd network](https://www.cheqd.io/) delivers first of its kind **payment rails, customisable commercial models and governance structures for trusted**\* (also referred as authentic) data. This is referred to as **Self-Sovereign Identity (SSI),  Decentralised Identity, or Web5.)**
 
-SSI is a user-centric methodology for **exchanging trusted data in a more secure manner**. It is also widely believed to be the next generation of digital identities across open networks and is the technical foundation of **#Web5**.
+SSI is a user-centric methodology for **exchanging trusted data** in a more secure and privacy preserving manner. SSI is positioned to usher in the next generation of digital identities across open networks and forms the **technical foundation of #Web5.**
 
 {% hint style="success" %}
 ### cheqd provides the technical foundation for **emerging** #Web5 ecosystems
 {% endhint %}
 
-cheqd brings **simplicity, ease and fairness** by inverting existing models of data ownership. Individuals can build profiles of their own data that they have full control over, sharing access to organisations only when needed and with express consent.&#x20;
+cheqd provides the foundational **technical and payment infrastructure** for trusted data ecosystems to form, inverting existing models of data ownership. Entities, whether they be companies, individuals or objects, build profiles of their own data that they have full control over, and share access to this data with interested third parties, or verifiers / receivers, when needed, and with express consent.
 
-This makes it **quicker, safer and cheaper** to create a profile on a new digital service, and to be able to switch to any competing offerings easily. No more forms. No more hassle. For the first time, individuals and the companies that validate their online identity, such as passport offices, banks and utilities, are financially rewarded.
-
-cheqd wants to make it as easy as possible to create **commercially viable SSI ecosystems** through enabling **native payments alongside the flow of Verifiable Credentials**. This will be achieved through a new Layer 1, the cheqd Network, which enables native payments in a token, the [$CHEQ](https://coinmarketcap.com/currencies/cheqd/), in exchange for standardised [W3C Verifiable Credentials](https://www.w3.org/TR/did-core/). ‌To support this objective, cheqd has built its own blockchain, using the [Cosmos SDK.](https://v1.cosmos.network/sdk)
+This enables cheqd wants to create commercially viable SSI ecosystems through native payment rails alongside the flow of Verifiable Credentials (VC) that enables transactions of trusted data. This is achieved through a new Layer 1, the cheqd Network and native payments in a token, the[ $CHEQ](https://coinmarketcap.com/currencies/cheqd/), in exchange for standardised[ W3C Verifiable Credentials](https://www.w3.org/TR/did-core/). ‌To support this objective, cheqd has built its own blockchain, using the[ Cosmos SDK.](https://v1.cosmos.network/sdk)
 
 ## Why should **you choose** cheqd?
 
@@ -36,9 +34,9 @@ _note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD
 
 ### 📈 Peak Performance at low cost
 
-* cheqd has been designed to be a highly performant Layer 1 with high throughout
-* Built using the [Cosmos SDK](https://v1.cosmos.network/sdk), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), far more than other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)&#x20;
-* Gas fees on cheqd are also a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
+* cheqd is designed as a highly performant Layer 1 with high throughout
+* Built using the [Cosmos SDK](https://v1.cosmos.network/sdk), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)&#x20;
+* Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
 
 {% hint style="info" %}
 _note: cheqd's estimated 10,000 TPS is based on the CosmosSDK estimations which cheqd is built with_
@@ -46,12 +44,12 @@ _note: cheqd's estimated 10,000 TPS is based on the CosmosSDK estimations which 
 
 ### 💰Get paid for your part
 
-* Whether running a [node on the cheqd network,](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-a-validator-node-operator) or [delegating tokens to a Node Operator](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation) to stake on your behalf, you can earn a strong yield from staking rewards.
+* Whether running a [node on the cheqd network,](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-a-validator-node-operator) or [delegating tokens to a Node Operator](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation) to stake on your behalf, you can earn yield from staking rewards.
 * The average APR for token staking is [8.97%](https://explorer.cheqd.io/)
 
-### 💡 **Innovate with new Business Models**
+### 💡 **New Commercial Models for Trusted Data Ecosystems**
 
-* cheqd is building never before implemented payment rails, for example:
+* cheqd is building payment rails, for example:
   * a [Verifier / Receiver of a Verifiable Credential can pay the Issuer](https://learn.cheqd.io/overview/tokenomics/tokenomics-part-3) a nominal fee for verifying the Credential;
   * a[ Holder can pay the Issuer](https://learn.cheqd.io/overview/tokenomics/tokenomics-part-3) to receive trusted digital data;
   * A [Verifier can pay the Holder](https://learn.cheqd.io/overview/tokenomics/tokenomics-part-3) to receive trusted digital data.
@@ -73,31 +71,41 @@ _note: cheqd's estimated 10,000 TPS is based on the CosmosSDK estimations which 
 * This Community Pool  that can be used accelerating the development of new features on cheqd, or even donating to good causes, such as environmental sustainability
 * The cheqd Community Pool is currently just shy of [500,000 CHEQ](https://explorer.cheqd.io/), and [anyone can propose](https://gov.cheqd.io/contributing/community-pool) how this is used&#x20;
 
-## So who is involved already?&#x20;
+## Current partners building on cheqd
 
-* In a relatively short space of time since it's founding in November 2021, cheqd has amassed strong support with partnerships across the entirety of the SSI ecosystem.
+* Since its founding in November 2021, cheqd has gained adoption with partnerships across the SSI ecosystem.
 * Through its network for SSI vendors, cheqd disrupts established identity paradigms and creates new trusted data marketplaces.&#x20;
-* Our partnership network now includes **37 SSI vendors** and continuing to grow - the majority of which securing the [cheqd network as validators](https://explorer.cheqd.io/validators).&#x20;
-* Additionally key investors include[ Outlier Ventures,](https://outlierventures.io/) [Evernym](https://www.evernym.com/) (recently acquired by [Avast](https://www.avast.com/en-gb/index#mac)), [Tendermint Ventures](https://tendermint.com/ventures/) (the venture arm of Ignite, a core contributor to the Cosmos Network) and many more.&#x20;
+* Our partnership network now includes **37 SSI vendors** and is continuing to grow - the majority of which securing the [cheqd network as validators](https://explorer.cheqd.io/validators).&#x20;
+* Additionally, key investors include[ Outlier Ventures,](https://outlierventures.io/)[ Evernym](https://www.evernym.com/) (recently acquired by[ Avast](https://www.avast.com/en-gb/index#mac)),[ Tendermint Ventures](https://tendermint.com/ventures/), [CMCC Global](https://www.cmcc.vc/).
 
 ![cheqd Partnership Ecosystem](<../.gitbook/assets/cheqd Partnership Infographic.png>)
 
-## Getting involved
+## Partnering with cheqd
 
-We are looking to continually expand our partnership network. Partnering with cheqd involves collaborating with ourselves and the cheqd community to develop products which fit _your_ clients. Making SSI commercially sustainable and fit-for-production environments.&#x20;
+cheqd is well positioned as the market-leading tokenized SSI network to collaborate with multiple types of partners, and bring multiple verticals and use-cases to the network:&#x20;
 
-We will be launching a self-serve partnership platform to help connect our SSI vendors, consultancies and Web 3.0 partners with compatible use cases and industry verticals.&#x20;
+* Self-Sovereign Identity or Decentralised Identity Vendors
+* Consortiums
+* Consultancies
+* System Integrators&#x20;
+* Advisory firms&#x20;
+* Web3, Web5 companies&#x20;
+* Governments&#x20;
+* Enterprise.
+
+We will be launching a self-serve partnership platform to help connect our SSI vendors, consultancies and Web 3.0 partners with compatible use cases and industry verticals and connect with “end-customers” (enterprise, web3 companies, government).
 
 Please [get in contact with us here](mailto://partnerships@cheqd.io) if any of the following aligns with the direction of your company:
 
-#### Self-Sovereign Identity company
+**Self-Sovereign Identity, Decentralised Identity company**
 
 * Developing a Self-Sovereign Identity (SSI) [Software Development Kit (SDK)](https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-verifiable-credential-vc/sdks-libraries-and-platforms) or an enterprise product
 * Building a digital identity wallet
 * Building backup and data storage mechanisms
 * Specialising in data aggregation, transformation or normalisation software
+* Seeking payment models / rails for clients
 
-We'd love to hear about your business needs, listen to where you feel the identity ecosystem could be improved and explore the opportunity for a partnership.&#x20;
+We'd love to hear about your business needs, technical requirements, and understand your customers to build projects out together.
 
 #### Self-Sovereign Identity consortium
 
@@ -105,12 +113,12 @@ We'd love to hear about your business needs, listen to where you feel the identi
 * Considering different interoperability profiles and technical stacks
 * Looking at monetising the use of Verifiable Credentials
 
-We are happy to workshop through different technology approaches and explore how cheqd or its partners can fit within your thinking.&#x20;
+We are happy to set up multi-stakeholder environments, run webinars, host workshops and for multi-stakeholder partnerships to explore how cheqd and our partners can bring new use-cases and commercial models to your business.
 
 #### Web 3.0 company
 
 * Keen on understanding how SSI can create a more regulatory compliant DeFi / CeDeFi ecosystem
-* Building Metaverse or gaming applications which require security of digital assets
+* Building Metaverse or gaming applications which require security of digital assets or exploring self-sovereign avatars and the utility of portable identity and verified data (achievements, skins, reputation)
 * Exploring alternatives to NFTs and SBTs
 * Cosmos SDK projects that want to gain a deeper understanding of how decentralised identity can overlap and complement other Cosmos projects.
 
@@ -118,13 +126,14 @@ We are happy to workshop through different technology approaches and explore how
 
 * Interested in advising and consulting on digital identity services
 * Clients expressing business needs for more robust identification processes, greater efficiency in onboarding/KYC at lower costs
+* Exploring use-cases and verticals in cheqd’s partnership ecosystem as potential fits for customers and to keep abreast of innovation and commercialization within the cheqd ecosystem
 
 #### Government
 
 * Exploring decentralised identity and SSI for improving access to government services
 * Intent on privacy-by-design principles and how SSI can shift the way data is managed, consented to and stored
 
-## But don't just take our word for it...&#x20;
+## What our partners are saying about us
 
 > "As SSI matures we're seeing innovation at every layer of the Trust Over IP stack. cheqd is the only ToIP Layer 1 public utility I've seen with a governance framework designed explicitly to evolve from permissioned to permissionless. Add to that cheqd's commitment to interoperability across all SSI ecosystems and its unique focus on SSI-based value exchange and you have one of the most exciting projects in SSI today."
 >
