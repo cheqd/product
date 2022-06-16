@@ -12,9 +12,9 @@ SSI is a user-centric methodology for **exchanging trusted data** in a more secu
 ### cheqd provides the technical foundation for **emerging** #Web5 ecosystems
 {% endhint %}
 
-cheqd provides the foundational **technical and payment infrastructure** for trusted data ecosystems to form, inverting existing models of data ownership. Entities, whether they be companies, individuals or objects, build profiles of their own data that they have full control over, and share access to this data with interested third parties, or verifiers / receivers, when needed, and with express consent.
+cheqd provides the foundational **technical and payment infrastructure** for trusted data ecosystems to form, inverting existing models of data ownership. Entities, whether they be companies, individuals or objects, build profiles of their own data **that they have full control over**, and **share access to this data with interested third parties**, or verifiers / receivers, when needed, and **with express consent**.
 
-This enables cheqd wants to create commercially viable SSI ecosystems through native payment rails alongside the flow of Verifiable Credentials (VC) that enables transactions of trusted data. This is achieved through a new Layer 1, the cheqd Network and native payments in a token, the[ $CHEQ](https://coinmarketcap.com/currencies/cheqd/), in exchange for standardised[ W3C Verifiable Credentials](https://www.w3.org/TR/did-core/). ‌To support this objective, cheqd has built its own blockchain, using the[ Cosmos SDK.](https://v1.cosmos.network/sdk)
+This enables cheqd wants to create **commercially viable SSI ecosystems** through **native payment rails alongside the flow of Verifiable Credentials (VC)** that enables transactions of trusted data. This is achieved through a new blockchain, built using the [Cosmos SDK](https://v1.cosmos.network/sdk), the cheqd Network. The cheqd network facilitates native payments in a token, the[ $CHEQ](https://coinmarketcap.com/currencies/cheqd/), in exchange for standardised[ W3C Verifiable Credentials](https://www.w3.org/TR/did-core/). ‌
 
 ## Why should **you choose** cheqd?
 
