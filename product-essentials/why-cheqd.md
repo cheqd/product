@@ -87,11 +87,11 @@ cheqd is well positioned as the market-leading tokenized SSI network to collabor
 * Self-Sovereign Identity or Decentralised Identity Vendors
 * Consortiums
 * Consultancies
-* Enterprise
 * System Integrators&#x20;
 * Advisory firms&#x20;
 * Web3, Web5 companies&#x20;
-* Governments
+* Governments&#x20;
+* Enterprise.
 
 We will be launching a self-serve partnership platform to help connect our SSI vendors, consultancies and Web 3.0 partners with compatible use cases and industry verticals and connect with “end-customers” (enterprise, web3 companies, government).
 
