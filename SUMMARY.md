@@ -17,19 +17,16 @@
 ## 📦 cheqd Product
 
 * [🔘 Decentralised Identifiers (DIDs)](cheqd-product/decentralised-identifiers-dids/README.md)
-  * [Decentralised Identifiers (DIDs)](cheqd-product/decentralised-identifiers-dids/decentralised-identifiers-dids/README.md)
-    * [What are DIDs and DID Documents?](cheqd-product/decentralised-identifiers-dids/decentralised-identifiers-dids/what-are-dids-and-did-documents.md)
-    * [When should I consider using DIDs?](cheqd-product/decentralised-identifiers-dids/decentralised-identifiers-dids/when-should-i-consider-using-dids.md)
-    * [Creating a DID and DID Document](cheqd-product/decentralised-identifiers-dids/decentralised-identifiers-dids/creating-a-did-and-did-document.md)
-    * [DID method](cheqd-product/decentralised-identifiers-dids/decentralised-identifiers-dids/did-method.md)
-    * [DID resolution and dereferencing](cheqd-product/decentralised-identifiers-dids/decentralised-identifiers-dids/did-resolution-and-dereferencing.md)
+  * [When should I consider using DIDs?](cheqd-product/decentralised-identifiers-dids/when-should-i-consider-using-dids.md)
+  * [Creating a DID and DID Document](cheqd-product/decentralised-identifiers-dids/creating-a-did-and-did-document.md)
+  * [DID method](cheqd-product/decentralised-identifiers-dids/did-method.md)
+  * [DID resolution and dereferencing](cheqd-product/decentralised-identifiers-dids/did-resolution-and-dereferencing.md)
   * [DID Resolver](cheqd-product/decentralised-identifiers-dids/did-resolver.md)
   * [Resources and Schemas](cheqd-product/decentralised-identifiers-dids/resources-and-schemas.md)
   * [Revocation Registry](cheqd-product/decentralised-identifiers-dids/revocation-registry.md)
 * [✅ Verifiable Credentials](cheqd-product/verifiable-credentials/README.md)
-  * [What are Verifiable Credentials?](cheqd-product/verifiable-credentials/what-are-verifiable-credentials.md)
-  * [How to issue Verifiable Credentials using cheqd DIDs?](cheqd-product/verifiable-credentials/how-to-issue-verifiable-credentials-using-cheqd-dids/README.md)
-    * [Veramo SDK](cheqd-product/verifiable-credentials/how-to-issue-verifiable-credentials-using-cheqd-dids/veramo-sdk.md)
+  * [Issue a Verifiable Credential using Veramo SDK](cheqd-product/verifiable-credentials/issue-a-verifiable-credential-using-veramo-sdk.md)
+  * [Verify a Verifiable Credential using Veramo SDK](cheqd-product/verifiable-credentials/verify-a-verifiable-credential-using-veramo-sdk.md)
 * [🛤 Payment rails](cheqd-product/cheqd-network/payment-rails.md)
 
 ## Standards
