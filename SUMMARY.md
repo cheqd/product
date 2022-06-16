@@ -25,8 +25,7 @@
   * [Resources and Schemas](cheqd-product/decentralised-identifiers-dids/resources-and-schemas.md)
   * [Revocation Registry](cheqd-product/decentralised-identifiers-dids/revocation-registry.md)
 * [✅ Verifiable Credentials](cheqd-product/verifiable-credentials/README.md)
-  * [Issue a Verifiable Credential using Veramo SDK](cheqd-product/verifiable-credentials/issue-a-verifiable-credential-using-veramo-sdk.md)
-  * [Verify a Verifiable Credential using Veramo SDK](cheqd-product/verifiable-credentials/verify-a-verifiable-credential-using-veramo-sdk.md)
+  * [Veramo SDK](cheqd-product/verifiable-credentials/veramo-sdk.md)
 * [🛤 Payment rails](cheqd-product/cheqd-network/payment-rails.md)
 
 ## Standards

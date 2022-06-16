@@ -12,7 +12,7 @@ For an easy breakdown, check out our explanation on our learning site here:
 
 ### Contents
 
-{% content-ref url="issue-a-verifiable-credential-using-veramo-sdk.md" %}
-[issue-a-verifiable-credential-using-veramo-sdk.md](issue-a-verifiable-credential-using-veramo-sdk.md)
+{% content-ref url="veramo-sdk.md" %}
+[veramo-sdk.md](veramo-sdk.md)
 {% endcontent-ref %}
 
