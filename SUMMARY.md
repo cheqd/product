@@ -4,15 +4,15 @@
 
 ## 🚀 Product Essentials
 
-* [🟢 Why cheqd?](product-essentials/README.md)
-* [🛣 Roadmap](product-essentials/roadmap/README.md)
-  * [🔜 Now, next and future](product-essentials/roadmap/now-next-and-future.md)
-  * [🆔 Identity](product-essentials/roadmap/identity.md)
-  * [🏗 Network Infrastructure](product-essentials/roadmap/network-infrastructure.md)
-  * [☄ Cosmos and Web 3.0](product-essentials/roadmap/cosmos-and-web-3.0.md)
-* [🗓 Changelog](product-essentials/changelog/README.md)
-  * [2⃣ 2022 Changelog](product-essentials/changelog/2022-changelog.md)
-  * [1⃣ 2021 Changelog](product-essentials/changelog/2021-changelog.md)
+* [🟢 Why cheqd?](essentials/README.md)
+* [🛣 Roadmap](essentials/roadmap/README.md)
+  * [🔜 Now, next and future](essentials/roadmap/now-next-and-future.md)
+  * [🆔 Identity](essentials/roadmap/identity.md)
+  * [🏗 Network Infrastructure](essentials/roadmap/network-infrastructure.md)
+  * [☄ Cosmos and Web 3.0](essentials/roadmap/cosmos-and-web-3.0.md)
+* [🗓 Changelog](essentials/changelog/README.md)
+  * [2⃣ 2022 Changelog](essentials/changelog/2022-changelog.md)
+  * [1⃣ 2021 Changelog](essentials/changelog/2021-changelog.md)
 
 ## 📦 cheqd Product
 
