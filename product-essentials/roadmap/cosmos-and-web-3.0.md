@@ -1,31 +1,14 @@
 # ☄ Cosmos and Web 3.0
 
-## Roadmap 2022: Cosmos and Web 3.0
-
-### Contents
-
-* [Ethereum bridge](cosmos-and-web-3.0.md#ethereum-bridge)
-* [Airdrop frontend UI and backend](cosmos-and-web-3.0.md#airdrop-frontend-and-ui)
-* [Cosmos address chain convertor](cosmos-and-web-3.0.md#cosmos-chain-address-convertor)
-* [Cosmos data APIs](cosmos-and-web-3.0.md#cosmos-data-apis)
-  * [Total supply](cosmos-and-web-3.0.md#total-supply)
-  * [Circulating supply](cosmos-and-web-3.0.md#circulating-supply)
-  * [Vesting Account Balance](cosmos-and-web-3.0.md#vesting-account-balance)
-  * [Liquid Account Balance](cosmos-and-web-3.0.md#liquid-account-balance)
-  * [Total Account Balance](cosmos-and-web-3.0.md#total-account-balance)
-
-### Ethereum bridge
+## Ethereum bridge
 
 * [x] ERC20 CHEQ token (eCHEQ) bridge on Ethereum: Completed
-
-**Context**
 
 To create an ERC20 representation of the Cosmos based CHEQ token we’ve used a bridge. A blockchain bridge or ‘cross-chain bridge’ enables users to transfer assets or any form of data seamlessly from one entirely separate protocol or ecosystem to another (i.e. Solana to Ethereum, or in our case Cosmos to Ethereum and vice versa).
 
 The [CHEQ-ERC20 wrapped token can be found here](https://etherscan.io/address/0x70EDF1c215D0ce69E7F16FD4E6276ba0d99d4de7) (you can also add it to your MetaMask wallet through this link — _go to profile summary > click ‘more’ > ‘add token to MetaMask’_ )
 
-\
-**Why did we decide on a bridge to Ethereum?**
+### Why did we decide on a bridge to Ethereum?
 
 As we build payment rails for trusted data (more on that below), we want to offer issuers, verifiers (the receivers of trusted data), and holders a choice on the means of settlement. We expect a preference for [_stablecoins_](https://en.wikipedia.org/wiki/Stablecoin) to eliminate the volatility in either pricing or settling payments for trusted data.
 
@@ -33,16 +16,16 @@ Find out more on our learn site below:
 
 {% embed url="https://learn.cheqd.io/getting-set-up-on-cheqd/cheq-erc20-wrapped-token" %}
 
-### Airdrop Frontend UI and backend
+## Airdrop frontend UI and backend
 
 * [x] Airdrop UI frontend: Completed
 * [x] Airdrop distribution backend: Completed
 
-**Context**
+### Context
 
 We’ve open sourced the community airdrop rewards site which is built using Cloudflare Pages and designed it to be highly scalable.
 
-Airdrop reward sites need to be more resilient to traffic spikes than most websites because, when announced, community members will tend to flock to the site to claim their rewards generating a large spike in traffic, followed by a period of much lower traffic**.** This type of traffic pattern can make prepping the server to host airdrop claim websites particularly difficult.
+Airdrop reward sites need to be more resilient to traffic spikes than most websites because, when announced, community members will tend to flock to the site to claim their rewards generating a large spike in traffic, followed by a period of much lower traffic. This type of traffic pattern can make prepping the server to host airdrop claim websites particularly difficult.
 
 For example, many projects will choose to purchase a large server capacity to prevent server lag, whilst others may simply become overwhelmed with the traffic
 
@@ -52,18 +35,17 @@ Check this out below:
 
 {% embed url="https://github.com/cheqd/airdrop-ui" %}
 
-### Cosmos chain address convertor
+## Miscellaneous Cosmos tools
+
+### Bulk convertor for cross-chain Cosmos addresses
 
 * [x] Tool for converting Cosmos addresses in bulk: Completed
 
-**Context**\
-There is an assumption in the CosmosEcosystem  that wallet addresses across different chains, such as, Cosmos (ATOM), Osmosis (OSMO)  and[ ](https://twitter.com/cheqd\_io)cheqd (CHEQ), are all identical. This is because they all look very similar. However, each chain's wallet address is actually unique**.**
-
-Our cross-chain address convertor is able to automate the derivation of any chain address from **Cosmos** address.
+Our cross-chain address convertor is able to bulk compute the equivalent cross-chain addresses from *any* Cosmos network to another extremely quickly (100k+ addresses in few minutes instead of many hours). We built this to enable computation across cross-chain entries for our airdrops.
 
 Want to leverage this for your project? Find out more in the link below:
 
-{% embed url="https://github.com/cheqd/cosmjs-cli-converter%E2%80%A6" %}
+{% embed url="https://github.com/cheqd/cosmjs-cli-converter" %}
 **Cosmos cross-chain address convertor**
 {% endembed %}
 
@@ -74,8 +56,6 @@ Want to leverage this for your project? Find out more in the link below:
 * [x] Vesting Account Balance API
 * [x] Liquid Account Balance API
 * [x] Total Account Balance API
-
-**Context**
 
 We found on our journey that there’s a LOT of stuff that we needed APIs for, but couldn’t directly fetch from base Cosmos SDK’s.
 
@@ -95,7 +75,7 @@ While this figure is available from CosmosSDK’s built-in REST endpoint, this r
 
 #### Circulating Supply
 
-Likewise these sites require the circ. supply of tokens in the primary token denomination. This figure is not available from any Cosmos SDK API, because the criteria for determining circulating vs "non-circulating" accounts is defined by CoinMarketCap
+Likewise these sites require the circulating supply of tokens in the primary token denomination. This figure is not available from any Cosmos SDK API, because the criteria for determining circulating vs "non-circulating" accounts is defined by CoinMarketCap
 
 This API calculates the circulating supply by subtracting the account balances of a defined list of wallet addresses ("circulating supply watchlist").
 
