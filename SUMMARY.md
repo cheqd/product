@@ -4,7 +4,7 @@
 
 ## 🚀 Product Essentials
 
-* [🟢 Why cheqd?](product-essentials/why-cheqd.md)
+* [🟢 Why cheqd?](product-essentials/README.md)
 * [🛣 Roadmap](product-essentials/roadmap/README.md)
   * [🔜 Now, next and future](product-essentials/roadmap/now-next-and-future.md)
   * [🆔 Identity](product-essentials/roadmap/identity.md)
@@ -26,7 +26,6 @@
   * [Revocation Registry](product-suite/decentralised-identifiers-dids/revocation-registry.md)
 * [✅ Verifiable Credentials](product-suite/verifiable-credentials/README.md)
   * [Veramo SDK](product-suite/verifiable-credentials/veramo-sdk.md)
-* [🛤 Payment rails](product-suite/cheqd-network/payment-rails.md)
 
 ## Standards
 
