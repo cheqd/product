@@ -2,7 +2,7 @@
 
 ## Overview
 
-The cheqd Network enables identity primitives, such as Decentralised Identifiers (DIDs) and DID Documents to be written and anchored to the ledger.&#x20;
+The cheqd Network enables identity primitives, such as Decentralised Identifiers (DIDs) and DID Documents to be written and anchored to the ledger.
 
 This functionality allows third parties to query the ledger in order to verify the authenticity of Verifiable Credentials (signed by DIDs and verification keys) presented to them, increasing:
 
@@ -13,7 +13,7 @@ This functionality allows third parties to query the ledger in order to verify t
 
 ### What are DIDs and DID Documents?
 
-DIDs are **persistent unique identifiers**, used to identity an **organisation, individual, object or process**. They can be used to enable trust between parties, without any direct relationship or centralised intermediary.&#x20;
+DIDs are **persistent unique identifiers**, used to identity an **organisation, individual, object or process**. They can be used to enable trust between parties, without any direct relationship or centralised intermediary.
 
 To learn more about DIDs and DID Documents, check out our Learning site where we go into more detail:
 

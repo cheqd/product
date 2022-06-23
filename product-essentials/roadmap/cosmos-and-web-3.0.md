@@ -49,7 +49,7 @@ For example, many projects will choose to purchase a large server capacity to pr
 
 Through using Cloudflare Pages one-to-one scaling, we made our airdrop reward site far cheaper, ensured spikes were handled with efficiency, and the likelihood of server-lag or timeouts was greatly decreased.
 
-Check this out below:&#x20;
+Check this out below:
 
 {% embed url="https://github.com/cheqd/airdrop-ui" %}
 
@@ -62,7 +62,7 @@ There is an assumption in the CosmosEcosystem  that wallet addresses across diff
 
 Our cross-chain address convertor is able to automate the derivation of any chain address from **Cosmos** address.
 
-Want to leverage this for your project? Find out more in the link below:&#x20;
+Want to leverage this for your project? Find out more in the link below:
 
 {% embed url="https://github.com/cheqd/cosmjs-cli-converter%E2%80%A6" %}
 **Cosmos cross-chain address convertor**
@@ -80,13 +80,13 @@ Want to leverage this for your project? Find out more in the link below:&#x20;
 
 We found on our journey that there’s a LOT of stuff that we needed APIs for, but couldn’t directly fetch from base Cosmos SDK’s.
 
-This collection of custom APIs can be deployed as a @Cloudflare Worker or compatible serverless platforms. APIs include:&#x20;
+This collection of custom APIs can be deployed as a @Cloudflare Worker or compatible serverless platforms. APIs include:
 
 1. Total Supply
 2. Circulating Supply
 3. Vesting Account Balance
 4. Liquid Account Balance
-5. Total Account Balance&#x20;
+5. Total Account Balance
 
 #### Total Supply
 

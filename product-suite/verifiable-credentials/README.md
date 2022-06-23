@@ -1,6 +1,6 @@
 # ✅ Verifiable Credentials
 
-cheqd is creating simple tooling to enable third parties to issue Verifiable Credentials, using cheqd DIDs, DID Documents and Schemas.&#x20;
+cheqd is creating simple tooling to enable third parties to issue Verifiable Credentials, using cheqd DIDs, DID Documents and Schemas.
 
 ### What is a Verifiable Credential (VC)?
 
