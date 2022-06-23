@@ -76,9 +76,9 @@ _note: cheqd's estimated 10,000 TPS is based on the CosmosSDK estimations which 
 * Since its founding in November 2021, cheqd has gained adoption with partnerships across the SSI ecosystem.
 * Through its network for SSI vendors, cheqd disrupts established identity paradigms and creates new trusted data marketplaces.
 * Our partnership network now includes **37 SSI vendors** and is continuing to grow - the majority of which securing the [cheqd network as validators](https://explorer.cheqd.io/validators).
-* Additionally, key investors include[ Outlier Ventures,](https://outlierventures.io/)[ Evernym](https://www.evernym.com/) (recently acquired by[ Avast](https://www.avast.com/en-gb/index#mac)),[ Tendermint Ventures](https://tendermint.com/ventures/), [CMCC Global](https://www.cmcc.vc/).
+* Additionally, key investors include [Outlier Ventures](https://outlierventures.io/), [Evernym](https://www.evernym.com/) (recently acquired by [Avast](https://www.avast.com/en-gb/index), [Tendermint Ventures](https://tendermint.com/ventures/), [CMCC Global](https://www.cmcc.vc/).
 
-![cheqd Partnership Ecosystem](<../.gitbook/assets/cheqd Partnership Infographic.png>)
+![cheqd Partnership Ecosystem](<../.gitbook/assets/cheqd-partners.png>)
 
 ## Partnering with cheqd
 
