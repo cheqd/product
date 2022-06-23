@@ -16,16 +16,16 @@
 
 ## 📦 cheqd Product
 
-* [🔘 Decentralised Identifiers (DIDs)](product-suite/decentralised-identifiers-dids/README.md)
-  * [When should I consider using DIDs?](product-suite/decentralised-identifiers-dids/when-should-i-consider-using-dids.md)
-  * [Creating a DID and DID Document](product-suite/decentralised-identifiers-dids/creating-a-did-and-did-document.md)
-  * [DID method](product-suite/decentralised-identifiers-dids/did-method.md)
-  * [DID resolution and dereferencing](product-suite/decentralised-identifiers-dids/did-resolution-and-dereferencing.md)
-  * [DID Resolver](product-suite/decentralised-identifiers-dids/did-resolver.md)
-  * [Resources and Schemas](product-suite/decentralised-identifiers-dids/resources-and-schemas.md)
-  * [Revocation Registry](product-suite/decentralised-identifiers-dids/revocation-registry.md)
-* [✅ Verifiable Credentials](product-suite/verifiable-credentials/README.md)
-  * [Veramo SDK](product-suite/verifiable-credentials/veramo-sdk.md)
+* [🔘 Decentralised Identifiers (DIDs)](suite/decentralised-identifiers-dids/README.md)
+  * [When should I consider using DIDs?](suite/decentralised-identifiers-dids/when-should-i-consider-using-dids.md)
+  * [Creating a DID and DID Document](suite/decentralised-identifiers-dids/creating-a-did-and-did-document.md)
+  * [DID method](suite/decentralised-identifiers-dids/did-method.md)
+  * [DID resolution and dereferencing](suite/decentralised-identifiers-dids/did-resolution-and-dereferencing.md)
+  * [DID Resolver](suite/decentralised-identifiers-dids/did-resolver.md)
+  * [Resources and Schemas](suite/decentralised-identifiers-dids/resources-and-schemas.md)
+  * [Revocation Registry](suite/decentralised-identifiers-dids/revocation-registry.md)
+* [✅ Verifiable Credentials](suite/verifiable-credentials/README.md)
+  * [Veramo SDK](suite/verifiable-credentials/veramo-sdk.md)
 
 ## Standards
 
