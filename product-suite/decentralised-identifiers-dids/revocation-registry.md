@@ -20,5 +20,4 @@ A revocation registry is a way to record the current status of Verifiable Creden
 
 ### Read more
 
-{% embed url="https://github.com/cheqd/cheqd-node/blob/main/architecture/adr-list/adr-007-revocation-registry.md" %}
-
+{% embed url="https://docs.cheqd.io/node/architecture/adr-list/adr-007-revocation-registry" %}
