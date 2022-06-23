@@ -2,7 +2,7 @@
 description: Everything you need to know about the cheqd product.
 ---
 
-# Product Oveview
+# Product Overview
 
 ## Learn about cheqd
 
@@ -27,12 +27,6 @@ cheqd's identity product consists of **network infrastructure, tooling and softw
 {% content-ref url="product-suite/verifiable-credentials/" %}
 [verifiable-credentials](product-suite/verifiable-credentials/)
 {% endcontent-ref %}
-
-{% content-ref url="product-suite/cheqd-network/payment-rails.md" %}
-[payment-rails.md](product-suite/cheqd-network/payment-rails.md)
-{% endcontent-ref %}
-
-
 
 ## :motorway: Roadmap and development
 
