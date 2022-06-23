@@ -15,7 +15,6 @@
   * [cheqd AnonCreds compatibility](identity.md#cheqd-anoncreds-compatibility)
   * [Routing layer](identity.md#routing-layer)
 * Payment rails
-  * [cheqd Payment rails](identity.md#cheqd-payment-rails)
 
 ## Decentralised Identifiers (DIDs)
 
