@@ -1,32 +1,26 @@
 # 2⃣ 2022 Changelog
 
-<details>
-
-<summary>March - On Chain Upgrade (v0.5.0)</summary>
-
-## Context
+## v0.5.0: Improved DID functionality
 
 This new node version is intended to enhance functionality currently available on v0.4.x. The upgrade to v0.5.x will be a breaking change that introduces new routes, fixes a few technical debt issues identified and overall offers significant enhancements to the identity functionality and security of the network.
 
-Nominally, this upgrade would happen with v0.5.x, with only minor version upgrades that are compatible with v0.5.0 allowed.
+**Full changelog**: [cheqd-node v0.4.1 release notes](https://github.com/cheqd/cheqd-node/releases/tag/v0.4.1) on GitHub
 
-## Changelog
+## Identity Improvements
 
-### Identity Improvements
+### Improved validation of did:cheqd identifiers
 
-#### Improved validation of did:cheqd identifiers
-
-**What has changed?**
+#### What has changed?
 
 Our [did:cheqd Decentralized Identifier (DID)](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method) method provides a unique identification number for a DID Subject. This can be thought of in a very similar way to traditional bank cards. (Note: While the example of a bank card is used here, DIDs on ledger are typically written for companies, not individuals.)
 
-![](https://lh5.googleusercontent.com/QnSlKr4TXeBaqlYcNkW1wEmGYatcEBi6vMPPnJSVBz96ENGeFkK01xBhRtSOdhS\_Ot3q3YEFTslDuWNMWoNnb3yXWFHTIrR9N9Iv4ldwheI2357ApOvpe7YoLqqhnEdc7sRMI7CSjq1E63QDUA)
+![DIDs are similar to bank cards](../../.gitbook/assets/dids-as-bank-card.png)
 
 Within a bank card, different sections of the card identify different actors, such as the Network, Issuer ID and a Unique Account Number - and when put together, you have a complete card number. DIDs are similar, in the sense that different components of the DID mean different things:
 
 In this update, cheqd has updated the way that DIDs are created and resolved to ensure that the [Unique Identifier is a Base58 encoded string (either 16 or 32 characters long)](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method). This was done to keep it consistent with the [Hyperledger Indy DID method identifier specification.](https://hyperledger.github.io/indy-did-method/#indy-did-method-identifiers)
 
-**Why it is important?**
+#### Why it is important?
 
 Prior to the upgrade, the ledger code itself was relatively “dumb”: the responsibility of ensuring that a valid unique identifier was created, matching our DID specification, would be done client-side. While the cheqd ledger did implement a uniqueness check to ensure that no other DIDs with the same identifier existed within a namespace, it didn’t implement checks to ensure that the identifier specification was met. (This is broadly how a lot of Hyperledger Indy SDKs currently do this.)
 
@@ -34,9 +28,9 @@ We believe that that there will be a blend of various levels of technical comple
 
 We are additionally exploring future iterations which would allow unique identifiers to be defined as [**UUIDs**](https://en.wikipedia.org/wiki/Universally\_unique\_identifier) instead of the Indy DID method technique as well.
 
-#### More comprehensive cryptographic checks for DID updates
+### More comprehensive cryptographic checks for DID updates
 
-**What has changed?**
+#### What has changed?
 
 In Hyperledger Indy, the assumption was that DID would have only one [Verification Method](https://w3c.github.io/did-core/#verification-methods) and one [Controller](https://w3c.github.io/did-core/#did-controller) per DID. The [DID Core specification](https://w3c.github.io/did-core/) has evolved since then to allow for multiple controllers and more complex [Verification Relationships](https://w3c.github.io/did-core/#verification-relationships).
 
@@ -48,23 +42,27 @@ The cheqd DID method allows multiple controllers, verification methods, and comp
 2. Next, there is a request to add a new Verification Method to the DID Document.
 3. The question is: how should this DID Document be updated; who needs to sign to make this change?
 
+#### Why it is important?
+
 Prior to the upgrade, when a DID update request was made, the ledger would only ask for the existing Verification Method(s) listed in the DID Document to sign to approve the change. We have changed this to ensure that both the existing and new Verification Method keys need to sign the update request.
 
-This is important because it will prove that the controller(s) of any new Verification Method(s) have control of the relevant key(s) that the DID update is trying to achieve. This is much more secure because it achieves a level of trust that all of the Verification Method(s) listed in the DID Document can be appropriately signed for by their Controller(s). It also, importantly, follows the **** [**DID Core Specification**](https://www.w3.org/TR/did-core/)**.** Improved DID Resolution metadata for updated DIDs
+This is important because it will prove that the controller(s) of any new Verification Method(s) have control of the relevant key(s) that the DID update is trying to achieve. This is much more secure because it achieves a level of trust that all of the Verification Method(s) listed in the DID Document can be appropriately signed for by their Controller(s). It also, importantly, follows the [**DID Core Specification**](https://www.w3.org/TR/did-core/)
 
-**What has changed?**
+### Improved DID Resolution metadata for updated DIDs
 
-When a DID is resolved, it fetches resolution metadata in addition to the DID Document.. This metadata contains entries such as when a DID was created as well as when it was most recently updated.
+#### What has changed?
+
+When a DID is resolved, it fetches resolution metadata in addition to the DID Document. This metadata contains entries such as when a DID was created as well as when it was most recently updated.
 
 Prior to the upgrade, the Update metadata field would contain the same data as the Created field if the DID had never been updated. We’ve changed this to a null value instead of the same date/time, to make it easier for software to understand this scenario.
 
-**Why is this important?**
+#### Why is this important?
 
-If you see the Update field reads null, it means the DIDDoc has never been updated. This clears up any potential confusion and aligns the DID resolution metadata.
+If you see the Update field reads `null`, it means the DIDDoc has never been updated. This clears up any potential confusion and aligns the DID resolution metadata.
 
-#### Implemented static validation for Verification Method keys.
+### Implemented static validation for Verification Method keys
 
-**What has changed?**
+#### What has changed?
 
 We have changed the way we validate Verification Method keys, splitting this into:
 
@@ -73,7 +71,7 @@ We have changed the way we validate Verification Method keys, splitting this int
 
 The former, static validation checks, are performed before the inclusion of a transaction in the mempool; and the latter, dynamic validation checks, are performed during the transaction execution once it is included in the blockchain.
 
-**Why is this important?**
+#### Why is this important?
 
 Splitting these is important because now errors in Verification Method keys can be caught earlier and flagged, before any transaction enters the mempool.
 
@@ -88,7 +86,9 @@ We’re also using other work to build similar efficiency improvements:
 * This validator package for null checks, generic DID validity checks in static validation
 * This validator package for DID namespace checks in dynamic validation.
 
-#### Implemented JSON Web Key (JWK) support.
+### Implemented JSON Web Key (JWK) support
+
+#### What has changed?
 
 Within the DID Core specification there are two types of key in a Verification Method:
 
@@ -101,25 +101,25 @@ Having only one of these two options limits the scalability and interoperability
 
 Therefore, we implemented JSON Web Key (JWK) support.
 
-Why is this important?
+#### Why is this important?
 
 With JWK, cheqd now supports a broader selection of Public Key encoding schemes, which is an important improvement, given our focus on interoperability and eventual cross-ledger support.
 
-### Tech Debt & Bug Fixes
+## Tech Debt & Bug Fixes
 
-#### Fixed date/time representation in DID Resolution
+### Fixed date/time representation in DID Resolution
 
-**What has changed?**
+#### What has changed?
 
 Previously, we were using a Cosmos format of datetime, rather than what is defined in the DID core spec. Now this has been changed to align with DID Core.
 
-**Why is this important?**
+#### Why is this important?
 
 This aligns our DID Document metadata with DID Core, making it more semantically interoperable and spec compliant.
 
-**DID metadata VersionId now populates a Tendermint’s tx\_hash in the correct format**
+### DID metadata VersionId now populates a Tendermint’s `tx_hash` in the correct format
 
-**What has changed?**
+#### What has changed?
 
 As cheqd is a chain built on the Cosmos SDK, it relies on Tendermint as its consensus mechanism.
 
@@ -129,33 +129,20 @@ Within DID Document metadata, there is a field called VersionID which, as the na
 
 Previously, in this field, we were generating a hash from the transaction itself to calculate the DIDDoc version ID. We have now changed this to populate a Tendermint transaction hash.
 
-**Why is this important?**
+#### Why is this important?
 
-This is important because the DIDDoc VersionID can now be retrieved right after the creation of the DID, with the DID now more easily searchable on a Block Explorer. Previously, we needed to create the DID, THEN ask it to create version ID, then update.
+This is important because the DIDDoc `versionId` can now be retrieved right after the creation of the DID, with the DID now more easily searchable on a Block Explorer. Previously, we needed to create the DID, *then* ask it to create version ID, then update.
 
 This update streamlines the process and makes it more efficient.
 
-### Full changelog
-
-* [cheqd/cheqd-node@v0.4.0...v0.5.0](https://github.com/cheqd/cheqd-node/compare/v0.4.0...v0.5.0)
-
-
-
-</details>
-
-<details>
-
-<summary>February - Docker Compose Easy Setup (v0.4.1) </summary>
-
-### Context
+## v0.4.1: Simplified Docker setup and stability improvements (February 2021)
 
 Our [packaged releases](https://github.com/cheqd/cheqd-node/releases) are currently compiled and tested for `Ubuntu 20.04 LTS`, which is the recommended operating system for installation using Debian package or binaries.
 
-For other operating systems, we needed to provide an alternative approach. Therefore, this point release was intiated which offers a [pre-built Docker image releases for `cheqd-node`](https://github.com/orgs/cheqd/packages?repo\_name=cheqd-node).
+For other operating systems, we needed to provide an alternative approach. Therefore, this point release was initiated which offers a [pre-built Docker image releases for `cheqd-node`](https://github.com/orgs/cheqd/packages?repo\_name=cheqd-node).
 
 ### Changelog
 
-* Docker Compose Easy Setup
 * Docker Compose Easy Setup ([#250](https://github.com/cheqd/cheqd-node/pull/250))
 * Add euox pipefail check for bash scripts ([#266](https://github.com/cheqd/cheqd-node/pull/266))
 * Test for positive case of upgrade process ([#268](https://github.com/cheqd/cheqd-node/pull/268))
@@ -166,19 +153,11 @@ For other operating systems, we needed to provide an alternative approach. There
 * Revert fastsync version to `v0` ([#256](https://github.com/cheqd/cheqd-node/pull/256))
 * Fix small errors around postpurge script
 
-### Full changelog
+**Full changelog**: [cheqd-node v0.4.1 release notes](https://github.com/cheqd/cheqd-node/releases/tag/v0.4.1) on GitHub
 
-[https://github.com/cheqd/cheqd-node/compare/v0.4.0...v0.4.1](https://github.com/cheqd/cheqd-node/compare/v0.4.0...v0.4.1)
+## v0.4.0: Stability improvements after mainnet launch (January 2021)
 
-</details>
-
-<details>
-
-<summary>January - On Chain Upgrade (v0.4.0) </summary>
-
-### Context
-
-This software upgrade proposal upgraded the version of cheqd-node software on cheqd-mainnet-1 from v0.3.1, to v0.4.x.
+This software upgrade proposal upgraded the version of cheqd-node software on our mainnet from v0.3.1, to v0.4.x.
 
 Following the successful release of our mainnet in November 2021, we wanted to fast-follow with a some immediate improvements we felt necessary for the cheqd network.
 
@@ -194,12 +173,4 @@ This new node version is intended to enhance functionality currently available o
 * The node software binary has now been compiled with support for Ledger hardware wallet devices for key storage.
 * REST/gRPC endpoints for querying DIDs have been added. Documentation will be added to explain how these endpoints work.
 
-### Full changelog
-
-[\[cheqd/cheqd-node@v0.3.1...v0.4.0\]](https://github.com/cheqd/cheqd-node/compare/v0.3.1...v0.4.0)
-
-
-
-
-
-</details>
+**Full changelog**: [cheqd-node v0.4.0 release notes](https://github.com/cheqd/cheqd-node/releases/tag/v0.4.0) on GitHub
