@@ -7,11 +7,9 @@ description: >-
 
 # 🗓 Changelog
 
-## Changelog Overview
+Within the Product & Engineering team our goal is to release often. We plan on releasing an **on-chain upgrade** once per month, with point releases where required (i.e. no breaking changes) in between.
 
-Within the Product & Engineering team our goal is to release often.We plan on releasing an **On Chain Upgrade** once per month, with point releases where required (i.e. no breaking changes) in between.
-
-### Release Timelines
+## Release Timelines
 
 To ensure we upgrade all nodes on the network in the most efficient way whilst maintaining due care to the upgrade process, we run the process in the following steps:
 
@@ -22,9 +20,9 @@ To ensure we upgrade all nodes on the network in the most efficient way whilst m
 
 Coordination in case of upgrade failure will happen on our [Community Slack channel](http://cheqd.link/join-cheqd-slack)
 
-## Changelog
+## Changelogs by year
 
-Our changelog is broken down by year - please follow the links below
+Our changelogs for on/off-ledger software are broken down by year below:
 
 {% content-ref url="2021-changelog.md" %}
 [2021-changelog.md](2021-changelog.md)
