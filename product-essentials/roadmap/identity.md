@@ -1,36 +1,19 @@
 # 🆔 Identity
 
-## Roadmap 2022: Identity
-
-### Contents
-
-* Decentralised Identifiers (DIDs)
-  * [Tutorials for developers](identity.md#tutorials-for-developers-using-the-identity-and-token-functionality-of-cheqd-network)
-  * [DID Resolver](identity.md#did-resolver)
-  * [DID URL Dereferencer](identity.md#did-url-dereferencer)
-  * [cheqd Revocation registry](identity.md#cheqd-revocation-registry)
-* Verifiable Credentials
-  * [Veramo plugin for cheqd DID method](identity.md#veramo-plugin-for-cheqd-did-method)
-  * [cheqd browser plug-in](identity.md#cheqd-wallet)
-  * [cheqd AnonCreds compatibility](identity.md#cheqd-anoncreds-compatibility)
-  * [Routing layer](identity.md#routing-layer)
-* Payment rails
-
 ## Decentralised Identifiers (DIDs)
 
-### **Tutorials for developers**
+### Tutorials for developers
 
-* [x] Tutorials for Creating DIDs: Completed (cheqd Comsos CLI)
-* [x] Tutorials for Updating DIDS: Completed (cheqd Cosmos CLI)
-* [ ] Tutorials for Creating Resources/Schemas: Ongoing (cheqd Cosmos CLI)
-* [ ] Tutorials for Resolving DIDs
-* [ ] Tutorials for the above using Veramo CLI
-
-**Context**
+* [x] Tutorials for Creating DIDs: Completed
+* [ ] Tutorials for Creating Resources/Schemas: Ongoing
 
 From our Product research that we have carried out this year ([find our general Survey results summarised here](https://www.cheqd.io/blog/top-5-trends-in-decentralised-self-sovereign-identity-and-privacy-preserving-technology-in-web-3.0-2022)), creating documentation that is both simple to understand, and easy to implement, has been a paramount product goal for 2022.
 
 We have split our documentation into separate repositories for clarity and convenience (below). We will continually improve, add-to and iterate this documentation to keep it up to date.
+
+#### What is the core business value of this work?
+
+Easily digestible and clear documentation is crucial for giving cheqd's partners a smooth experience using the Network's utility. It will also make it easier for developers and end-customers to begin using the cheqd network and to quickly understand how to integrate with the network, SDK and token functionality.
 
 #### Documentation for help setting up and managing a node
 
@@ -40,19 +23,11 @@ We have split our documentation into separate repositories for clarity and conve
 
 {% embed url="https://docs.cheqd.io/identity" %}
 
-#### What is the core business value of this work?
-
-Easily digestible and clear documentation is crucial for giving cheqd's partners a smooth experience using the Network's utility. It will also make it easier for developers and end-customers to begin using the cheqd network and to quickly understand how to integrate with the network, SDK and token functionality.
-
-
-
 ### DID Resolver
 
 * [x] Full DID Resolver: Completed
 * [ ] Proxy DID Resolver: Ongoing - Q2 expected release
 * [ ] Universal Resolver: Ongoing - Q2 expected release
-
-**Context**
 
 After we released our [cheqd DID method in 2021](https://github.com/cheqd/cheqd-node/blob/main/architecture/adr-list/adr-002-cheqd-did-method.md), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 
@@ -95,8 +70,6 @@ Learn about DIDs and what DID resolution is here:
 * [x] Simple dereferencer: Completed
 * [ ] Complex dereferencer: Ongoing - Q3 expected release
 
-**Context**
-
 Similar to a DID Resolver, a DID URL Dereferencer is used to take the input of a DID URL, and return a particular resource.
 
 This can be used to point-to and fetch resources which are stored on ledger, using DIDs, such as:
@@ -117,8 +90,7 @@ This will enable compatibility between Credential types in a way far greater tha
 
 ### cheqd Revocation Registry
 
-* [x] Architecture via Resources on-ledger: Completed
-* [ ] Deployment: Ongoing - Q3 expected release
+* [ ] Status: Ongoing - Q3 expected release
 
 Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.
 
@@ -133,15 +105,14 @@ Proponents of Hyperledger Indy will often point to the way it carries out revoca
 
 ## Verifiable Credentials
 
-### Veramo Plugin for cheqd DID Method
+### Veramo SDK for cheqd
 
-* [x] Status: Completed
-
-**Context**
+* [x] Beta release of Veramo plugin for cheqd DID method: Completed
+* [ ] GA release of Veramo SDK for cheqd: Ongoing
 
 In order to issue and verify Verifiable Credentials using cheqd DIDs, software must be used that is able to communicate with the ledger and understands the DID method accordingly. This type of software is generally packaged as a Software Development Kit (SDK).
 
-cheqd has imbedded its DID method into the [Veramo SDK](https://veramo.io/) as a plugin, which enables users to issue and verify JSON-LD Credentials, signed by cheqd DIDs. This SDK was used for cheqd's [demo at Internet Identity Workshop 34](https://typefully.com/ankurb/PDcaiMP) in April 2022.
+cheqd has embedded its DID method into the [Veramo SDK](https://veramo.io/) as a plugin, which enables users to issue and verify JSON-LD Credentials, signed by cheqd DIDs. This SDK was used for cheqd's [demo at Internet Identity Workshop 34](https://typefully.com/ankurb/PDcaiMP) in April 2022.
 
 #### What is the core business value of this work?
 
@@ -157,17 +128,12 @@ You can find our open sourced repository for our Veramo plugin here:
 
 {% embed url="https://github.com/cheqd/did-provider-cheqd/" %}
 
-### cheqd browser plug-in
+### Browser-based wallet reference app
 
-* [x] Demo wallet: completed
+* [x] Beta release of wallet: Completed
+* [ ] GA release of browser wallet reference app: Ongoing
 
-**Context**
-
-To showcase cheqd's identity capabilities, as well as the token functionality, we built an identity wallet browser plug-in which is able to hold Verifiable Credentials, as well as manage $CHEQ tokens via the Keplr browser extension.
-
-The wallet can be found here:
-
-{% embed url="https://wallet.cheqd.io/" %}
+To showcase cheqd's identity capabilities, as well as the token functionality, we built [a browser-bsaed identity wallet demo app](https://wallet.cheqd.io/) which is able to hold Verifiable Credentials, as well as manage $CHEQ tokens via the [Keplr browser extension](https://keplr.app).
 
 #### What is the core business value of this work?
 
@@ -175,28 +141,17 @@ The wallet demonstrates how Verifiable Credentials and $CHEQ tokens could be hel
 
 We also want to use the cheqd wallet to issue the cheqd community reward Credentials, based on their engagement and loyalty to cheqd. Through gamifying engagement, we can showcase the value of Verifiable Credentials to a much larger audience than the identity ecosystem.
 
-### cheqd AnonCreds compatibility
+### AnonCreds-style credentials
 
 To date, cheqd is able to support JSON and JSON-LD Credentials natively on cheqd. However, this excludes a large portion of the identity ecosystem which have built out their products on Hyperledger Indy based networks using AnonCreds: a privacy-preserving Credential specification which is intrinsically tied to Indy.
 
-There are two ways cheqd intends to support AnonCreds:
-
-1. cheqd AnonCreds compatibility: AnonCreds-like support on-ledger
-2. SDK Routing Layer: Routing AnonCreds and other Credential types to appropriate SDK
+It is not easy to support AnonCreds directly on a non-Indy network. However, we have created an architecture that replicates the function of AnonCreds using W3C compliant standards. To make this work, there are a few components at play:
 
 * [x] Issuer DID Documents: Completed
-* [x] Schema DID Documents: Completed
+* [ ] Schema DID Documents: Ongoing
 * [ ] Resource Collections: Ongoing - Q2 expected release
 * [ ] Schema Objects on-ledger: Ongoing - Q2 expected release
 * [ ] Credential Definition Composition: Ongoing - Q3 expected release
-
-It is not easy to support AnonCreds directly on a non-Indy network. However, we have created an architecture that replicates the function of AnonCreds using W3C compliant standards. To make this work, there are a few components at play:
-
-1. Issuer DID Documents
-2. Schema DID Documents
-3. Resource Collections
-4. Schema Objects on-ledger
-5. Credential Definition Composition
 
 Each of these parts will be discussed in further detail in our Identity Documentation page:
 
@@ -210,13 +165,10 @@ cheqd offers a far more scalable platform, with decentralised governance, and fu
 
 By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platform for identity, which champions interoperability and vendor-choice at its core.
 
+### Unified API for multiple credential formats & exchange protocols
 
-
-### Routing Layer
-
-* [x] Veramo SDK for JSON: Completed
-* [ ] Veramo SDK for JSON-LD: Ongoing
-* [ ] Aries based SDKs supporting cheqd: Ongoing - Q3 expected release
+* [ ] Veramo SDK for JSON / JSON-LD: Completed
+* [ ] Aries based SDKs supporting cheqd: Baclog
 * [ ] API routing logic and rules: Backlog
 
 Achieving support for multiple Verifiable Credential standards using a Routing Layer into multiple SDKs would help enterprises consume Credentials from multiple sources. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
@@ -231,7 +183,7 @@ A routing layer would also create a harmonised interface with AnonCreds based on
 
 This type of interoperability is similar to how Visa, Mastercard and Amex can all work interchangeably with payment terminals. Although built separately, on different tech stacks - they can all be understood, used and accepted equally by end-customers and everyday people. This enhances the value of each company, because they are now able to collaborate  as well as compete.
 
-## cheqd Payment rails
+## Payment rails
 
 * [ ] Verifier-pays-issuer: Backlog - Q4 expected release
 * [ ] Holder-pays issuer: Backlog - Q4 expected release
@@ -242,5 +194,3 @@ As laid out in much of our content, payment rails for Verifiable Credentials and
 Learn more about how the $CHEQ token works on our learning site:
 
 {% embed url="https://learn.cheqd.io/overview/introduction-to-usdcheq" %}
-
-##
