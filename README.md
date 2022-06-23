@@ -64,8 +64,8 @@ One of the most important questions newcomers to the project who are considering
 
 Let's answer that for you.
 
-{% content-ref url="product-essentials/why-cheqd.md" %}
-[why-cheqd.md](product-essentials/why-cheqd.md)
+{% content-ref url="product-essentials/README.md" %}
+[README.md](product-essentials/README.md)
 {% endcontent-ref %}
 
 {% embed url="https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token" %}
