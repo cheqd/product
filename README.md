@@ -34,28 +34,28 @@ We are constantly developing our product in different ways - we have broken down
 
 This work goes beyond purely identity - as we also want to **make it easy** for **non-identity** companies, consortiums and consultancies to begin using the cheqd product and network.
 
-{% content-ref url="product-essentials/roadmap/identity.md" %}
-[identity.md](product-essentials/roadmap/identity.md)
+{% content-ref url="essentials/roadmap/identity.md" %}
+[identity.md](essentials/roadmap/identity.md)
 {% endcontent-ref %}
 
-{% content-ref url="product-essentials/roadmap/network-infrastructure.md" %}
-[network-infrastructure.md](product-essentials/roadmap/network-infrastructure.md)
+{% content-ref url="essentials/roadmap/network-infrastructure.md" %}
+[network-infrastructure.md](essentials/roadmap/network-infrastructure.md)
 {% endcontent-ref %}
 
-{% content-ref url="product-essentials/roadmap/cosmos-and-web-3.0.md" %}
-[cosmos-and-web-3.0.md](product-essentials/roadmap/cosmos-and-web-3.0.md)
+{% content-ref url="essentials/roadmap/cosmos-and-web-3.0.md" %}
+[cosmos-and-web-3.0.md](essentials/roadmap/cosmos-and-web-3.0.md)
 {% endcontent-ref %}
 
 If you want a more holistic overview of what we are tackling **now and what's next**, take a look here:
 
-{% content-ref url="product-essentials/roadmap/now-next-and-future.md" %}
-[now-next-and-future.md](product-essentials/roadmap/now-next-and-future.md)
+{% content-ref url="essentials/roadmap/now-next-and-future.md" %}
+[now-next-and-future.md](essentials/roadmap/now-next-and-future.md)
 {% endcontent-ref %}
 
 If you want to explore what we have **already released** in our latest software updates, have a look at the **Changelog**:
 
-{% content-ref url="product-essentials/changelog/" %}
-[changelog](product-essentials/changelog/)
+{% content-ref url="essentials/changelog/" %}
+[changelog](essentials/changelog/)
 {% endcontent-ref %}
 
 ## Why cheqd?
@@ -64,8 +64,8 @@ One of the most important questions newcomers to the project who are considering
 
 Let's answer that for you.
 
-{% content-ref url="product-essentials/README.md" %}
-[README.md](product-essentials/README.md)
+{% content-ref url="essentials/README.md" %}
+[README.md](essentials/README.md)
 {% endcontent-ref %}
 
 {% embed url="https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token" %}
