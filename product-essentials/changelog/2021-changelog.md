@@ -6,13 +6,13 @@
 
 ### Context
 
-In November we released our mainnet with the support of our wide range of partners. &#x20;
+In November we released our mainnet with the support of our wide range of partners. 
 
 ![](../../.gitbook/assets/image.png)
 
 cheqd was always meant to be designed with decentralised identity at its core. As such, this release is where we implemented our foundational identity functionality.
 
-You'll find out more depth about this release in our [release blog available here.  ](https://www.cheqd.io/blog/welcome-to-a-new-era-for-decentralised-identity)&#x20;
+You'll find out more depth about this release in our [release blog available here.  ](https://www.cheqd.io/blog/welcome-to-a-new-era-for-decentralised-identity)
 
 ### Changelog
 
@@ -33,11 +33,11 @@ You'll find out more depth about this release in our [release blog available her
 
 ### Context
 
-As we come towards our mainnet release, the purpose of this release is to test out the range of functionality we plan on releasing onto the cheqd mainnet.&#x20;
+As we come towards our mainnet release, the purpose of this release is to test out the range of functionality we plan on releasing onto the cheqd mainnet.
 
 ### Changelog
 
-**Key items:**&#x20;
+**Key items:**
 
 * Bump cosmos sdk to v0.44.3
 * Swap the context field to top of the DIDDoc, before ID

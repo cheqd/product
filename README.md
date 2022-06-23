@@ -20,16 +20,16 @@ cheqd has built a blockchain, the [cheqd network](https://explorer.cheqd.io/), u
 
 cheqd's identity product consists of **network infrastructure, tooling and software kits** to enable our partners to utilise the cheqd network's functionality, including:
 
-{% content-ref url="cheqd-product/decentralised-identifiers-dids/" %}
-[decentralised-identifiers-dids](cheqd-product/decentralised-identifiers-dids/)
+{% content-ref url="product-suite/decentralised-identifiers-dids/" %}
+[decentralised-identifiers-dids](product-suite/decentralised-identifiers-dids/)
 {% endcontent-ref %}
 
-{% content-ref url="cheqd-product/verifiable-credentials/" %}
-[verifiable-credentials](cheqd-product/verifiable-credentials/)
+{% content-ref url="product-suite/verifiable-credentials/" %}
+[verifiable-credentials](product-suite/verifiable-credentials/)
 {% endcontent-ref %}
 
-{% content-ref url="cheqd-product/cheqd-network/payment-rails.md" %}
-[payment-rails.md](cheqd-product/cheqd-network/payment-rails.md)
+{% content-ref url="product-suite/cheqd-network/payment-rails.md" %}
+[payment-rails.md](product-suite/cheqd-network/payment-rails.md)
 {% endcontent-ref %}
 
 
@@ -66,7 +66,7 @@ If you want to explore what we have **already released** in our latest software 
 
 ## Why cheqd?
 
-One of the most important questions newcomers to the project who are considering the use of the network ask: **why cheqd?**&#x20;
+One of the most important questions newcomers to the project who are considering the use of the network ask: **why cheqd?**
 
 Let's answer that for you.
 
@@ -78,7 +78,7 @@ Let's answer that for you.
 
 ## Standards
 
-Building cheqd's product and network in line with formal technical standards is vital to ensure interoperability and to avoid vendor-lock-in. As such, we believe it is important to transparently lay out the technical standards and components of our network, token and identity functionality.&#x20;
+Building cheqd's product and network in line with formal technical standards is vital to ensure interoperability and to avoid vendor-lock-in. As such, we believe it is important to transparently lay out the technical standards and components of our network, token and identity functionality.
 
 We have also Open Sourced all our Product work, so our partners and community can test, remix and extend the work in their own environments.
 

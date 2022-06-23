@@ -25,7 +25,7 @@ This enables cheqd wants to create **commercially viable SSI ecosystems** throug
   * issue & verify [JSON based JWT](https://www.w3.org/TR/vc-data-model/#json) and [JSON-LD](https://www.w3.org/TR/vc-data-model/) Verifiable Credentials, secured by cheqd DIDs;
 * Very soon you can:
   * issue & verify [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html), secured by cheqd DIDs;
-  * store Verifiable Credential schemas on-ledger (required for [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html));&#x20;
+  * store Verifiable Credential schemas on-ledger (required for [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html));
   * manage Verifiable Credential revocation status.
 
 {% hint style="success" %}
@@ -35,7 +35,7 @@ _note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD
 ### 📈 Peak Performance at low cost
 
 * cheqd is designed as a highly performant Layer 1 with high throughout
-* Built using the [Cosmos SDK](https://v1.cosmos.network/sdk), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)&#x20;
+* Built using the [Cosmos SDK](https://v1.cosmos.network/sdk), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
 * Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
 
 {% hint style="info" %}
@@ -53,12 +53,12 @@ _note: cheqd's estimated 10,000 TPS is based on the CosmosSDK estimations which 
   * a [Verifier / Receiver of a Verifiable Credential can pay the Issuer](https://learn.cheqd.io/overview/tokenomics/tokenomics-part-3) a nominal fee for verifying the Credential;
   * a[ Holder can pay the Issuer](https://learn.cheqd.io/overview/tokenomics/tokenomics-part-3) to receive trusted digital data;
   * A [Verifier can pay the Holder](https://learn.cheqd.io/overview/tokenomics/tokenomics-part-3) to receive trusted digital data.
-* Through the payment rails, new business and revenue models for participants in the self-sovereign identity ecosystem can accelerate the adoption of the technology, making SSI into a more commercially viable technology, whilst keeping individuals in control of their own data.&#x20;
+* Through the payment rails, new business and revenue models for participants in the self-sovereign identity ecosystem can accelerate the adoption of the technology, making SSI into a more commercially viable technology, whilst keeping individuals in control of their own data.
 
 ### 🗳️Have your say
 
 * cheqd has created a highly commended [decentralised Governance Framework](https://docs.cheqd.io/governance/)
-* cheqd uses a [delegated Proof of Stake (DPoS](https://en.bitcoinwiki.org/wiki/DPoS)) model, using its native token $CHEQ, to enable fair and proportionate decision making on the network &#x20;
+* cheqd uses a [delegated Proof of Stake (DPoS](https://en.bitcoinwiki.org/wiki/DPoS)) model, using its native token $CHEQ, to enable fair and proportionate decision making on the network 
 * As a token holder**,** [with our easy to use governance dashboard](https://commonwealth.im/cheqd/)**,** you can vote on key governance decisions, such as whether the network should be improved in the way the core team has suggested, and even decide on how the [network Community Pool](https://gov.cheqd.io/contributing/community-pool) is used
 * You are able to easily propose a new on-chain proposal with a deposit of 8000 $CHEQ using our [governance forum](https://commonwealth.im/cheqd)
 * As an interested community member, you can use our [off-chain governance forum](https://commonwealth.im/cheqd) to propose changes and engage in discussion with the rest of the cheqd community without needing tokens
@@ -67,30 +67,30 @@ _note: cheqd's estimated 10,000 TPS is based on the CosmosSDK estimations which 
 
 ### 🌎 **Community Pool**
 
-* With every transaction on the cheqd network [2% of the transaction fee](https://gov.cheqd.io/getting-started/learning-the-basics/network-parameters) is collected and added to a savings pot known as a [Community Pool](https://gov.cheqd.io/contributing/community-pool)&#x20;
+* With every transaction on the cheqd network [2% of the transaction fee](https://gov.cheqd.io/getting-started/learning-the-basics/network-parameters) is collected and added to a savings pot known as a [Community Pool](https://gov.cheqd.io/contributing/community-pool)
 * This Community Pool  that can be used accelerating the development of new features on cheqd, or even donating to good causes, such as environmental sustainability
-* The cheqd Community Pool is currently just shy of [500,000 CHEQ](https://explorer.cheqd.io/), and [anyone can propose](https://gov.cheqd.io/contributing/community-pool) how this is used&#x20;
+* The cheqd Community Pool is currently just shy of [500,000 CHEQ](https://explorer.cheqd.io/), and [anyone can propose](https://gov.cheqd.io/contributing/community-pool) how this is used
 
 ## Current partners building on cheqd
 
 * Since its founding in November 2021, cheqd has gained adoption with partnerships across the SSI ecosystem.
-* Through its network for SSI vendors, cheqd disrupts established identity paradigms and creates new trusted data marketplaces.&#x20;
-* Our partnership network now includes **37 SSI vendors** and is continuing to grow - the majority of which securing the [cheqd network as validators](https://explorer.cheqd.io/validators).&#x20;
+* Through its network for SSI vendors, cheqd disrupts established identity paradigms and creates new trusted data marketplaces.
+* Our partnership network now includes **37 SSI vendors** and is continuing to grow - the majority of which securing the [cheqd network as validators](https://explorer.cheqd.io/validators).
 * Additionally, key investors include[ Outlier Ventures,](https://outlierventures.io/)[ Evernym](https://www.evernym.com/) (recently acquired by[ Avast](https://www.avast.com/en-gb/index#mac)),[ Tendermint Ventures](https://tendermint.com/ventures/), [CMCC Global](https://www.cmcc.vc/).
 
 ![cheqd Partnership Ecosystem](<../.gitbook/assets/cheqd Partnership Infographic.png>)
 
 ## Partnering with cheqd
 
-cheqd is well positioned as the market-leading tokenized SSI network to collaborate with multiple types of partners, and bring multiple verticals and use-cases to the network:&#x20;
+cheqd is well positioned as the market-leading tokenized SSI network to collaborate with multiple types of partners, and bring multiple verticals and use-cases to the network:
 
 * Self-Sovereign Identity or Decentralised Identity Vendors
 * Consortiums
 * Consultancies
 * Enterprise
-* System Integrators&#x20;
-* Advisory firms&#x20;
-* Web3, Web5 companies&#x20;
+* System Integrators
+* Advisory firms
+* Web3, Web5 companies
 * Governments
 
 We will be launching a self-serve partnership platform to help connect our SSI vendors, consultancies and Web 3.0 partners with compatible use cases and industry verticals and connect with “end-customers” (enterprise, web3 companies, government).

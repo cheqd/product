@@ -16,17 +16,17 @@
 
 ## 📦 cheqd Product
 
-* [🔘 Decentralised Identifiers (DIDs)](cheqd-product/decentralised-identifiers-dids/README.md)
-  * [When should I consider using DIDs?](cheqd-product/decentralised-identifiers-dids/when-should-i-consider-using-dids.md)
-  * [Creating a DID and DID Document](cheqd-product/decentralised-identifiers-dids/creating-a-did-and-did-document.md)
-  * [DID method](cheqd-product/decentralised-identifiers-dids/did-method.md)
-  * [DID resolution and dereferencing](cheqd-product/decentralised-identifiers-dids/did-resolution-and-dereferencing.md)
-  * [DID Resolver](cheqd-product/decentralised-identifiers-dids/did-resolver.md)
-  * [Resources and Schemas](cheqd-product/decentralised-identifiers-dids/resources-and-schemas.md)
-  * [Revocation Registry](cheqd-product/decentralised-identifiers-dids/revocation-registry.md)
-* [✅ Verifiable Credentials](cheqd-product/verifiable-credentials/README.md)
-  * [Veramo SDK](cheqd-product/verifiable-credentials/veramo-sdk.md)
-* [🛤 Payment rails](cheqd-product/cheqd-network/payment-rails.md)
+* [🔘 Decentralised Identifiers (DIDs)](product-suite/decentralised-identifiers-dids/README.md)
+  * [When should I consider using DIDs?](product-suite/decentralised-identifiers-dids/when-should-i-consider-using-dids.md)
+  * [Creating a DID and DID Document](product-suite/decentralised-identifiers-dids/creating-a-did-and-did-document.md)
+  * [DID method](product-suite/decentralised-identifiers-dids/did-method.md)
+  * [DID resolution and dereferencing](product-suite/decentralised-identifiers-dids/did-resolution-and-dereferencing.md)
+  * [DID Resolver](product-suite/decentralised-identifiers-dids/did-resolver.md)
+  * [Resources and Schemas](product-suite/decentralised-identifiers-dids/resources-and-schemas.md)
+  * [Revocation Registry](product-suite/decentralised-identifiers-dids/revocation-registry.md)
+* [✅ Verifiable Credentials](product-suite/verifiable-credentials/README.md)
+  * [Veramo SDK](product-suite/verifiable-credentials/veramo-sdk.md)
+* [🛤 Payment rails](product-suite/cheqd-network/payment-rails.md)
 
 ## Standards
 
