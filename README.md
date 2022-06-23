@@ -20,12 +20,12 @@ cheqd has built a blockchain, the [cheqd network](https://explorer.cheqd.io/), u
 
 cheqd's identity product consists of **network infrastructure, tooling and software kits** to enable our partners to utilise the cheqd network's functionality, including:
 
-{% content-ref url="product-suite/decentralised-identifiers-dids/" %}
-[decentralised-identifiers-dids](product-suite/decentralised-identifiers-dids/)
+{% content-ref url="suite/decentralised-identifiers-dids/" %}
+[decentralised-identifiers-dids](suite/decentralised-identifiers-dids/)
 {% endcontent-ref %}
 
-{% content-ref url="product-suite/verifiable-credentials/" %}
-[verifiable-credentials](product-suite/verifiable-credentials/)
+{% content-ref url="suite/verifiable-credentials/" %}
+[verifiable-credentials](suite/verifiable-credentials/)
 {% endcontent-ref %}
 
 ## :motorway: Roadmap and development
