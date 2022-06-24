@@ -5,14 +5,14 @@
 ## 🚀 Product Essentials
 
 * [🟢 Why cheqd?](suite/README.md)
-* [🔘 Decentralised Identifiers (DIDs)](suite/identity-ledgerREADME.md)
-  * [When should I consider using DIDs?](suite/identity-ledgerwhen-should-i-consider-using-dids.md)
-  * [Creating a DID and DID Document](suite/identity-ledgercreating-a-did-on-cheqd.md)
-  * [DID method](suite/identity-ledgerdid-method.md)
-  * [DID resolution and dereferencing](suite/identity-ledgerdid-resolution-and-dereferencing.md)
-  * [DID Resolver](suite/identity-ledgerdid-resolver.md)
-  * [Resources and Schemas](suite/identity-ledgerresources-and-schemas.md)
-  * [Revocation Registry](suite/identity-ledgerrevocation-registry.md)
+* [🔘 Decentralised Identifiers (DIDs)](suite/identity-ledger/README.md)
+  * [When should I consider using DIDs?](suite/identity-ledger/when-should-i-consider-using-dids.md)
+  * [Creating a DID and DID Document](suite/identity-ledger/creating-a-did-on-cheqd.md)
+  * [DID method](suite/identity-ledger/did-method.md)
+  * [DID resolution and dereferencing](suite/identity-ledger/did-resolution-and-dereferencing.md)
+  * [DID Resolver](suite/identity-ledger/did-resolver.md)
+  * [Resources and Schemas](suite/identity-ledger/resources-and-schemas.md)
+  * [Revocation Registry](suite/identity-ledger/revocation-registry.md)
 * [✅ Verifiable Credentials](suite/verifiable-credentials/README.md)
   * [Veramo SDK for cheqd](suite/verifiable-credentials/veramo-sdk.md)
 
