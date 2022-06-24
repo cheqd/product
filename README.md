@@ -18,8 +18,8 @@ cheqd has built a blockchain, the [cheqd network](https://explorer.cheqd.io/), u
 
 cheqd's identity product consists of **network infrastructure, tooling and software kits** to enable our partners to utilise the cheqd network's functionality, including:
 
-{% content-ref url="suite/decentralised-identifiers-dids/" %}
-[decentralised-identifiers-dids](suite/decentralised-identifiers-dids/)
+{% content-ref url="suite/identity-ledger" %}
+[decentralised-identifiers-dids](suite/identity-ledger)
 {% endcontent-ref %}
 
 {% content-ref url="suite/verifiable-credentials/" %}
@@ -74,8 +74,8 @@ Building cheqd's product and network in line with formal technical standards is 
 
 We have also Open Sourced all our Product work, so our partners and community can test, remix and extend the work in their own environments.
 
-{% content-ref url="standards/network-and-token-information.md" %}
-[network-and-token-information.md](standards/network-and-token-information.md)
+{% content-ref url="standards/network-and-token.md" %}
+[network-and-token.md](standards/network-and-token.md)
 {% endcontent-ref %}
 
 {% content-ref url="standards/technical-standards-and-interop-profile.md" %}
