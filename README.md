@@ -84,8 +84,6 @@ We have also Open Sourced all our Product work, so our partners and community ca
 
 {% embed url="https://github.com/cheqd" %}
 
-###
-
 ## Support
 
 For any help using the cheqd network or product, or for bugs/issues that arise, please get in contact using our community support page:
