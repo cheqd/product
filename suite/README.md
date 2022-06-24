@@ -83,7 +83,7 @@ Our partnership network now includes **37 SSI vendors** and is continuing to gro
 
 Additionally, key investors include [Outlier Ventures](https://outlierventures.io/), [Evernym](https://www.evernym.com/) (recently acquired by [Avast](https://www.avast.com/en-gb/index)), [Tendermint Ventures](https://tendermint.com/ventures/), [CMCC Global](https://www.cmcc.vc/).
 
-![cheqd Partnership Ecosystem](<../.gitbook/assets/cheqd-partners.png>)
+![cheqd Partnership Ecosystem](../.gitbook/assets/cheqd-partners.png)
 
 ## Partnering with cheqd
 
