@@ -25,8 +25,8 @@ To learn more about DIDs and DID Documents, check out our Learning site where we
 [when-should-i-consider-using-dids.md](when-should-i-consider-using-dids.md)
 {% endcontent-ref %}
 
-{% content-ref url="creating-a-did-and-did-document.md" %}
-[creating-a-did-and-did-document.md](creating-a-did-and-did-document.md)
+{% content-ref url="creating-a-did-on-cheqd.md" %}
+[creating-a-did-on-cheqd.md](creating-a-did-on-cheqd.md)
 {% endcontent-ref %}
 
 {% content-ref url="did-method.md" %}

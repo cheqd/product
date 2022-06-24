@@ -7,7 +7,7 @@
 * [🟢 Why cheqd?](suite/README.md)
 * [🔘 Decentralised Identifiers (DIDs)](suite/identity-ledgerREADME.md)
   * [When should I consider using DIDs?](suite/identity-ledgerwhen-should-i-consider-using-dids.md)
-  * [Creating a DID and DID Document](suite/identity-ledgercreating-a-did-and-did-document.md)
+  * [Creating a DID and DID Document](suite/identity-ledgercreating-a-did-on-cheqd.md)
   * [DID method](suite/identity-ledgerdid-method.md)
   * [DID resolution and dereferencing](suite/identity-ledgerdid-resolution-and-dereferencing.md)
   * [DID Resolver](suite/identity-ledgerdid-resolver.md)
