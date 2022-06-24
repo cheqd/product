@@ -13,6 +13,7 @@
   * [Vesting Account Balance](cosmos-and-web-3.0.md#vesting-account-balance)
   * [Liquid Account Balance](cosmos-and-web-3.0.md#liquid-account-balance)
   * [Total Account Balance](cosmos-and-web-3.0.md#total-account-balance)
+* [Interchain accounts](cosmos-and-web-3.0.md#undefined)
 
 ### Ethereum bridge
 
@@ -128,3 +129,9 @@ Further context on each and how you can leverage these APIs in your project can 
 {% embed url="https://github.com/cheqd/data-api" %}
 **Cosmos Data APIs**
 {% endembed %}
+
+### Interchain Accounts
+
+* [ ] Status: Discovery
+
+The proposed feature of interchain accounts would allow cheqd to utilise the functionality of other Cosmos networks, in conjunction with cheqd functionality. We are exploring the option of using interchain accounts to aid in the architecture of our payment capabilities.
