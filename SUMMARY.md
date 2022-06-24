@@ -29,7 +29,7 @@
 
 ## Standards
 
-* [ℹ Network & Token information](standards/network-and-token.md)
+* [ℹ Network & Token information](standards/README.md)
 * [🤓 Technical standards and interop profile](standards/technical-standards-and-interop-profile.md)
 
 ## 🆘 Support
