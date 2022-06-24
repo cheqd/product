@@ -1,4 +1,4 @@
-# Veramo SDK
+# Veramo SDK for cheqd
 
 cheqd has created a plugin for the Veramo SDK, to enable Verifiable Credentials to be issued and verified using cheqd DIDs.
 
