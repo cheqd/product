@@ -21,8 +21,11 @@
 
 ### **Tutorials for developers**
 
-* [x] Tutorials for Creating DIDs: Completed
-* [ ] Tutorials for Creating Resources/Schemas: Ongoing
+* [x] Tutorials for Creating DIDs: Completed (cheqd Comsos CLI)
+* [x] Tutorials for Updating DIDS: Completed (cheqd Cosmos CLI)
+* [ ] Tutorials for Creating Resources/Schemas: Ongoing (cheqd Cosmos CLI)
+* [ ] Tutorials for Resolving DIDs
+* [ ] Tutorials for the above using Veramo CLI
 
 **Context**
 
@@ -115,7 +118,8 @@ This will enable compatibility between Credential types in a way far greater tha
 
 ### cheqd Revocation Registry
 
-* [ ] Status: Ongoing - Q3 expected release
+* [x] Architecture via Resources on-ledger: Completed
+* [ ] Deployment: Ongoing - Q3 expected release
 
 Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.&#x20;
 
@@ -211,7 +215,8 @@ By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platfo
 
 ### Routing Layer
 
-* [x] Veramo SDK for JSON / JSON-LD: Completed
+* [x] Veramo SDK for JSON: Completed
+* [ ] Veramo SDK for JSON-LD: Ongoing
 * [ ] Aries based SDKs supporting cheqd: Ongoing - Q3 expected release
 * [ ] API routing logic and rules: Backlog
 
