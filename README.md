@@ -74,8 +74,8 @@ Building cheqd's product and network in line with formal technical standards is 
 
 We have also Open Sourced all our Product work, so our partners and community can test, remix and extend the work in their own environments.
 
-{% content-ref url="standards/network-and-token.md" %}
-[network-and-token.md](standards/network-and-token.md)
+{% content-ref url="standards/README.md" %}
+[README.md](standards/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="standards/technical-standards-and-interop-profile.md" %}
