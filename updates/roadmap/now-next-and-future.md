@@ -6,14 +6,14 @@
 
 | Now (current functionality)                                                                                                                                                                                                | Next (Q2/Q3) | Future (Q3/Q4) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------- |
-| [Create a DID](https://docs.cheqd.io/identity/tutorials/vdr-tools/identity-transactions-with-vdr-tools-cli)([did:cheqd method](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method)) with cheqd CLI |              |                |
-| [Create a DID Document](https://docs.cheqd.io/identity/tutorials/cheqd-cli/dids-and-did-docs/creating-did-+-did-doc-with-cheqd-cli)with cheqd CLI                                                                         |              |                |
+| [Create a DID](https://docs.cheqd.io/identity/tutorials/dids/vdr-tools/create-did-and-did-document)([did:cheqd method](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method)) with cheqd CLI |              |                |
+| [Create a DID Document](https://docs.cheqd.io/identity/tutorials/dids/cheqd-cosmos-cli/create-did-and-did-document)with cheqd CLI                                                                         |              |                |
 
 ### Resolving (reading) DIDs
 
 | Now (current functionality)                                                                                                                                                              | Next (Q2/Q3)                                                                                                                                       | Future (Q4) |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [Resolve a DID](https://docs.cheqd.io/identity/tutorials/did-resolver/using-full-cheqd-did-resolver) with [Full cheqd DID Resolver](https://product.cheqd.io/suite/did-resolver) | [Resolve a DID with Proxy DID Resolver](https://docs.cheqd.io/identity/tutorials/did-resolver/using-light-cheqd-did-resolver) (Cloudflare workers) |             |
+| [Resolve a DID](https://docs.cheqd.io/identity/tutorials/did-resolver/using-full-cheqd-did-resolver) with [Full cheqd DID Resolver](../../suite/identity-ledger/did-resolver.md) | [Resolve a DID with Proxy DID Resolver](https://docs.cheqd.io/identity/tutorials/did-resolver/using-light-cheqd-did-resolver) (Cloudflare workers) |             |
 |                                                                                                                                                                                          | Resolve a DID with the [Universal Resolver (Docker)](https://dev.uniresolver.io/)                                                                  |             |
 
 ### Issuing and managing Verifiable Credentials on the cheqd network
@@ -22,7 +22,7 @@
 
 | Now (current functionality)                                                  | Next (Q2/Q3)                                                                                   | Future (Q4)                                                                                                                                         |
 | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Issue and verify JSON based JWT credentials\* with Veramo SDK using CLI      | Issue and verify [JSON-LD](https://github.com/cheqd/identity-docs) credential using Veramo SDK | Create entry in [Revocation Registry](https://product.cheqd.io/suite/cheqd-network/revocation-registry)                                     |
+| Issue and verify JSON based JWT credentials\* with Veramo SDK using CLI      | Issue and verify [JSON-LD](https://github.com/cheqd/identity-docs) credential using Veramo SDK | Create entry in [Revocation Registry](../../suite/identity-ledger/revocation-registry.md)                                    |
 | Hold JWT/JSON Verifiable Credentials in web-app Wallet                       |                                                                                                | Manage credential revocation status using [cheqd Revocation Registry](https://docs.cheqd.io/node/architecture/adr-list/adr-007-revocation-registry) |
 | _\*Schema and revocation registry through Schema.org and RevocationList2020_ | _\*Schemas through on-ledger Schemas referenced within Schemas DID Document_                   |                                                                                                                                                     |
 

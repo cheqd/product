@@ -4,8 +4,8 @@ When a DID is created, it is typically associated with a private and public key 
 
 Take a look at our tutorials for creating DIDs on cheqd, using the cheqd CLI as well as VDR Tools CLI:
 
-{% embed url="https://docs.cheqd.io/identity/tutorials/cheqd-cli/dids-and-did-docs/creating-did-+-did-doc-with-cheqd-cli" %}
+{% embed url="https://docs.cheqd.io/identity/tutorials/dids/cheqd-cosmos-cli/create-did-and-did-document" %}
 
-{% embed url="https://docs.cheqd.io/identity/tutorials/cheqd-cli/dids-and-did-docs/using-cheqd-cosmos-cli-to-manage-did-documents" %}
+{% embed url="https://docs.cheqd.io/identity/tutorials/dids/cheqd-cosmos-cli/update-and-manage-did-document" %}
 
-{% embed url="https://docs.cheqd.io/identity/tutorials/vdr-tools/identity-transactions-with-vdr-tools-cli" %}
+{% embed url="https://docs.cheqd.io/identity/tutorials/dids/vdr-tools/create-did-and-did-document" %}

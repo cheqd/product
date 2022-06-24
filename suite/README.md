@@ -20,12 +20,12 @@ This enables cheqd wants to create **commercially viable SSI ecosystems** throug
 
 ### 🆔 Identity the _**right**_ way
 
-With cheqd network, [you can already](changelog/README.md):
+With cheqd network, [you can already](../updates/changelog/README.md):
 
 * Anchor [W3C Decentralised Identifiers](https://www.w3.org/TR/did-core/)(DIDs) with complete [DID Documents](https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/what-is-a-did-document)
 * Issue & verify [JSON based JWT](https://www.w3.org/TR/vc-data-model/#json) and [JSON-LD](https://www.w3.org/TR/vc-data-model/) Verifiable Credentials, secured by cheqd DIDs
 
-And [very soon](roadmap/now-next-and-future.md) you will be able to:
+And [very soon](../updates/roadmap/now-next-and-future.md) you will be able to:
 
 * issue & verify [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html), secured by cheqd DIDs;
 * store Verifiable Credential schemas on-ledger (required for [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html));
@@ -37,7 +37,7 @@ _note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD
 
 ### 📈 Peak Performance at low cost
 
-* cheqd is designed as a highly performant Layer 1 with high throughput. Built using the [Cosmos SDK](https://v1.cosmos.network/sdk), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
+* cheqd is designed as a highly performant Layer 1 with high throughput. Built using the [Cosmos SDK](https://cosmos.network/), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
 * Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
 
 {% hint style="info" %}

@@ -4,6 +4,10 @@
         {
             "pattern": "\" %}",
             "replacement": ""
+        },
+        {
+            "pattern": "&quot; %}",
+            "replacement": ""
         }
     ]
 }
