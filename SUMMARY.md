@@ -14,7 +14,7 @@
   * [Resources and Schemas](suite/identity-ledgerresources-and-schemas.md)
   * [Revocation Registry](suite/identity-ledgerrevocation-registry.md)
 * [✅ Verifiable Credentials](suite/verifiable-credentials/README.md)
-  * [Veramo SDK](suite/verifiable-credentials/veramo-sdk.md)
+  * [Veramo SDK for cheqd](suite/verifiable-credentials/veramo-sdk.md)
 
 ## ⏰ Updates
 
