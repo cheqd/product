@@ -1,21 +1,10 @@
 # Table of contents
 
-* [Product Oveview](README.md)
+* [Product Overview](README.md)
 
 ## 🚀 Product Essentials
 
-* [🟢 Why cheqd?](essentials/README.md)
-* [🛣 Roadmap](essentials/roadmap/README.md)
-  * [🔜 Now, next and future](essentials/roadmap/now-next-and-future.md)
-  * [🆔 Identity](essentials/roadmap/identity.md)
-  * [🏗 Network Infrastructure](essentials/roadmap/network-infrastructure.md)
-  * [☄ Cosmos and Web 3.0](essentials/roadmap/cosmos-and-web-3.0.md)
-* [🗓 Changelog](essentials/changelog/README.md)
-  * [2⃣ 2022 Changelog](essentials/changelog/2022-changelog.md)
-  * [1⃣ 2021 Changelog](essentials/changelog/2021-changelog.md)
-
-## 📦 cheqd Product
-
+* [🟢 Why cheqd?](suite/README.md)
 * [🔘 Decentralised Identifiers (DIDs)](suite/decentralised-identifiers-dids/README.md)
   * [When should I consider using DIDs?](suite/decentralised-identifiers-dids/when-should-i-consider-using-dids.md)
   * [Creating a DID and DID Document](suite/decentralised-identifiers-dids/creating-a-did-and-did-document.md)
@@ -27,6 +16,17 @@
 * [✅ Verifiable Credentials](suite/verifiable-credentials/README.md)
   * [Veramo SDK](suite/verifiable-credentials/veramo-sdk.md)
 
+## ⏰ Updates
+
+* [🗺 Roadmap](updates/roadmap/README.md)
+  * [🔜 Now, next and future](updates/roadmap/now-next-and-future.md)
+  * [🆔 Identity](updates/roadmap/identity.md)
+  * [🏗 Network Infrastructure](updates/roadmap/network-infrastructure.md)
+  * [☄ Cosmos and Web 3.0](updates/roadmap/cosmos-and-web-3.0.md)
+* [🗓 Changelog](updates/changelog/README.md)
+  * [2⃣ 2022 Changelog](updates/changelog/2022-changelog.md)
+  * [1⃣ 2021 Changelog](updates/changelog/2021-changelog.md)
+
 ## Standards
 
 * [ℹ Network & Token information](standards/network-and-token-information.md)
@@ -34,4 +34,5 @@
 
 ## 🆘 Support
 
-* [Community Support](support/community-support.md)
+* [Community Support](https://support.cheqd.io)
+
