@@ -44,7 +44,7 @@ _note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD
 _note: cheqd's estimated 10,000 TPS is based on the Cosmos SDK estimations which cheqd is built with_
 {% endhint %}
 
-### 💰Get paid for your part
+### 💰 Get paid for your part
 
 * Whether running a [node on the cheqd network,](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-a-validator-node-operator) or [delegating tokens to a Node Operator](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation) to stake on your behalf, you can earn yield from staking rewards.
 * The average APR for token staking is [8.97%](https://explorer.cheqd.io/)
