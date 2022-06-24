@@ -1,38 +1,40 @@
 # Table of contents
 
-* [Product Oveview](README.md)
+* [Product Overview](README.md)
 
 ## 🚀 Product Essentials
 
-* [🟢 Why cheqd?](product-essentials/why-cheqd.md)
-* [🛣 Roadmap](product-essentials/roadmap/README.md)
-  * [🔜 Now, next and future](product-essentials/roadmap/now-next-and-future.md)
-  * [🆔 Identity](product-essentials/roadmap/identity.md)
-  * [🏗 Network Infrastructure](product-essentials/roadmap/network-infrastructure.md)
-  * [☄ Cosmos and Web 3.0](product-essentials/roadmap/cosmos-and-web-3.0.md)
-* [🗓 Changelog](product-essentials/changelog/README.md)
-  * [2⃣ 2022 Changelog](product-essentials/changelog/2022-changelog.md)
-  * [1⃣ 2021 Changelog](product-essentials/changelog/2021-changelog.md)
+* [🟢 Why cheqd?](suite/README.md)
+* [🔘 Decentralised Identifiers (DIDs)](suite/identity-ledger/README.md)
+  * [When should I consider using DIDs?](suite/identity-ledger/when-should-i-consider-using-dids.md)
+  * [Creating a DID and DID Document](suite/identity-ledger/creating-a-did-on-cheqd.md)
+  * [DID method](suite/identity-ledger/did-method.md)
+  * [DID resolution and dereferencing](suite/identity-ledger/did-resolution-and-dereferencing.md)
+  * [DID Resolver](suite/identity-ledger/did-resolver.md)
+  * [Resources and Schemas](suite/identity-ledger/resources-and-schemas.md)
+  * [Revocation Registry](suite/identity-ledger/revocation-registry.md)
+* [✅ Verifiable Credentials](suite/verifiable-credentials/README.md)
+  * [Veramo SDK for cheqd](suite/verifiable-credentials/veramo-sdk.md)
 
-## 📦 cheqd Product
+## ⏰ Updates
 
-* [🔘 Decentralised Identifiers (DIDs)](cheqd-product/decentralised-identifiers-dids/README.md)
-  * [When should I consider using DIDs?](cheqd-product/decentralised-identifiers-dids/when-should-i-consider-using-dids.md)
-  * [Creating a DID and DID Document](cheqd-product/decentralised-identifiers-dids/creating-a-did-and-did-document.md)
-  * [DID method](cheqd-product/decentralised-identifiers-dids/did-method.md)
-  * [DID resolution and dereferencing](cheqd-product/decentralised-identifiers-dids/did-resolution-and-dereferencing.md)
-  * [DID Resolver](cheqd-product/decentralised-identifiers-dids/did-resolver.md)
-  * [Resources and Schemas](cheqd-product/decentralised-identifiers-dids/resources-and-schemas.md)
-  * [Revocation Registry](cheqd-product/decentralised-identifiers-dids/revocation-registry.md)
-* [✅ Verifiable Credentials](cheqd-product/verifiable-credentials/README.md)
-  * [Veramo SDK](cheqd-product/verifiable-credentials/veramo-sdk.md)
-* [🛤 Payment rails](cheqd-product/cheqd-network/payment-rails.md)
+* [🗺 Roadmap](updates/roadmap/README.md)
+  * [🔜 Now, next and future](updates/roadmap/now-next-and-future.md)
+  * [🆔 Identity](updates/roadmap/identity.md)
+  * [🏗 Network Infrastructure](updates/roadmap/network-infrastructure.md)
+  * [☄ Cosmos and Web 3.0](updates/roadmap/cosmos-and-web-3.0.md)
+* [🗓 Changelog](updates/changelog/README.md)
+  * [2⃣ 2022 Changelog](updates/changelog/2022-changelog.md)
+  * [1⃣ 2021 Changelog](updates/changelog/2021-changelog.md)
 
 ## Standards
 
-* [ℹ Network & Token information](standards/network-and-token-information.md)
+* [ℹ Network & Token information](standards/README.md)
 * [🤓 Technical standards and interop profile](standards/technical-standards-and-interop-profile.md)
 
 ## 🆘 Support
 
-* [Community Support](support/community-support.md)
+* [System Status](https://status.cheqd.net)
+* [Slack Channel](http://cheqd.link/join-cheqd-slack)
+* [Discord](http://cheqd.link/discord-github)
+* [General Support](https://support.cheqd.io)
