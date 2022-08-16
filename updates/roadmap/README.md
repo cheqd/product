@@ -4,7 +4,7 @@ description: >-
   continually fleshed out
 ---
 
-# 🛣 Roadmap
+# 🗺 Roadmap
 
 Our focus is to expand the utility of the cheqd network for decentralised identity use cases. This is our core mission and vision and - the reason why - we have such a broad interest within the self-sovereign identity (SSI) vendor ecosystem.
 

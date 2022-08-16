@@ -2,14 +2,12 @@
 
 cheqd is a technology scale-up company that provides a market-leading solution for **verifiable data**, enabling participants to share, co-create value and transact.
 
-The [cheqd network](https://www.cheqd.io/) delivers first of its kind **payment rails, customisable commercial models and governance structures for trusted data** (also referred to as authentic). This is referred to as **Self-Sovereign Identity (SSI)**,  **Decentralised Identity**, or **Web5**.
+The [cheqd network](https://www.cheqd.io/) delivers first of its kind **payment rails, customisable commercial models and governance structures for trusted data** (also referred to as authentic). This is referred to as **Self-Sovereign Identity (SSI)**, **Decentralised Identity**, or **Web5**.
 
 SSI is a user-centric methodology for **exchanging trusted data** in a more secure and privacy preserving manner. SSI is positioned to usher in the next generation of digital identities across open networks and forms the **technical foundation of #Web5.**
 
 {% hint style="success" %}
-
-## cheqd provides the technical foundation for **emerging** #Web5 ecosystems
-
+### cheqd provides the technical foundation for **emerging** #Web5 ecosystems
 {% endhint %}
 
 cheqd provides the foundational **technical and payment infrastructure** for trusted data ecosystems to form, inverting existing models of data ownership. Entities, whether they be companies, individuals or objects, build profiles of their own data that they have **full control over**, and **share access to this data with interested third parties**, or verifiers / receivers, when needed, and **with express consent**.
@@ -20,7 +18,7 @@ This enables cheqd wants to create **commercially viable SSI ecosystems** throug
 
 ### 🆔 Identity the _**right**_ way
 
-With cheqd network, [you can already](../updates/changelog/README.md):
+With cheqd network, [you can already](../updates/changelog/):
 
 * Anchor [W3C Decentralised Identifiers](https://www.w3.org/TR/did-core/)(DIDs) with complete [DID Documents](https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/what-is-a-did-document)
 * Issue & verify [JSON based JWT](https://www.w3.org/TR/vc-data-model/#json) and [JSON-LD](https://www.w3.org/TR/vc-data-model/) Verifiable Credentials, secured by cheqd DIDs
@@ -32,7 +30,7 @@ And [very soon](../updates/roadmap/now-next-and-future.md) you will be able to:
 * manage Verifiable Credential revocation status.
 
 {% hint style="success" %}
-_note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD_](https://www.w3.org/TR/vc-data-model/)_, as well as an_ [_AnonCreds_](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html) _whilst remaining conformant with the_ [_W3C VC Data Model_](https://www.w3.org/TR/vc-data-model/)__
+_note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD_](https://www.w3.org/TR/vc-data-model/)_, as well as an_ [_AnonCreds_](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html) _whilst remaining conformant with the_ [_W3C VC Data Model_](https://www.w3.org/TR/vc-data-model/)\_\_
 {% endhint %}
 
 ### 📈 Peak Performance at low cost
@@ -59,7 +57,7 @@ cheqd is building payment rails that enable customisable business models:
 
 Through our payment rails, new business and revenue models for participants in the self-sovereign identity ecosystem can accelerate the adoption of the technology, making SSI into a more commercially viable technology, whilst keeping individuals in control of their own data.
 
-### 🗳️ *Truly* decentralised governance
+### 🗳️ _Truly_ decentralised governance
 
 * cheqd has created a highly commended [decentralised Governance Framework](https://docs.cheqd.io/governance/)
 * cheqd uses a [delegated Proof of Stake (DPoS](https://en.bitcoinwiki.org/wiki/DPoS)) model, using its native token $CHEQ, to enable fair and proportionate decision making on the network.
@@ -72,7 +70,7 @@ Through our payment rails, new business and revenue models for participants in t
 ### 🌎 **Community Pool**
 
 * With every transaction on the cheqd network [2% of the transaction fee](https://gov.cheqd.io/getting-started/learning-the-basics/network-parameters) is collected and added to a savings pot known as a [Community Pool](https://gov.cheqd.io/contributing/community-pool)
-* This Community Pool  that can be used accelerating the development of new features on cheqd, or even donating to good causes, such as environmental sustainability
+* This Community Pool that can be used accelerating the development of new features on cheqd, or even donating to good causes, such as environmental sustainability
 * The cheqd Community Pool is currently just shy of [500,000 CHEQ](https://explorer.cheqd.io/), and [anyone can propose](https://gov.cheqd.io/contributing/community-pool) how this is used
 
 ## Current partners building on cheqd
@@ -142,29 +140,29 @@ We are happy to set up multi-stakeholder environments, run webinars, host worksh
 
 > "As SSI matures we're seeing innovation at every layer of the Trust Over IP stack. cheqd is the only ToIP Layer 1 public utility I've seen with a governance framework designed explicitly to evolve from permissioned to permissionless. Add to that cheqd's commitment to interoperability across all SSI ecosystems and its unique focus on SSI-based value exchange and you have one of the most exciting projects in SSI today."
 >
-> **Drummond Reed** \
-> \- *Chief Trust Officer, Avast* \
-> \- *Co-chair, Trust over IP (ToIP) Governance Stack Working Group* \
-> \- *Co-author, "Self-Sovereign Identity"*
+> **Drummond Reed**\
+> \- _Chief Trust Officer, Avast_\
+> \- _Co-chair, Trust over IP (ToIP) Governance Stack Working Group_\
+> \- _Co-author, "Self-Sovereign Identity"_
 
 > "Danube Tech has been a pioneer in DID technologies, and we see cheqd as a promising next step in the evolution of SSI networks. Operating a cheqd node will add value to our mission of enabling global interoperability of decentralized identity infrastructures."
 >
 > **Markus Sabadello**\
-> \- *CEO, DanubeTech*
+> \- _CEO, DanubeTech_
 
 > _"You can't have Web 3 until you have decentralised identity that works at scale and has a business model for network participants hardcoded into it._\
 > \
 > _For this reason we're helping cheqd bring a permissionless, token optimised form of SSI and verifiable claims"_
 >
 > **Jamie Burke**\
-> \- *Founder & CEO, Outlier Ventures*
+> \- _Founder & CEO, Outlier Ventures_
 
 > _“Our well-being depends on reliable data provenance and secure authentication/authorization across humans, organizations, and systems. All the exciting use-cases for digital-first processes are in need of a truly open and portable identity & credentialing fabric, which is exactly what Cheqd provides. Our joint vision is that decentralized identity will be at the core of every cyber-physical system in the near future.”_
 >
 > **Carsten Stöcker**\
-> \- *CEO, Spherity*
+> \- _CEO, Spherity_
 
 > _"We're excited to join the cheqd community because of its focus on operationalising SSI business models through payment rails. For companies like us that want to build applications based on SSI that enable users to access services, the payment rail component is critical in ensuring that we offer customers a seamless payment experience. Gravity's business model is based on "pay per data", such that customers pay for the data exchanged based on the number of credentials and the types of claims contained within them. Leveraging cheqd's payment rail infrastructure is therefore vital for Gravity as our customer base expands and credential exchanges grow."_
 >
 > **Sharanya Thakur**\
-> \- *Project Manager, Gravity Earth*
+> \- _Project Manager, Gravity Earth_

@@ -5,7 +5,7 @@
 ### Tutorials for developers
 
 * [x] Tutorials for Creating DIDs: Completed
-* [ ] Tutorials for Creating Resources/Schemas: Ongoing
+* [x] Tutorials for Creating Resources/Schemas
 
 From our Product research that we have carried out this year ([find our general Survey results summarised here](https://www.cheqd.io/blog/top-5-trends-in-decentralised-self-sovereign-identity-and-privacy-preserving-technology-in-web-3.0-2022)), creating documentation that is both simple to understand, and easy to implement, has been a paramount product goal for 2022.
 
@@ -26,8 +26,8 @@ Easily digestible and clear documentation is crucial for giving cheqd's partners
 ### DID Resolver
 
 * [x] Full DID Resolver: Completed
-* [ ] Proxy DID Resolver: Ongoing - Q2 expected release
-* [ ] Universal Resolver: Ongoing - Q2 expected release
+* [ ] Light DID Resolver: Ongoing - Q3/4 expected release
+* [x] Universal Resolver: Ongoing&#x20;
 
 After we released our [cheqd DID method in 2021](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 
@@ -47,7 +47,7 @@ This is lightweight, simple and easy to use. It is written as a tiny Node.js pac
 
 The Universal Resolver is a project maintained by DIF which hosts drivers of many different DID Resolvers in a compatible and easy-to-integrate format (Docker Containers).
 
-Through the Universal Resolver, cheqd's DID Resolver will be packaged as a Docker Container, making it compatible with any infrastructure stack.  
+Through the Universal Resolver, cheqd's DID Resolver will be packaged as a Docker Container, making it compatible with any infrastructure stack.
 
 #### What is the core business value of this work?
 
@@ -67,8 +67,7 @@ Learn about DIDs and what DID resolution is here:
 
 ### DID URL Dereferencer
 
-* [x] Simple dereferencer: Completed
-* [ ] Complex dereferencer: Ongoing - Q3 expected release
+* [x] DID URL dereferencer: Completed
 
 Similar to a DID Resolver, a DID URL Dereferencer is used to take the input of a DID URL, and return a particular resource.
 
@@ -107,8 +106,7 @@ Proponents of Hyperledger Indy will often point to the way it carries out revoca
 
 ### Veramo SDK for cheqd
 
-* [x] Beta release of Veramo plugin for cheqd DID method: Completed
-* [ ] GA release of Veramo SDK for cheqd: Ongoing
+* [x] Release of Veramo SDK for cheqd DID method: Completed
 
 In order to issue and verify Verifiable Credentials using cheqd DIDs, software must be used that is able to communicate with the ledger and understands the DID method accordingly. This type of software is generally packaged as a Software Development Kit (SDK).
 
@@ -148,9 +146,9 @@ To date, cheqd is able to support JSON and JSON-LD Credentials natively on cheqd
 It is not easy to support AnonCreds directly on a non-Indy network. However, we have created an architecture that replicates the function of AnonCreds using W3C compliant standards. To make this work, there are a few components at play:
 
 * [x] Issuer DID Documents: Completed
-* [ ] Schema DID Documents: Ongoing
-* [ ] Resource Collections: Ongoing - Q2 expected release
-* [ ] Schema Objects on-ledger: Ongoing - Q2 expected release
+* [x] Schema DID Documents: Completed
+* [x] Resource Collections: Completed
+* [x] Schema Objects on-ledger: Completed
 * [ ] Credential Definition Composition: Ongoing - Q3 expected release
 
 Each of these parts will be discussed in further detail in our Identity Documentation page:
@@ -167,8 +165,8 @@ By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platfo
 
 ### Unified API for multiple credential formats & exchange protocols
 
-* [ ] Veramo SDK for JSON / JSON-LD: Completed
-* [ ] Aries based SDKs supporting cheqd: Baclog
+* [x] Veramo SDK for JSON: Completed
+* [ ] Aries based SDKs supporting cheqd: Backlog
 * [ ] API routing logic and rules: Backlog
 
 Achieving support for multiple Verifiable Credential standards using a Routing Layer into multiple SDKs would help enterprises consume Credentials from multiple sources. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
@@ -181,7 +179,7 @@ Through creating AnonCreds compatibility to support AnonCreds-like Credentials o
 
 A routing layer would also create a harmonised interface with AnonCreds based on Indy AND JSON/JSON-LD Credentials anchored elsewhere.
 
-This type of interoperability is similar to how Visa, Mastercard and Amex can all work interchangeably with payment terminals. Although built separately, on different tech stacks - they can all be understood, used and accepted equally by end-customers and everyday people. This enhances the value of each company, because they are now able to collaborate  as well as compete.
+This type of interoperability is similar to how Visa, Mastercard and Amex can all work interchangeably with payment terminals. Although built separately, on different tech stacks - they can all be understood, used and accepted equally by end-customers and everyday people. This enhances the value of each company, because they are now able to collaborate as well as compete.
 
 ## Payment rails
 
