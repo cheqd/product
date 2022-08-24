@@ -38,6 +38,15 @@ _note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD
 * cheqd is designed as a highly performant Layer 1 with high throughput. Built using the [Cosmos SDK](https://cosmos.network/), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
 * Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
 
+| Metric                     | cheqd    | Sovrin | Indicio   | ION |
+| -------------------------- | -------- | ------ | --------- | --- |
+| DID writes                 | $0.00017 | $10.00 | $5000 p.a | $10 |
+| DID updates                | $0.00017 | $10.00 | $5000 p.a | $10 |
+| Schema writes              | $0.00017 | $50.00 | $5000 p.a | N/A |
+| Cred Def writes            | $0.00017 | $25.00 | $5000 p.a | N/A |
+| Revocation registry write  | $0.00017 | $20.00 | $5000 p.a | N/A |
+| Revocation registry update | $0.00017 | $0.10  | $5000 p.a | N/A |
+
 {% hint style="info" %}
 _note: cheqd's estimated 10,000 TPS is based on the Cosmos SDK estimations which cheqd is built with_
 {% endhint %}
