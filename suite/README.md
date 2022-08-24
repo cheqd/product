@@ -36,7 +36,16 @@ _note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD
 ### 📈 Peak Performance at low cost
 
 * cheqd is designed as a highly performant Layer 1 with high throughput. Built using the [Cosmos SDK](https://cosmos.network/), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
+
+#### Transactions per second across identity networks
+
+| cheqd | Avalanche | Kilt  | EBSI  | Ethereum | Bitcoin | Hyperledger Indy |
+| ----- | --------- | ----- | ----- | -------- | ------- | ---------------- |
+| 7,500 | 5,000     | 1,000 | 1,000 | 20       | 10      | 4                |
+
 * Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
+
+#### Price of identity transactions across ecosystem
 
 | Metric                     | cheqd    | Sovrin | Indicio   | ION |
 | -------------------------- | -------- | ------ | --------- | --- |
