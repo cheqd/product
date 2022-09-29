@@ -83,7 +83,7 @@ Through our payment rails, new business and revenue models for participants in t
 
 * cheqd has created a highly commended [decentralised Governance Framework](https://docs.cheqd.io/governance/)
 * cheqd uses a [delegated Proof of Stake (DPoS](https://en.bitcoinwiki.org/wiki/DPoS)) model, using its native token $CHEQ, to enable fair and proportionate decision making on the network.
-* As a token holder, [**with our easy to use governance dashboard**](https://commonwealth.im/cheqd/)you can vote on key governance decisions, such as whether the network should be improved in the way the core team has suggested, and even decide on how the [network Community Pool](https://gov.cheqd.io/contributing/community-pool) is used
+* As a token holder, [**with our easy to use governance dashboard**](https://commonwealth.im/cheqd/) **** you can vote on key governance decisions, such as whether the network should be improved in the way the core team has suggested, and even decide on how the [network Community Pool](https://gov.cheqd.io/contributing/community-pool) is used
 * You are able to easily propose a new on-chain proposal with a deposit of 8000 $CHEQ using our [governance forum](https://commonwealth.im/cheqd)
 * As an interested community member, you can use our [off-chain governance forum](https://commonwealth.im/cheqd) to propose changes and engage in discussion with the rest of the cheqd community without needing tokens
 
