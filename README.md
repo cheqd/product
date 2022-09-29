@@ -8,9 +8,7 @@ description: Everything you need to know about the cheqd product.
 
 Before you dive into the cheqd product, if you are not familiar with [cheqd](https://www.cheqd.io/), Self-Sovereign Identity (SSI) and the function of the [$CHEQ token](https://learn.cheqd.io/overview/introduction-to-usdcheq), we suggest you first _cheq out_ our learning page:
 
-{% content-ref url="https://learn.cheqd.io" %}
-[https://learn.cheqd.io](https://learn.cheqd.io)
-{% endcontent-ref %}
+{% embed url="https://learn.cheqd.io/" %}
 
 ## What _are_ the products built by cheqd?
 
