@@ -1,4 +1,4 @@
-# DID Resolver
+# Resolve cheqd DIDs and Resources
 
 After we released our [cheqd DID method in 2021](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 
@@ -28,7 +28,7 @@ This is lightweight, simple and easy to use. It is written as a tiny Node.js pac
 
 The Universal Resolver is a project maintained by DIF which hosts drivers of many different DID Resolvers in a compatible and easy-to-integrate format (Docker Containers).
 
-Through the Universal Resolver, cheqd's DID Resolver will be packaged as a Docker Container, making it compatible with any infrastructure stack.  
+Through the Universal Resolver, cheqd's DID Resolver will be packaged as a Docker Container, making it compatible with any infrastructure stack.
 
 ### Try our DID Resolver in action
 
@@ -46,4 +46,4 @@ Learn about DIDs and what DID resolution is here:
 
 You can look into our architecture and decision making in more detail in our Identity docs:
 
-{% embed url="https://docs.cheqd.io/identity/architecture/did-resolver" %}
+{% embed url="https://docs.cheqd.io/identity/architecture/adr-list/adr-001-did-resolver" %}

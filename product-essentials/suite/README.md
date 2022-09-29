@@ -18,24 +18,26 @@ This enables cheqd wants to create **commercially viable SSI ecosystems** throug
 
 ### 🆔 Identity the _**right**_ way
 
-With cheqd network, [you can already](../updates/changelog/):
+With cheqd network, [you can already](../../updates/changelog/):
 
 * Anchor [W3C Decentralised Identifiers](https://www.w3.org/TR/did-core/)(DIDs) with complete [DID Documents](https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/what-is-a-did-document)
-* Issue & verify [JSON based JWT](https://www.w3.org/TR/vc-data-model/#json) and [JSON-LD](https://www.w3.org/TR/vc-data-model/) Verifiable Credentials, secured by cheqd DIDs
+* Issue & verify [JSON based JWT](https://www.w3.org/TR/vc-data-model/#json) credentials, secured by cheqd DIDs
+* Issue & verify [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html), secured by cheqd DIDs;
+* Create a variety of Resources on-ledger (required for [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html)).
 
-And [very soon](../updates/roadmap/now-next-and-future.md) you will be able to:
+And [very soon](now-next-and-future.md) you will be able to:
 
-* issue & verify [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html), secured by cheqd DIDs;
-* store Verifiable Credential schemas on-ledger (required for [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html));
-* manage Verifiable Credential revocation status.
+* Issue and verify [JSON-LD](https://www.w3.org/TR/vc-data-model/) Verifiable Credentials, secured by cheqd DIDs
+* Manage Verifiable Credential revocation status;
+* Create customisable payment flows for Verifiable Credentials.
 
 {% hint style="success" %}
-_note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD_](https://www.w3.org/TR/vc-data-model/)_, as well as an_ [_AnonCreds_](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html) _whilst remaining conformant with the_ [_W3C VC Data Model_](https://www.w3.org/TR/vc-data-model/)\_\_
+_note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD_](https://www.w3.org/TR/vc-data-model/)_, as well as an_ [_AnonCreds_](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html) _whilst remaining conformant with the_ [_W3C VC Data Model_](https://www.w3.org/TR/vc-data-model/)
 {% endhint %}
 
 ### 📈 Peak Performance at low cost
 
-* cheqd is designed as a highly performant Layer 1 with high throughput. Built using the [Cosmos SDK](https://cosmos.network/), cheqd can process an estimated [10,000 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
+* cheqd is designed as a highly performant Layer 1 with high throughput. Built using the [Cosmos SDK](https://cosmos.network/), cheqd can process an estimated [7,500 TPS](https://www.pymnts.com/cryptocurrency/2022/pymnts-blockchain-series-what-is-cosmos/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
 
 #### Transactions per second across identity networks
 
@@ -47,22 +49,9 @@ _note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD
 
 #### Price of identity transactions across ecosystem
 
-{% hint style="info" %}
-Note: the prices listed below are subject to change, as they are parameters controlled by community governance mechanisms.
-{% endhint %}
-
-| Metric                     | cheqd | Sovrin | Indicio   | ION |
-| -------------------------- | ----- | ------ | --------- | --- |
-| DID writes                 | $2.00 | $10.00 | $5000 p.a | $10 |
-| DID updates                | $1.00 | $10.00 | $5000 p.a | $10 |
-| Schema writes              | $0.10 | $50.00 | $5000 p.a | N/A |
-| Cred Def writes            | $0.10 | $25.00 | $5000 p.a | N/A |
-| Revocation registry write  | $0.10 | $20.00 | $5000 p.a | N/A |
-| Revocation registry update | $0.10 | $0.10  | $5000 p.a | N/A |
-
-{% hint style="info" %}
-_note: cheqd's estimated 10,000 TPS is based on the Cosmos SDK estimations which cheqd is built with_
-{% endhint %}
+{% content-ref url="cheqd-pricing.md" %}
+[cheqd-pricing.md](cheqd-pricing.md)
+{% endcontent-ref %}
 
 ### 💰 Get paid for your part
 
@@ -93,7 +82,7 @@ Through our payment rails, new business and revenue models for participants in t
 
 * With every transaction on the cheqd network [2% of the transaction fee](https://gov.cheqd.io/getting-started/learning-the-basics/network-parameters) is collected and added to a savings pot known as a [Community Pool](https://gov.cheqd.io/contributing/community-pool)
 * This Community Pool that can be used accelerating the development of new features on cheqd, or even donating to good causes, such as environmental sustainability
-* The cheqd Community Pool is currently just shy of [500,000 CHEQ](https://explorer.cheqd.io/), and [anyone can propose](https://gov.cheqd.io/contributing/community-pool) how this is used
+* The cheqd Community Pool is currently just shy of [900,000 CHEQ](https://explorer.cheqd.io/), and [anyone can propose](https://gov.cheqd.io/contributing/community-pool) how this is used
 
 ## Current partners building on cheqd
 
@@ -103,7 +92,7 @@ Our partnership network now includes **37 SSI vendors** and is continuing to gro
 
 Additionally, key investors include [Outlier Ventures](https://outlierventures.io/), [Evernym](https://www.evernym.com/) (recently acquired by [Avast](https://www.avast.com/en-gb/index)), [Tendermint Ventures](https://tendermint.com/ventures/), [CMCC Global](https://www.cmcc.vc/).
 
-![cheqd Partnership Ecosystem](../.gitbook/assets/cheqd-partners.png)
+![cheqd Partnership Ecosystem](../../.gitbook/assets/cheqd-partners.png)
 
 ## Partnering with cheqd
 

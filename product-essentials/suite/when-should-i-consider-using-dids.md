@@ -1,6 +1,6 @@
-# When should I consider using DIDs?
+# ❓ When should I consider using an SSI solution?
 
-DIDs are entirely multifunctional, which makes their value quite hard to pin down to a few bullet points. Some of the main ways in which enterprises are beginning to use DIDs are as follows:
+DIDs and Verifiable Credentials are entirely multifunctional, which makes their value quite hard to pin down to a few bullet points. Some of the main ways in which enterprises are beginning to use these technologies are as follows:
 
 ## ✅ Cost reduction in identity checks (KYC, KYB)
 

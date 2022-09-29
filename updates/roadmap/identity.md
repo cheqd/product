@@ -2,14 +2,25 @@
 
 ## Decentralised Identifiers (DIDs)
 
-### Tutorials for developers
-
-* [x] Tutorials for Creating DIDs: Completed
-* [x] Tutorials for Creating Resources/Schemas
+### Tutorials for developers using Veramo SDK
 
 From our Product research that we have carried out this year ([find our general Survey results summarised here](https://www.cheqd.io/blog/top-5-trends-in-decentralised-self-sovereign-identity-and-privacy-preserving-technology-in-web-3.0-2022)), creating documentation that is both simple to understand, and easy to implement, has been a paramount product goal for 2022.
 
 We have split our documentation into separate repositories for clarity and convenience (below). We will continually improve, add-to and iterate this documentation to keep it up to date.
+
+* [x] [Setup Veramo SDK for cheqd](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/setup-cli): Completed
+* [x] [Creating DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations): Completed
+* [x] [Query DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/query-did): Completed
+* [x] [Managing keys](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/identity-key-handling): Completed
+* [x] [Updating DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/update-did): Completed
+* [ ] Deactivating DIDs: In progress
+* [x] [Creating Resources/Schemas](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/create-a-resource): Completed
+* [x] [Creating new Resource Versions](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/create-a-resource/create-a-new-resource-version): Completed
+* [x] [Issuing Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-credentials): Completed
+* [x] [Verify Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-credentials/verify-jwt-vc): Completed
+* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-presentations): Completed&#x20;
+* [ ] Issuing Verifiable Credentials (JSON-LD): In progress
+* [ ] Creating Verifiable Presentations (JSON-LD): In progress&#x20;
 
 #### What is the core business value of this work?
 
@@ -27,7 +38,7 @@ Easily digestible and clear documentation is crucial for giving cheqd's partners
 
 * [x] Full DID Resolver: Completed
 * [ ] Light DID Resolver: Ongoing - Q3/4 expected release
-* [x] Universal Resolver: Ongoing&#x20;
+* [x] Universal Resolver: Completed&#x20;
 
 After we released our [cheqd DID method in 2021](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 
@@ -131,7 +142,7 @@ You can find our open sourced repository for our Veramo plugin here:
 * [x] Beta release of wallet: Completed
 * [ ] GA release of browser wallet reference app: Ongoing
 
-To showcase cheqd's identity capabilities, as well as the token functionality, we built [a browser-bsaed identity wallet demo app](https://wallet.cheqd.io/) which is able to hold Verifiable Credentials, as well as manage $CHEQ tokens via the [Keplr browser extension](https://keplr.app).
+To showcase cheqd's identity capabilities, as well as the token functionality, we built [a browser-based identity wallet demo app](https://wallet.cheqd.io/) which is able to hold Verifiable Credentials, as well as manage $CHEQ tokens via the [Keplr browser extension](https://keplr.app).
 
 #### What is the core business value of this work?
 
@@ -149,7 +160,9 @@ It is not easy to support AnonCreds directly on a non-Indy network. However, we 
 * [x] Schema DID Documents: Completed
 * [x] Resource Collections: Completed
 * [x] Schema Objects on-ledger: Completed
-* [ ] Credential Definition Composition: Ongoing - Q3 expected release
+* [x] Credential Definition Composition: Completed
+* [x] Revocation Registry Definitions: Completed
+* [ ] Revocation Registry Entries: In Progress
 
 Each of these parts will be discussed in further detail in our Identity Documentation page:
 

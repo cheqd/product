@@ -16,19 +16,7 @@ Equally important as a focus area is deeper integrations with the Cosmos and wid
 To explore our initial roadmap from the beginning of 2022, [please read our blog here](https://blog.cheqd.io/cheqds-product-vision-for-2022-6a92e8e4d296).
 {% endhint %}
 
-## Now, Next, Future
 
-For a quick overview of current, next and future functionality on the cheqd network take a look at our simple breakdown here:
-
-{% content-ref url="now-next-and-future.md" %}
-[now-next-and-future.md](now-next-and-future.md)
-{% endcontent-ref %}
-
-For a clickable graphic of cheqd's functionality now, next and future: use the download link below:
-
-{% file src="../../.gitbook/assets/cheqd now, next, future graphic.pdf" %}
-PDF version of now, next, future graphic
-{% endfile %}
 
 ## Deep-dive by product topics
 
