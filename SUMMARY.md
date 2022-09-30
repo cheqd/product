@@ -13,7 +13,8 @@
 
 ## Products
 
-* [🛤 cheqd Network](products/cheqd-network.md)
+* [🛤 cheqd Network](products/cheqd-network/README.md)
+  * [cheqd Network Explorer](https://explorer.cheqd.io/)
 * [✅ cheqd Toolbox: Integrate with cheqd](products/verifiable-credentials/README.md)
   * [📦 Veramo SDK for cheqd](products/verifiable-credentials/veramo-sdk.md)
   * [📦 Aries Framework JavaScript for cheqd](products/verifiable-credentials/aries-framework-javascript-for-cheqd.md)

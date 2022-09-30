@@ -1,4 +1,4 @@
-# Aries Framework JavaScript for cheqd
+# 📦 Aries Framework JavaScript for cheqd
 
 ## Overview
 

@@ -11,7 +11,7 @@ This section will break down how each user can best utilise the cheqd Network as
 ### General network resources
 
 1. [Learn about cheqd](https://learn.cheqd.io/)
-2. [cheqd Network Pricing](../product-essentials/suite/cheqd-pricing.md)
+2. [cheqd Network Pricing](../../product-essentials/suite/cheqd-pricing.md)
 3. [Block Explorer](https://explorer.cheqd.io/)
 4. [Dashboard for managing CHEQ tokens](https://cheqd.omniflix.co/)
 5. [Stake and delegate CHEQ tokens](https://app.gitbook.com/o/-MiQSPMufVJdYEwQHd2c/s/vFD59OFvvoxQacSSpE1X/)
@@ -39,7 +39,7 @@ This section will break down how each user can best utilise the cheqd Network as
 
 ### Integrating with cheqd: cheqd Toolbox
 
-1. [cheqd Toolbox](verifiable-credentials/)
+1. [cheqd Toolbox](../verifiable-credentials/)
 2. [Contact product team](mailto://product.cheqd.io)
 
 ### Exploratory integration and inbounds

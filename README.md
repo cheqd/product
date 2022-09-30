@@ -16,8 +16,8 @@ cheqd has built a blockchain, the [cheqd network](https://explorer.cheqd.io/), u
 
 cheqd's identity product consists of **network infrastructure, tooling and software development kits** to enable our partners to utilise the cheqd network's functionality, including:
 
-{% content-ref url="products/cheqd-network.md" %}
-[cheqd-network.md](products/cheqd-network.md)
+{% content-ref url="products/cheqd-network/" %}
+[cheqd-network](products/cheqd-network/)
 {% endcontent-ref %}
 
 {% content-ref url="products/verifiable-credentials/" %}

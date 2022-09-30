@@ -1,4 +1,4 @@
-# Veramo SDK for cheqd
+# 📦 Veramo SDK for cheqd
 
 ## Overview
 
