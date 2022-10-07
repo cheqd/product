@@ -2,6 +2,14 @@
 
 cheqd has created simple tooling to enable third parties to create DIDs and resources, issue and verify Verifiable Credentials, using cheqd DIDs, DID Documents and Schemas.
 
+This will be useful for:
+
+| User                      | Capability                                                                                                        |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **SSI vendor**            | I want to integrate cheqd into my identity applications and help determine the technical direction of the network |
+| **Client / End customer** | I want to use cheqd Network and a software integration to develop an SSI use case                                 |
+| **Web 3.0 vendor**        | I want to integrate identity functionality into my own Web 3.0 ecosystem                                          |
+
 ## Choose a software stack to suit your needs
 
 cheqd is continually integrating into different software development kits to suit the needs of different partners and their clients.
