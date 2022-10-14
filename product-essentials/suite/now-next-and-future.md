@@ -4,13 +4,11 @@
 
 ### &#x20;Decentralised Identifiers (DIDs)
 
-| Now (current functionality)                                                                                                                                                                                                         | Next (Q4)                                    | Future |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ------ |
-| [Create a DID](https://docs.cheqd.io/identity/tutorials/dids/vdr-tools/create-did-and-did-document) and DID Document ([did:cheqd method](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method)) with cheqd CLI | Deactivate a DID with Veramo SDK for cheqd   |        |
-| [Update a DID and DID Document](https://docs.cheqd.io/identity/ledger-identity/decentralized-identifiers/update-and-manage-did-document) with cheqd CLI                                                                             | Integrate cheqd into the Universal Registrar |        |
-| [Create a DID](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations) with Veramo SDK for cheqd                                                                                   |                                              |        |
-| [Create an off-ledger 'subject' DID](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/create-subject-did) with Veramo SDK for cheqd                                          |                                              |        |
-| [Manage/update a DID ](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/update-did)with Veramo SDK for cheqd                                                                 |                                              |        |
+| Now (current functionality)                                                                                                                                                                | Next (Q4)                                    | Future |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- | ------ |
+| [Create a DID](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations) and DID Document with Veramo SDK for cheqd                         | Deactivate a DID with Veramo SDK for cheqd   |        |
+| [Create an off-ledger 'subject' DID](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/create-subject-did) with Veramo SDK for cheqd | Integrate cheqd into the Universal Registrar |        |
+| [Manage/update a DID ](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/update-did)with Veramo SDK for cheqd                        |                                              |        |
 
 ### Resolving (reading) DIDs
 
