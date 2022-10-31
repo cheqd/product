@@ -20,7 +20,7 @@
   * [📦 Veramo SDK for cheqd](products/verifiable-credentials/veramo-sdk.md)
   * [📦 Aries Framework JavaScript for cheqd](products/verifiable-credentials/aries-framework-javascript-for-cheqd.md)
   * [🔄 Resolve cheqd DIDs and Resources](products/verifiable-credentials/resolve-cheqd-dids-and-resources.md)
-* 🪪[AnonCreds on cheqd](product/products/AnonCreds on cheqd/README.md)
+* [🪪AnonCreds on cheqd](product/products/AnonCreds on cheqd/README.md)
 
 ## ⏰ Updates
 
