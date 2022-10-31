@@ -63,7 +63,7 @@ Under the hood, you can check out the schema and credential definitions used for
 
 ## DID URL Resource Parameter Specification
 
-Following the implemention of the above approach which uses DID URLs to identify resources, the cheqd team, working with Drummond Reed and ToIP, have proposed an extension of the [W3C Decentralized Identifiers (DIDs) 1.0 specification](https://www.w3.org/TR/did-core/) to support the resource parameter as listed in the W3C DID Specification Registries 1.0. 
+Following the implemention of the above approach which uses DID URLs to identify resources, the cheqd team, working with Drummond Reed and ToIP, have proposed an extension of the [W3C Decentralized Identifiers (DIDs) 1.0 specification](https://www.w3.org/TR/did-core/) to support the resource parameter as listed in the W3C DID Specification Registries 1.0.
 
 The purpose of this specification is to specify how a [DID URL](https://www.w3.org/TR/did-core/#dfn-did-urls) may include a parameter that instructs a [DID resolver](https://www.w3.org/TR/did-core/#dfn-did-resolvers) to request the associated [verifiable data registry (VDR)](https://www.w3.org/TR/did-core/#dfn-verifiable-data-registry) to directly return a digital resource identified by a [decentralized identifier (DID)](https://www.w3.org/TR/did-core/#dfn-decentralized-identifiers). This parameter is only available for DID URLs whose DID method supports the parameter. The parameter also supports requesting the resource in a particular media type.
 
