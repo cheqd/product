@@ -20,7 +20,6 @@
   * [📦 Veramo SDK for cheqd](products/verifiable-credentials/veramo-sdk.md)
   * [📦 Aries Framework JavaScript for cheqd](products/verifiable-credentials/aries-framework-javascript-for-cheqd.md)
   * [🔄 Resolve cheqd DIDs and Resources](products/verifiable-credentials/resolve-cheqd-dids-and-resources.md)
-* [🪪 AnonCreds on cheqd](products/anoncreds-on-cheqd/README.md)
 
 ## ⏰ Updates
 
@@ -29,8 +28,9 @@
   * [🏗 Network Infrastructure](updates/roadmap/network-infrastructure.md)
   * [☄ Cosmos and Web 3.0](updates/roadmap/cosmos-and-web-3.0.md)
 * [🗓 Changelog](updates/changelog/README.md)
-  * [2⃣ 2022 Changelog](updates/changelog/2022-changelog.md)
-  * [1⃣ 2021 Changelog](updates/changelog/2021-changelog.md)
+  * [2⃣ 2⃣ 2022 Changelog](updates/changelog/2022-changelog.md)
+  * [1⃣ 1⃣ 2021 Changelog](updates/changelog/2021-changelog.md)
+* [🪪 AnonCreds on cheqd](updates/anoncreds-on-cheqd.md)
 
 ## Standards
 
