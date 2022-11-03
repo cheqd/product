@@ -8,7 +8,7 @@ Full support for AnonCreds on cheqd will come in **three** phases:
 
 1. **Phase 1: cheqd AnonCreds Method**\
    ****\
-   ****To decouple AnonCreds objects from Hyperledger Indy.\
+   ****To decouple AnonCreds objects from Hyperledger Indy using cheqd resources.\
 
 2. **Phase 2: Ledger-agnostic improvements to AnonCreds specification**\
    ****\
@@ -57,11 +57,24 @@ Under the hood, you can check out the schema and credential definitions used for
 * [RWoT schema](https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:zB5wPyMGYL4LbT424Z7yXHm6nZrrLqZZ/resources/ea5168a0-1253-4819-abf5-f937fa8cac16)
 * [RWoT Credential Definition](https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:zGgLTsq96mTsFcFBUCxX6k4kc5i5RNpY/resources/d68c9717-8809-465a-a67a-11f5db3f14f0)
 
-### What this enables
+### Understanding how cheqd AnonCreds Object Method currently works with AnonCreds
 
-This work enables companies to utilise AnonCreds on cheqd. However, to currently achieve this, various _hacky_ techniques were used to fit cheqd within Aries Framework JavaScript.
+Companies can utilise AnonCreds on cheqd. However, to currently achieve this, various _hacky_ techniques were used to fit cheqd within Aries Framework JavaScript.
 
-Therefore, integration with cheqd using this architecture would be perfect for a Proof of Concept or a demo, but not for production environments.
+Therefore, integration with cheqd using this architecture would be perfect for a Proof of Concept or a demo, but perhaps not for production environments.
+
+The main barrier preventing full support for AnonCreds on cheqd using Aries SDKs is that AnonCreds is still dependent of Indy SDK.
+
+When you call any function in Indy SDK, you need to use the _legacy_ Indy-style identifier format to carry out a transaction. This means that whenever a credential is saved in a wallet, that credential has indy-style identifiers for its schema, credential definition and revocation registry definition ID and Entry ID. AnonCreds do not currently natively support cheqd DID URLs.&#x20;
+
+To make cheqd work with AnonCreds, Aries needs to:
+
+1. Request a proof in the cheqd resource DID URL format
+2. Use the cheqd DID URL to resolve the resource and fetch the AnonCreds Object Metadata
+3. Reconstructs the legacy Indy-style identifier using the AnonCreds Object Metadata
+4. Use the Indy-style identifier to verify the AnonCreds credential.
+
+Therefore, technically AnonCreds is currently supported on cheqd, but currently requires multiple extra steps to produce the desired outcome.&#x20;
 
 ## Phase 2: Ledger-agnostic improvements to AnonCreds specification
 
@@ -69,9 +82,10 @@ In order to achieve and unlock full SDK support for AnonCreds on cheqd, it is ne
 
 ### Timeline:
 
-* [ ] Update snake case code (Indy specific) to camel case (wider ecosystem support): November 2022
+* [ ] Update snake case code (Indy specific) to camel case (more commonly used in wider ecosystem): November 2022
 * [ ] Specify and differentiate between particular transaction 'requests' and 'inputs' vs the 'responses' and 'outputs': December 2022
-* [ ] Extend transactions that only require 'revRegId' to require both 'revRegDef' and 'revRegEntry' to enable the SDK to understand transactions from ledgers that don't conform to the Indy URL syntax: December 2022
+* [ ] Include anything method-specific in a request should be included in a metadata section of the response
+* [ ] Potentially extend transactions that only require 'revRegId' to require both 'revRegDef' and 'revRegEntry' to enable the SDK to understand transactions from ledgers that don't conform to the Indy URL syntax: December 2022
 
 ## Phase 3: Full SDK support for AnonCreds on cheqd
 
@@ -91,7 +105,7 @@ Going forward, cheqd is supporting these efforts. The current implementation of 
 
 ### Timeline
 
-* [ ] Implement ledger-independent AnonCreds into Aries Framework JavaScript with support for 'did:indy' and 'did:cheqd': February 2022
-* [ ] Implement ledger-independent AnonCreds into Aries Cloud Agent Python with support for 'did:indy' and 'did:cheqd': March 2022
+* [ ] Implement ledger-independent AnonCreds into Aries Framework JavaScript with support for 'did:indy' and 'did:cheqd': January 2022
+* [ ] Implement ledger-independent AnonCreds into Aries Cloud Agent Python with support for 'did:indy' and 'did:cheqd': February 2022
 
 If you're interested in supporting Animo and cheqd's efforts for building Aries Framework Javascript into cheqd, and in turn support for AnonCreds, please reach out to the cheqd Product team at product@cheqd.io.
