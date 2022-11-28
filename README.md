@@ -4,23 +4,27 @@ description: Everything you need to know about the cheqd product.
 
 # Product Overview
 
-## Learn the basics
+## Dive straight into cheqd's Product suite
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>cheqd Network</strong></td><td>Acquire your first $CHEQ and get setup on our blockchain network</td><td></td><td><a href=".gitbook/assets/cheqd Network.jpg">cheqd Network.jpg</a></td><td><a href="products/cheqd-network/">cheqd-network</a></td></tr><tr><td><strong>cheqd Toolbox</strong></td><td>Integrate with cheqd and create your first DIDs, Resources and Credentials with our SDK</td><td></td><td><a href=".gitbook/assets/cheqd Toolbox.png">cheqd Toolbox.png</a></td><td><a href="products/verifiable-credentials/">verifiable-credentials</a></td></tr><tr><td><strong>AnonCreds on cheqd</strong></td><td>Get yourself ready for supporting AnonCreds fully on cheqd</td><td></td><td><a href=".gitbook/assets/AnonCreds on cheqd.jpg">AnonCreds on cheqd.jpg</a></td><td><a href="products/verifiable-credentials/anoncreds-on-cheqd/">anoncreds-on-cheqd</a></td></tr></tbody></table>
+
+cheqd's identity product consists of an **enterprise blockchain** **network** and **an integration toolkit** to enable our partners to utilise the cheqd network's functionality.
+
+The [cheqd network](https://explorer.cheqd.io/) is a Cosmos SDK-based blockchain that facilitates the exchange of trusted, verifiable data _off-chain_ ([Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)), using _on-chain_ identifiers ([Decentralised Identifiers 'DIDs'](https://www.w3.org/TR/did-core/)) to authenticate the verifiable data.&#x20;
+
+{% hint style="info" %}
+This technology is called **"Self-Sovereign Identity"** and has since been labelled **"Web5"**.
+{% endhint %}
+
+## Learning the basics
 
 Before you dive into the cheqd product, if you are not familiar with [cheqd](https://www.cheqd.io/), Self-Sovereign Identity (SSI) and the function of the [$CHEQ token](https://learn.cheqd.io/overview/introduction-to-usdcheq), we suggest you first _cheq out_ our learning page:
 
 {% embed url="https://learn.cheqd.io/" %}
 
-## What _are_ the products built by cheqd?
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>cheqd Network</strong></td><td>Acquire your first $CHEQ and get setup on our blockchain network</td><td></td><td><a href=".gitbook/assets/resources on cheqd.jpg">resources on cheqd.jpg</a></td><td><a href="products/cheqd-network/">cheqd-network</a></td></tr><tr><td><strong>cheqd Toolbox</strong></td><td>Integrate with cheqd and create your first DIDs, Resources and Credentials with our SDK</td><td></td><td><a href=".gitbook/assets/cheqd data wars.png">cheqd data wars.png</a></td><td><a href="products/verifiable-credentials/">verifiable-credentials</a></td></tr><tr><td><strong>AnonCreds on cheqd</strong></td><td>Get yourself ready for supporting AnonCreds fully on cheqd</td><td></td><td><a href=".gitbook/assets/cheqd and AnonCreds 2.jpg">cheqd and AnonCreds 2.jpg</a></td><td><a href="products/verifiable-credentials/anoncreds-on-cheqd/">anoncreds-on-cheqd</a></td></tr></tbody></table>
-
-cheqd has built a blockchain, the [cheqd network](https://explorer.cheqd.io/), using the [Cosmos SDK](https://v1.cosmos.network/sdk). The network facilitates the exchange of trusted, verifiable data _off-chain_ ([Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)), using _on-chain_ identifiers ([Decentralised Identifiers 'DIDs'](https://www.w3.org/TR/did-core/)) to authenticate the verifiable data. This technology is called **"Self-Sovereign Identity"** and has since been labelled **"Web5"**.
-
-cheqd's identity product consists of an **enterprise blockchain** **network** and **an integration toolkit** to enable our partners to utilise the cheqd network's functionality.
-
 ## Why cheqd?
 
-One of the most important questions newcomers to the project who are considering the use of the network ask: **why cheqd?**
+One of the most important questions newcomers to the project, investors and prospective partners who are considering the use of the network ask: **why cheqd?**
 
 Let's answer that for you.
 
