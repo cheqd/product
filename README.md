@@ -12,17 +12,11 @@ Before you dive into the cheqd product, if you are not familiar with [cheqd](htt
 
 ## What _are_ the products built by cheqd?
 
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>cheqd Network</strong></td><td>Acquire your first $CHEQ and get setup on our blockchain network</td><td></td><td><a href=".gitbook/assets/resources on cheqd.jpg">resources on cheqd.jpg</a></td><td><a href="products/cheqd-network/">cheqd-network</a></td></tr><tr><td><strong>cheqd Toolbox</strong></td><td>Integrate with cheqd and create your first DIDs, Resources and Credentials with our SDK</td><td></td><td><a href=".gitbook/assets/cheqd data wars.png">cheqd data wars.png</a></td><td><a href="products/verifiable-credentials/">verifiable-credentials</a></td></tr><tr><td><strong>AnonCreds on cheqd</strong></td><td>Get yourself ready for supporting AnonCreds fully on cheqd</td><td></td><td><a href=".gitbook/assets/cheqd and AnonCreds 2.jpg">cheqd and AnonCreds 2.jpg</a></td><td><a href="products/verifiable-credentials/anoncreds-on-cheqd/">anoncreds-on-cheqd</a></td></tr></tbody></table>
+
 cheqd has built a blockchain, the [cheqd network](https://explorer.cheqd.io/), using the [Cosmos SDK](https://v1.cosmos.network/sdk). The network facilitates the exchange of trusted, verifiable data _off-chain_ ([Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)), using _on-chain_ identifiers ([Decentralised Identifiers 'DIDs'](https://www.w3.org/TR/did-core/)) to authenticate the verifiable data. This technology is called **"Self-Sovereign Identity"** and has since been labelled **"Web5"**.
 
-cheqd's identity product consists of **network infrastructure, tooling and software development kits** to enable our partners to utilise the cheqd network's functionality, including:
-
-{% content-ref url="products/cheqd-network/" %}
-[cheqd-network](products/cheqd-network/)
-{% endcontent-ref %}
-
-{% content-ref url="products/verifiable-credentials/" %}
-[verifiable-credentials](products/verifiable-credentials/)
-{% endcontent-ref %}
+cheqd's identity product consists of an **enterprise blockchain** **network** and **an integration toolkit** to enable our partners to utilise the cheqd network's functionality.
 
 ## Why cheqd?
 
