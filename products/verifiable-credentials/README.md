@@ -48,8 +48,8 @@ Below is a comparison between our two initial supported SDKs, Veramo SDK for che
 [veramo-sdk.md](veramo-sdk.md)
 {% endcontent-ref %}
 
-{% content-ref url="aries-framework-javascript-for-cheqd.md" %}
-[aries-framework-javascript-for-cheqd.md](aries-framework-javascript-for-cheqd.md)
+{% content-ref url="anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md" %}
+[aries-framework-javascript-for-cheqd.md](anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md)
 {% endcontent-ref %}
 
 {% content-ref url="resolve-cheqd-dids-and-resources.md" %}

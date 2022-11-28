@@ -1,4 +1,4 @@
-# 🪪 AnonCreds on cheqd
+# 🔒 AnonCreds on cheqd
 
 ## Overview
 
