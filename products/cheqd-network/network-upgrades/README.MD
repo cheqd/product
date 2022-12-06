@@ -2,10 +2,9 @@
 
 ## Context
 
-Within the Product & Engineering team our goal is to release often. 
+Within the Product & Engineering team our goal is to release often.
 
 We plan on releasing an on-chain upgrade once per quarter with point releases where required (i.e. no breaking changes) in between.
-
 
 ## Release Timelines
 

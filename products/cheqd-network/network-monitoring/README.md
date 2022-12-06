@@ -2,7 +2,7 @@
 
 ## Context
 
-Over the course of cheqd's product development we have identified various tools required to help the cheqd team, cheqd validators, and community members better monitor the network. 
+Over the course of cheqd's product development we have identified various tools required to help the cheqd team, cheqd validators, and community members better monitor the network.
 
 These include:
 

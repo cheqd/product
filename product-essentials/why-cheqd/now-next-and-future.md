@@ -2,7 +2,7 @@
 
 ## Creating & Managing DIDs on the cheqd network
 
-### &#x20;Decentralised Identifiers (DIDs)
+### Decentralised Identifiers (DIDs)
 
 | Now (current functionality)                                                                                                                                                                | Next (Q4)                                    | Future |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- | ------ |
@@ -56,4 +56,4 @@
 | [Stake CHEQ tokens](https://wallet.cheqd.io/staking) as a validator                       |                                                    | [Verifier-to-holder](https://learn.cheqd.io/overview/introduction-to-usdcheq#holder-pays-issuer): Verifier pay holder for credential presentation with CHEQ token (settled in stablecoin) |
 | [Delegate CHEQ tokens](https://wallet.cheqd.io/staking) to a validator to stake           |                                                    | [Holder-to-issuer](https://learn.cheqd.io/overview/introduction-to-usdcheq#holder-pays-issuer): Holder pay issuer for credential issuance with CHEQ token (settled in stablecoin)         |
 | [Vote on governance proposals](https://commonwealth.im/cheqd/proposals) using CHEQ tokens         |
-| 
+|
