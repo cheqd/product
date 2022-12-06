@@ -2,40 +2,30 @@
 
 * [Product Overview](README.md)
 
-## 🚀 Product Essentials
+## Product Essentials
 
 * [🟢 Why cheqd?](product-essentials/suite/README.md)
-  * [💲 cheqd Pricing](product-essentials/suite/cheqd-pricing.md)
-  * [⚖ Benchmarking cheqd vs. Hyperledger Indy](product-essentials/suite/benchmarking-cheqd-vs.-hyperledger-indy.md)
-  * [🚀 What can I do now on cheqd?](product-essentials/suite/now-next-and-future.md)
-  * [❓ When should I consider using an SSI solution?](product-essentials/suite/when-should-i-consider-using-dids.md)
-* [📚 Learn about cheqd](product-essentials/learn-about-cheqd.md)
+  * [cheqd Network](products/cheqd-network/README.md)
+  * [cheqd Toolbox](products/cheqd-toolbox/README.md)
+  * [cheqd-pricing.md](product-essentials/why-cheqd/cheqd-pricing.md)
+  * [How we compare to Indy](product-essentials/why-cheqd/benchmarking-cheqd-vs.-hyperledger-indy.md)
+  * [cheqd Mission - why identity needs a token](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
+* [🗺 Roadmap](product-essentials/roadmap/README.md)
 
 ## Products
 
 * [🛤 cheqd Network](products/cheqd-network/README.md)
-  * [cheqd Network Explorer](https://explorer.cheqd.io/)
-  * [cheqd Demo Wallet](https://wallet.cheqd.io/)
-* [✅ cheqd Toolbox: Integrate with cheqd](products/verifiable-credentials/README.md)
-  * [📦 Veramo SDK for cheqd](products/verifiable-credentials/veramo-sdk.md)
-  * [🔒 AnonCreds on cheqd](products/verifiable-credentials/anoncreds-on-cheqd/README.md)
-    * [📦 Aries Framework JavaScript for cheqd](products/verifiable-credentials/anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md)
-  * [🔄 Resolve cheqd DIDs and Resources](products/verifiable-credentials/resolve-cheqd-dids-and-resources.md)
+  * [cheqd Network Explorer](products/cheqd-network/network-monitoring/cheqd-block-explorer.md)
+  * [Network monitioring](products/cheqd-network/network-monitoring/README.md)
+  * [Network tooling](products/cheqd-network/network-tooling/README.md)
+  * [Network upgrades](products/cheqd-network/network-upgrades/README.MD)
 
-## ⏰ Updates
-
-* [🗺 Roadmap](updates/roadmap/README.md)
-  * [🆔 Identity](updates/roadmap/identity.md)
-  * [🏗 Network Infrastructure](updates/roadmap/network-infrastructure.md)
-  * [☄ Cosmos and Web 3.0](updates/roadmap/cosmos-and-web-3.0.md)
-* [🗓 Changelog](updates/changelog/README.md)
-  * [2⃣ 2022 Changelog](updates/changelog/2022-changelog.md)
-  * [1⃣ 2021 Changelog](updates/changelog/2021-changelog.md)
-
-## Standards
-
-* [ℹ Network & Token information](standards/README.md)
-* [🤓 Technical standards and interop profile](standards/technical-standards-and-interop-profile.md)
+* [✅ cheqd Toolbox](products/verifiable-credentials/README.md)
+  * [Veramo SDK for cheqd](products/cheqd-toolbox/veramo-sdk/README.md)
+  * [AnonCreds on cheqd](products/cheqd-toolbox/anoncreds-on-cheqd/README.md)
+  * [Aries Framework JavaScript for cheqd](products/cheqd-toolbox/anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md)
+  * [DID & DID-Linked Resources Resolver](products/verifiable-credentials/resolve-cheqd-dids-and-resources.md)
+  * [cheqd Wallet](products/cheqd-toolbox/cheqd-wallet/README.md)
 
 ## 🆘 Support
 

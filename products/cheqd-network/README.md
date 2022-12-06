@@ -8,18 +8,18 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 
 | User                           | Capability                                                                                     | Link                                                                                                                                                                                                                                                                                                                                        |
 | ------------------------------ | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **General user**               | I want to hold and stake CHEQ tokens, join the community and participate in network governance | <p><a href="https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation">Learn about staking</a><br><br><a href="https://learn.cheqd.io/getting-set-up-on-cheqd/how-to-stake">How to stake and delegate practically</a></p>                                                                               |
-| **General technical user**     | I want to write content or resources to the cheqd network                                      | <p><a href="https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations">Create DIDs on cheqd with Veramo SDK</a><br><br><a href="https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/create-a-resource">Create resources on cheqd with Veramo SDK</a></p> |
+| **General user**               | I want to hold and stake CHEQ tokens, join the community and participate in network governance | </a></p> [Learn about staking](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation)</a></p> [How to stake and delegate practically](https://learn.cheqd.io/getting-set-up-on-cheqd/how-to-stake)</a></p>                                                                               |
+| **General technical user**     | I want to write content or resources to the cheqd network                                      | [Create DIDs on cheqd with Veramo SDK](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations)</a></p> [Create resources on cheqd with Veramo SDK](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/create-a-resource)</a></p> |
 | **Investor**                   | I want to understand how CHEQs short and long term tokenomics affect me                        | [cheqd Tokenomics](https://learn.cheqd.io/overview/tokenomics)                                                                                                                                                                                                                                                                              |
 | **cheqd partner or developer** | I want to setup a node on the cheqd Network                                                    | [Setting up a new cheqd node](https://docs.cheqd.io/node/docs/setup-and-configure)                                                                                                                                                                                                                                                          |
 
 ### General network resources
 
 1. [Learn about cheqd](https://learn.cheqd.io/)
-2. [cheqd Network Pricing](../../product-essentials/suite/cheqd-pricing.md)
+2. [cheqd Network Pricing](../../product-essentials/why-cheqd/cheqd-pricing.md)
 3. [Block Explorer](https://explorer.cheqd.io/)
 4. [Dashboard for managing CHEQ tokens](https://cheqd.omniflix.co/)
-5. [Stake and delegate CHEQ tokens](https://app.gitbook.com/o/-MiQSPMufVJdYEwQHd2c/s/vFD59OFvvoxQacSSpE1X/)
+5. [Stake and delegate CHEQ tokens](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation)
 6. [Vote on cheqd Proposals](https://learn.cheqd.io/getting-set-up-on-cheqd/how-to-vote)
 7. [Governance forum](https://commonwealth.im/cheqd)
 
@@ -50,7 +50,3 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 ### Exploratory integration and inbounds
 
 1. [Contact partnership team](mailto://partnerships@cheqd.io)
-
-
-
-###
