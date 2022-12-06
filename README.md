@@ -48,22 +48,22 @@ We are constantly developing our product in different ways - we have broken down
 
 This work goes beyond purely identity - as we also want to **make it easy** for **non-identity** companies, consortiums and consultancies to begin using the cheqd product and network.
 
-{% content-ref url="updates/roadmap/identity.md" %}
-[identity.md](updates/roadmap/identity.md)
+{% content-ref url="product-essentials/roadmap/identity.md" %}
+[identity.md](product-essentials/roadmap/identity.md)
 {% endcontent-ref %}
 
-{% content-ref url="updates/roadmap/network-infrastructure.md" %}
-[network-infrastructure.md](updates/roadmap/network-infrastructure.md)
+{% content-ref url="product-essentials/roadmap/network-infrastructure.md" %}
+[network-infrastructure.md](product-essentials/roadmap/network-infrastructure.md)
 {% endcontent-ref %}
 
-{% content-ref url="updates/roadmap/cosmos-and-web-3.0.md" %}
-[cosmos-and-web-3.0.md](updates/roadmap/cosmos-and-web-3.0.md)
+{% content-ref url="product-essentials/roadmap/cosmos-and-web-3.0.md" %}
+[cosmos-and-web-3.0.md](product-essentials/roadmap/cosmos-and-web-3.0.md)
 {% endcontent-ref %}
 
-If you want to explore what we have **already released** in our latest software updates, have a look at the **Changelog**:
+If you want to explore what we have **already released** in our latest software updates, have a look at the **cheqd Network Changelog**:
 
-{% content-ref url="updates/changelog/" %}
-[changelog](updates/changelog/)
+{% content-ref url="products/cheqd-network/changelog/" %}
+[changelog](products/cheqd-network/changelog/)
 {% endcontent-ref %}
 
 ## Standards
@@ -72,12 +72,8 @@ Building cheqd's product and network in line with formal technical standards is 
 
 We have also Open Sourced all our Product work, so our partners and community can test, remix and extend the work in their own environments.
 
-{% content-ref url="standards/" %}
-[standards](standards/)
-{% endcontent-ref %}
-
-{% content-ref url="standards/technical-standards-and-interop-profile.md" %}
-[technical-standards-and-interop-profile.md](standards/technical-standards-and-interop-profile.md)
+{% content-ref url="product-essentials/technical-standards-and-interop-profile.md" %}
+[technical-standards-and-interop-profile.md](product-essentials/technical-standards-and-interop-profile.md)
 {% endcontent-ref %}
 
 {% embed url="https://github.com/cheqd" %}

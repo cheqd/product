@@ -9,33 +9,35 @@
   * [⚖ Benchmarking cheqd vs. Hyperledger Indy](product-essentials/suite/benchmarking-cheqd-vs.-hyperledger-indy.md)
   * [🚀 What can I do now on cheqd?](product-essentials/suite/now-next-and-future.md)
   * [❓ When should I consider using an SSI solution?](product-essentials/suite/when-should-i-consider-using-dids.md)
-* [📚 Learn about cheqd](product-essentials/learn-about-cheqd.md)
+* [🗺 Roadmap](product-essentials/roadmap/README.md)
+  * [🆔 Identity](product-essentials/roadmap/identity.md)
+  * [🏗 Network Infrastructure](product-essentials/roadmap/network-infrastructure.md)
+  * [☄ Cosmos and Web 3.0](product-essentials/roadmap/cosmos-and-web-3.0.md)
+* [🤓 Technical standards and interop profile](product-essentials/technical-standards-and-interop-profile.md)
 
 ## Products
 
 * [🛤 cheqd Network](products/cheqd-network/README.md)
-  * [cheqd Network Explorer](https://explorer.cheqd.io/)
-  * [cheqd Demo Wallet](https://wallet.cheqd.io/)
-* [✅ cheqd Toolbox: Integrate with cheqd](products/verifiable-credentials/README.md)
+  * [ℹ Network & Token information](products/cheqd-network/standards.md)
+  * [📊 Network monitoring](products/cheqd-network/network-monitoring/README.md)
+    * [Cosmos Data APIs](products/cheqd-network/network-monitoring/cosmos-data-apis.md)
+    * [Validator Status API](products/cheqd-network/network-monitoring/validator-status-api.md)
+    * [Block explorer](products/cheqd-network/network-monitoring/block-explorer.md)
+  * [🛠 Network Tooling](products/cheqd-network/network-tooling.md)
+  * [🗓 Changelog](products/cheqd-network/changelog/README.md)
+    * [2⃣ 2022 Changelog](products/cheqd-network/changelog/2022-changelog/README.md)
+      * [1.0.x (July - December)](products/cheqd-network/changelog/2022-changelog/1.0.x-july-december.md)
+      * [0.6.x (April - July)](products/cheqd-network/changelog/2022-changelog/0.6.x-april-july.md)
+      * [0.5.x (February - March)](products/cheqd-network/changelog/2022-changelog/0.5.x-february-march.md)
+      * [0.4.x (January - February)](products/cheqd-network/changelog/2022-changelog/0.4.x-january-february.md)
+    * [1⃣ 2021 Changelog](products/cheqd-network/changelog/2021-changelog.md)
+* [✅ cheqd Toolbox](products/verifiable-credentials/README.md)
   * [📦 Veramo SDK for cheqd](products/verifiable-credentials/veramo-sdk.md)
   * [🔒 AnonCreds on cheqd](products/verifiable-credentials/anoncreds-on-cheqd/README.md)
     * [📦 Aries Framework JavaScript for cheqd](products/verifiable-credentials/anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md)
   * [🔄 Resolve cheqd DIDs and Resources](products/verifiable-credentials/resolve-cheqd-dids-and-resources.md)
-
-## ⏰ Updates
-
-* [🗺 Roadmap](updates/roadmap/README.md)
-  * [🆔 Identity](updates/roadmap/identity.md)
-  * [🏗 Network Infrastructure](updates/roadmap/network-infrastructure.md)
-  * [☄ Cosmos and Web 3.0](updates/roadmap/cosmos-and-web-3.0.md)
-* [🗓 Changelog](updates/changelog/README.md)
-  * [2⃣ 2022 Changelog](updates/changelog/2022-changelog.md)
-  * [1⃣ 2021 Changelog](updates/changelog/2021-changelog.md)
-
-## Standards
-
-* [ℹ Network & Token information](standards/README.md)
-* [🤓 Technical standards and interop profile](standards/technical-standards-and-interop-profile.md)
+  * [📁 cheqd web-app wallet](products/verifiable-credentials/cheqd-web-app-wallet/README.md)
+    * [🗓 Changelog](products/verifiable-credentials/cheqd-web-app-wallet/changelog.md)
 
 ## 🆘 Support
 
