@@ -16,6 +16,8 @@ Being able to upload existing QR codes to the cheqd wallet is a huge feature, si
 
 This is a great way of demonstrating the power of Verifiable Credentials, since the validity of the ticket can be verified through cryptographic trust.
 
+![Credential JSON preview](../../../../.gitbook/assets/wallet-json-cred-preview-sml.png)
+
 ### Combining tickets with a social media proof
 
 We have added the way to share and present multiple credentials together; including event tickets in combination with a credential you can get from authenticating with a social media platform. This is powerful because it can combine trust from multiple sources into one overarching QR-code proof, and importantly, this combined proof can be verified.
