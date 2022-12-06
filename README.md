@@ -12,7 +12,6 @@ cheqd's identity product consists of an **enterprise blockchain** **network** an
 
 The [cheqd network](https://explorer.cheqd.io/) is a Cosmos SDK-based blockchain that facilitates the exchange of trusted, verifiable data _off-chain_ ([Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)), using _on-chain_ identifiers ([Decentralised Identifiers 'DIDs'](https://www.w3.org/TR/did-core/)) to authenticate the verifiable data.&#x20;
 
-
 > This technology is called **"Self-Sovereign Identity"** and has since been labelled **"Web5"**.
 
 ## Learning the basics
@@ -49,10 +48,9 @@ If you want to explore what we have **already released** in our latest software 
 
 Building cheqd's product and network in line with formal technical standards is vital to ensure interoperability and to avoid vendor-lock-in. As such, we believe it is important to transparently lay out the technical standards and components of our network, token and identity functionality.
 
-We have also Open Sourced all our Product work, so our partners and community can test, remix and extend the work in their own environments. 
+We have also Open Sourced all our Product work, so our partners and community can test, remix and extend the work in their own environments.
 
 > [Find out about technical standards and Interoperability](product-essentials/technical-standards-and-interop-profile.md)
-
 
 ## Support
 
