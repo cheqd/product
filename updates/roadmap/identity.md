@@ -37,7 +37,7 @@ Easily digestible and clear documentation is crucial for giving cheqd's partners
 ### DID Resolver
 
 * [x] Full DID Resolver: Completed
-* [ ] Light DID Resolver: Ongoing
+* [ ] Light DID Resolver: Ongoing - Q3/4 expected release
 * [x] Universal Resolver: Completed&#x20;
 
 After we released our [cheqd DID method in 2021](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
@@ -100,7 +100,7 @@ This will enable compatibility between Credential types in a way far greater tha
 
 ### cheqd Revocation Registry
 
-* [ ] Status: Ongoing
+* [ ] Status: Ongoing - Q3 expected release
 
 Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.
 
@@ -179,7 +179,7 @@ By accommodating for JSON, JSON-LD and AnonCreds, cheqd provides a unique platfo
 ### Unified API for multiple credential formats & exchange protocols
 
 * [x] Veramo SDK for JSON: Completed
-* [ ] Aries based SDKs supporting cheqd: Ongoing
+* [ ] Aries based SDKs supporting cheqd: Backlog
 * [ ] API routing logic and rules: Backlog
 
 Achieving support for multiple Verifiable Credential standards using a Routing Layer into multiple SDKs would help enterprises consume Credentials from multiple sources. The SSI community is currently split between different factions - Hyperledger Indy applications cannot communicate with W3C-based applications, and vice versa.
@@ -196,9 +196,9 @@ This type of interoperability is similar to how Visa, Mastercard and Amex can al
 
 ## Payment rails
 
-* [ ] Verifier-pays-issuer: Backlog
-* [ ] Holder-pays issuer: Backlog
-* [ ] Verifier-pays-holder: Backlog
+* [ ] Verifier-pays-issuer: Backlog - Q4 expected release
+* [ ] Holder-pays issuer: Backlog - Q4 expected release
+* [ ] Verifier-pays-holder: Backlog - Q4 expected release
 
 As laid out in much of our content, payment rails for Verifiable Credentials and customisable commercial models is a fundamental goal and objective of the cheqd project.
 

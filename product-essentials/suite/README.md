@@ -18,7 +18,7 @@ This enables cheqd wants to create **commercially viable SSI ecosystems** throug
 
 ### 🆔 Identity the _**right**_ way
 
-With cheqd network, [you can already](../../products/cheqd-network/changelog/):
+With cheqd network, [you can already](../../updates/changelog/):
 
 * Anchor [W3C Decentralised Identifiers](https://www.w3.org/TR/did-core/)(DIDs) with complete [DID Documents](https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/what-is-a-did-document)
 * Issue & verify [JSON based JWT](https://www.w3.org/TR/vc-data-model/#json) credentials, secured by cheqd DIDs

@@ -1,6 +1,4 @@
-# ✅ cheqd Toolbox
-
-## Summary
+# ✅ cheqd Toolbox: Integrate with cheqd
 
 cheqd has created simple tooling to enable third parties to create DIDs and resources, issue and verify Verifiable Credentials, using cheqd DIDs, DID Documents and Schemas.
 
@@ -11,10 +9,6 @@ This will be useful for:
 | **SSI vendor**            | I want to integrate cheqd into my identity applications and help determine the technical direction of the network |
 | **Client / End customer** | I want to use cheqd Network and a software integration to develop an SSI use case                                 |
 | **Web 3.0 vendor**        | I want to integrate identity functionality into my own Web 3.0 ecosystem                                          |
-
-## Contents
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Veramo SDK for cheqd</strong></td><td>Integrate with our enterprise-ready SDK for creating and managing DIDs, DID-Linked Resources and Verifiable Credentials</td><td></td><td><a href="veramo-sdk.md">veramo-sdk.md</a></td><td><a href="../../.gitbook/assets/Veramo SDK for cheqd.jpg">Veramo SDK for cheqd.jpg</a></td></tr><tr><td><strong>AnonCreds on cheqd</strong></td><td>Understand how cheqd supports AnonCreds natively on-ledger and in supported SDKs</td><td></td><td><a href="anoncreds-on-cheqd/">anoncreds-on-cheqd</a></td><td><a href="../../.gitbook/assets/AnonCreds on cheqd.jpg">AnonCreds on cheqd.jpg</a></td></tr><tr><td><strong>Resolve cheqd DIDs and Resources</strong></td><td>Understand how cheqd's DID resolver is set up for trusting DIDs and DID-Linked Resources, and how to run an instance.</td><td></td><td><a href="resolve-cheqd-dids-and-resources.md">resolve-cheqd-dids-and-resources.md</a></td><td><a href="../../.gitbook/assets/identifier for business.jpg">identifier for business.jpg</a></td></tr><tr><td><strong>cheqd web-app wallet</strong></td><td>Try out or spin up our demo web-app wallet and get your first Verifiable Credential</td><td></td><td><a href="cheqd-web-app-wallet/">cheqd-web-app-wallet</a></td><td><a href="../../.gitbook/assets/cheqd wallet.png">cheqd wallet.png</a></td></tr></tbody></table>
 
 ## Choose a software stack to suit your needs
 
@@ -46,3 +40,18 @@ Below is a comparison between our two initial supported SDKs, Veramo SDK for che
 | **DIF Presentation Exchange**                                                                                                                            |          ✔️          |                   ❌                  |
 | **Aries Present Proof**                                                                                                                                  |           ❌          |                  ✔️                  |
 
+
+
+## Contents
+
+{% content-ref url="veramo-sdk.md" %}
+[veramo-sdk.md](veramo-sdk.md)
+{% endcontent-ref %}
+
+{% content-ref url="anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md" %}
+[aries-framework-javascript-for-cheqd.md](anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md)
+{% endcontent-ref %}
+
+{% content-ref url="resolve-cheqd-dids-and-resources.md" %}
+[resolve-cheqd-dids-and-resources.md](resolve-cheqd-dids-and-resources.md)
+{% endcontent-ref %}

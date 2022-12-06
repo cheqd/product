@@ -4,7 +4,7 @@
 
 In November 2021, [we released the cheqd mainnet](https://blog.cheqd.io/weve-launched-a-token-incentivised-network-built-on-cosmos-for-self-sovereign-identity-5e611da132a5) with the support of our wide range of partners.
 
-![cheqd mainnet launch partners](<../../../.gitbook/assets/mainnet-launch-partners (1).png>)
+![cheqd mainnet launch partners](<../../.gitbook/assets/mainnet-launch-partners (1).png>)
 
 cheqd was always meant to be designed with decentralised identity at its core. As such, this release is where we implemented our foundational identity functionality.
 

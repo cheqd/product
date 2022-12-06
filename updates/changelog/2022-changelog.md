@@ -1,6 +1,6 @@
-# 0.5.x (February - March)
+# 2⃣ 2022 Changelog
 
-## Context
+## v0.5.0: Improved DID functionality
 
 This new node version is intended to enhance functionality currently available on v0.4.x. The upgrade to v0.5.x will be a breaking change that introduces new routes, fixes a few technical debt issues identified and overall offers significant enhancements to the identity functionality and security of the network.
 
@@ -14,7 +14,7 @@ This new node version is intended to enhance functionality currently available o
 
 Our [did:cheqd Decentralized Identifier (DID)](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method) method provides a unique identification number for a DID Subject. This can be thought of in a very similar way to traditional bank cards. (Note: While the example of a bank card is used here, DIDs on ledger are typically written for companies, not individuals.)
 
-![DIDs are similar to bank cards](../../../../.gitbook/assets/dids-as-bank-card.png)
+![DIDs are similar to bank cards](../../.gitbook/assets/dids-as-bank-card.png)
 
 Within a bank card, different sections of the card identify different actors, such as the Network, Issuer ID and a Unique Account Number - and when put together, you have a complete card number. DIDs are similar, in the sense that different components of the DID mean different things:
 
@@ -134,3 +134,43 @@ Previously, in this field, we were generating a hash from the transaction itself
 This is important because the DIDDoc `versionId` can now be retrieved right after the creation of the DID, with the DID now more easily searchable on a Block Explorer. Previously, we needed to create the DID, _then_ ask it to create version ID, then update.
 
 This update streamlines the process and makes it more efficient.
+
+## v0.4.1: Simplified Docker setup and stability improvements (February 2021)
+
+Our [packaged releases](https://github.com/cheqd/cheqd-node/releases) are currently compiled and tested for `Ubuntu 20.04 LTS`, which is the recommended operating system for installation using Debian package or binaries.
+
+For other operating systems, we needed to provide an alternative approach. Therefore, this point release was initiated which offers a [pre-built Docker image releases for `cheqd-node`](https://github.com/orgs/cheqd/packages?repo\_name=cheqd-node).
+
+### Changelog
+
+* Docker Compose Easy Setup ([#250](https://github.com/cheqd/cheqd-node/pull/250))
+* Add euox pipefail check for bash scripts ([#266](https://github.com/cheqd/cheqd-node/pull/266))
+* Test for positive case of upgrade process ([#268](https://github.com/cheqd/cheqd-node/pull/268))
+* Refactor Debian package installer to handle upgrade scenarios better ([#279](https://github.com/cheqd/cheqd-node/pull/279)) (Andrew Nikitin)
+* Unified network configuration generation ([#267](https://github.com/cheqd/cheqd-node/pull/267))
+* Further docker, tests improvements ([#280](https://github.com/cheqd/cheqd-node/pull/280))
+* Updated recommended docker image version
+* Revert fastsync version to `v0` ([#256](https://github.com/cheqd/cheqd-node/pull/256))
+* Fix small errors around postpurge script
+
+**Full changelog**: [cheqd-node v0.4.1 release notes](https://github.com/cheqd/cheqd-node/releases/tag/v0.4.1) on GitHub
+
+## v0.4.0: Stability improvements after mainnet launch (January 2021)
+
+This software upgrade proposal upgraded the version of cheqd-node software on our mainnet from v0.3.1, to v0.4.x.
+
+Following the successful release of our mainnet in November 2021, we wanted to fast-follow with a some immediate improvements we felt necessary for the cheqd network.
+
+This new node version is intended to enhance functionality currently available on v0.3.1. The upgrade to v0.4.x will be a breaking change that introduces new routes, plus fixes a few technical debt issues identified in the v0.3.x branch.
+
+### Changelog
+
+* Bumped Cosmos SDK version from v0.44.3 to v0.44.5
+* Update DID operations in version v0.3.1 did not carry out a check on the keys used to authenticate the transaction.
+  * In essence, this meant that any update DID operation could incorrectly update a DID or its associated DIDDoc. This has now been fixed.
+* Switched build system from using Starport to using Makefiles.
+  * This gives greater control for future improvements and optimisation in adding support for other operating systems, database backends etc.
+* The node software binary has now been compiled with support for Ledger hardware wallet devices for key storage.
+* REST/gRPC endpoints for querying DIDs have been added. Documentation will be added to explain how these endpoints work.
+
+**Full changelog**: [cheqd-node v0.4.0 release notes](https://github.com/cheqd/cheqd-node/releases/tag/v0.4.0) on GitHub
