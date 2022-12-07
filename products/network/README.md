@@ -45,7 +45,7 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 ### Integrating with cheqd: cheqd Toolbox
 
 1. [cheqd Toolbox](tooling/README.md)
-2. [Contact product team](mailto://product.cheqd.io)
+2. Contact product team on product.cheqd.io.
 
 ### Exploratory integration and inbounds
 
