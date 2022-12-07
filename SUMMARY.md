@@ -5,21 +5,20 @@
 ## Product Essentials
 
 * [🟢 Why cheqd?](product-essentials/suite/README.md)
-  * [cheqd Network](products/cheqd-network/README.md)
-  * [cheqd Toolbox](products/cheqd-toolbox/README.md)
-  * [cheqd-pricing.md](product-essentials/why-cheqd/cheqd-pricing.md)
-  * [How we compare to Indy](product-essentials/why-cheqd/benchmarking-cheqd-vs.-hyperledger-indy.md)
-  * [cheqd Mission - why identity needs a token](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
+  * [Network](products/cheqd-network/README.md)
+  * [Apps & SDKs](products/cheqd-toolbox/README.md)
+  * [Pricing](product-essentials/why-cheqd/cheqd-pricing.md)
+  * [Comparison to Hyperledger Indy](product-essentials/why-cheqd/benchmarking-cheqd-vs.-hyperledger-indy.md)
+  * [Our mission](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
 * [🗺 Roadmap](product-essentials/roadmap/README.md)
 
 ## Products
 
 * [🛤 cheqd Network](products/cheqd-network/README.md)
-  * [cheqd Network Explorer](products/cheqd-network/network-monitoring/cheqd-block-explorer.md)
-  * [Network monitioring](products/cheqd-network/network-monitoring/README.md)
-  * [Network tooling](products/cheqd-network/network-tooling/README.md)
-  * [Network upgrades](products/cheqd-network/network-upgrades/README.MD)
-
+  * [Block Explorer](products/cheqd-network/network-monitoring/cheqd-block-explorer.md)
+  * [Network monitoring](products/cheqd-network/network-monitoring/README.md)
+  * [Infrastructure](products/cheqd-network/network-tooling/README.md)
+  * [Changelog](products/cheqd-network/network-upgrades/README.MD)
 * [✅ cheqd Toolbox](products/verifiable-credentials/README.md)
   * [Veramo SDK for cheqd](products/cheqd-toolbox/veramo-sdk/README.md)
   * [AnonCreds on cheqd](products/cheqd-toolbox/anoncreds-on-cheqd/README.md)

@@ -41,7 +41,7 @@ Check this out below:
 
 * [x] Tool for converting Cosmos addresses in bulk: Completed
 
-Our cross-chain address convertor is able to bulk compute the equivalent cross-chain addresses from *any* Cosmos network to another extremely quickly (100k+ addresses in few minutes instead of many hours). We built this to enable computation across cross-chain entries for our airdrops.
+Our cross-chain address convertor is able to bulk compute the equivalent cross-chain addresses from _any_ Cosmos network to another extremely quickly (100k+ addresses in few minutes instead of many hours). We built this to enable computation across cross-chain entries for our airdrops.
 
 Want to leverage this for your project? Find out more in the link below:
 
