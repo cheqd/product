@@ -52,7 +52,7 @@ This is valuable to ensure the network runs smoothly & any security vulnerabilit
 
 ### Cloudflare Teams: Role Management (SSH)
 
-When managing a network it’s important that those building it can gain access when they need it. For this we’ve been using [Cloudflare Teams](https://blog.cloudflare.com/introducing-cloudflare-for-teams/) to SSH into one of our nodes.
+When managing a network it’s important that those building it can gain access when they need it. For this we’ve been using [Cloudflare Teams (AKA Cloudflare Zero Trust)](https://www.cloudflare.com/en-gb/products/zero-trust/) to SSH into one of our nodes.
 
 SSH ([Secure Shell](https://www.ssh.com/academy/ssh)) is a communication protocol that enables two computers to communicate by providing password or public-key based authentication and encrypted connections between two network endpoints
 
