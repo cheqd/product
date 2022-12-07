@@ -33,7 +33,7 @@ When combining the existing packages provided by the Veramo SDK with some native
 * [**Issue JSON** Verifiable Presentations (VPs) with **JWT** proof format](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-presentations)
 * [**Verify JSON** Verifiable Credentials (VPs) with **JWT** proof format](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-presentations/verify-presentation)
 
-With the additional [**Resource module**](https://docs.cheqd.io/identity/ledger-resources/resources) recently applied to the cheqd ledger, AnonCreds will also be possible through the [cheqd/sdk](https://github.com/cheqd/sdk) which the Veramo SDK for cheqd uses.&#x20;
+With the additional [**Resource module**](https://docs.cheqd.io/identity/tutorials/on-ledger-resources) recently applied to the cheqd ledger, AnonCreds will also be possible through the [cheqd/sdk](https://github.com/cheqd/sdk) which the Veramo SDK for cheqd uses.&#x20;
 
 ## Architecture
 
@@ -53,4 +53,4 @@ The `@cheqd/sdk` package adds Cosmos SDK specific functionality such as signing 
 
 For identity-related keys, this plugin uses [Veramo's Key Management System (KMS)](https://www.npmjs.com/package/@veramo/key-manager) to manage keys for create and update operations.
 
-Find out about [other Veramo plug-ins in their official documentation](https://veramo.io/docs/veramo\_agent/plugins/).
+Find out about [other Veramo plug-ins in their official documentation](https://veramo.io/docs/veramo_agent/plugins).

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Cosmos SDK offers [APIs for built-in modules using gRPC, REST, and Tendermint RPC](https://docs.cosmos.network/main/core/grpc\_rest.html). This project aims to provide simple REST APIs for data that default Cosmos SDK APIs can't provide.
+Cosmos SDK offers [APIs for built-in modules using gRPC, REST, and Tendermint RPC](https://docs.cosmos.network/v0.47/core/grpc_rest#comparison-table). This project aims to provide simple REST APIs for data that default Cosmos SDK APIs can't provide.
 
 This collection of custom APIs can be deployed as a [Cloudflare Worker](https://workers.cloudflare.com/) or compatible serverless platforms.
 
@@ -20,7 +20,7 @@ _Just_ total supply of tokens, in main token denomination (CHEQ instead of `nche
 
 Cryptocurrency tracking websites such as [CoinMarketCap](https://coinmarketcap.com/currencies/cheqd/) and [CoinGecko](https://www.coingecko.com/en/coins/cheqd-network) require an API endpoint for reporting the total supply of tokens in the main/primary token denomination.
 
-While this figure is available from Cosmos SDK's built-in [`/cosmos/bank/v1beta1/supply/ncheq`](https://api.cheqd.net/cosmos/bank/v1beta1/supply/ncheq) REST endpoint, this returns a JSON object in the lowest token denomination, which cannot be parsed by CoinMarketCap / CoinGecko.
+While this figure is available from Cosmos SDK's built-in `/cosmos/bank/v1beta1/supply/ncheq` REST endpoint, this returns a JSON object in the lowest token denomination, which cannot be parsed by CoinMarketCap / CoinGecko.
 
 ### Circulating Supply API
 
@@ -66,7 +66,7 @@ Tokens that are still vesting for continuous/delayed vesting accounts, in CHEQ.
 
 #### Rationale
 
-There is no Cosmos SDK API that returns balances that are yet to be vested for [continuous or delayed vesting accounts](https://docs.cosmos.network/v0.45/modules/auth/05\_vesting.html#vesting-account-types).
+There is no Cosmos SDK API that returns balances that are yet to be vested for [continuous or delayed vesting accounts](https://docs.cosmos.network/v0.45/modules/auth/05_vesting.html#vesting).
 
 ### Vested Account Balance
 
@@ -80,7 +80,7 @@ Tokens that have already vested for continuous/delayed vesting accounts, in CHEQ
 
 #### Rationale
 
-There is no Cosmos SDK API that returns balances that are already vested for [continuous or delayed vesting accounts](https://docs.cosmos.network/v0.45/modules/auth/05\_vesting.html#vesting-account-types).
+There is no Cosmos SDK API that returns balances that are already vested for [continuous or delayed vesting accounts](https://docs.cosmos.network/v0.45/modules/auth/05_vesting.html#vesting).
 
 ### Liquid Account Balance
 
@@ -94,7 +94,7 @@ Tokens in continuous/delayed vesting accounts that can be converted to liquid ba
 
 #### Rationale
 
-Tokens in [continuous or delayed vesting accounts](https://docs.cosmos.network/v0.45/modules/auth/05\_vesting.html#vesting-account-types) that can be converted to liquid balances. This is calculated as the sum of the following figures:
+Tokens in [continuous or delayed vesting accounts](https://docs.cosmos.network/v0.45/modules/auth/05_vesting.html#vesting) that can be converted to liquid balances. This is calculated as the sum of the following figures:
 
 1. "Delegated free" balance (from the `/cosmos/auth/v1beta1/accounts/<address>` REST API) _or_ vested balance, whichever is higher
 2. "Available" balance (if applicable)
@@ -127,7 +127,7 @@ Returns current price of CHEQ token among different markets along with an evalua
 
 #### Rationale
 
-The CHEQ token trades on multiple markets/exchanges (e.g., [Osmosis](https://app.osmosis.zone/), [Gate.io](https://www.gate.io/trade/CHEQ\_USDT), [BitMart](https://www.bitmart.com/trade/en?layout=basic\&symbol=CHEQ\_USDT), [LBank](https://www.lbank.info/exchange/cheq/usdt), [Uniswap](https://app.uniswap.org/#/swap?inputCurrency=0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7\&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&chain=mainnet)). This is typically established as CHEQ along with another token pair or currency.
+The CHEQ token trades on multiple markets/exchanges (e.g., [Osmosis](https://app.osmosis.zone/), [Gate.io](https://www.gate.io/trade/CHEQ_USDT), [BitMart](https://www.bitmart.com/trade/en?layout=basic\&symbol=CHEQ\_USDT), [LBank](https://www.lbank.info/exchange/cheq/usdt), [Uniswap](https://app.uniswap.org/#/swap?inputCurrency=0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7\&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&chain=mainnet)). This is typically established as CHEQ along with another token pair or currency.
 
 Fluctuations in the exchange rate between CHEQ and other tokens pairs can give rise to opportunities for arbitrage. Having a significant market arbitrage among different exchanges creates a [market inefficiencies](https://www.investopedia.com/terms/i/inefficientmarket.asp). Extreme market inefficiencies result [market failure](https://www.investopedia.com/terms/m/marketfailure.asp) and [deadweight loss](https://www.investopedia.com/terms/d/deadweightloss.asp).
 

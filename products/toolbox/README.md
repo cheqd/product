@@ -41,17 +41,3 @@ Below is a comparison between our two initial supported SDKs, Veramo SDK for che
 | **Issue Credential Protocol V2 (**[**RFC 0453**](https://github.com/hyperledger/aries-rfcs/blob/master/features/0453-issue-credential-v2/README.md)**)** |           ❌          |                  ✔️                  |
 | **DIF Presentation Exchange**                                                                                                                            |          ✔️          |                   ❌                  |
 | **Aries Present Proof**                                                                                                                                  |           ❌          |                  ✔️                  |
-
-## Contents
-
-{% content-ref url="veramo-sdk.md" %}
-[veramo-sdk.md](veramo-sdk.md)
-{% endcontent-ref %}
-
-{% content-ref url="anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md" %}
-[aries-framework-javascript-for-cheqd.md](anoncreds-on-cheqd/aries-framework-javascript-for-cheqd.md)
-{% endcontent-ref %}
-
-{% content-ref url="resolve-cheqd-dids-and-resources.md" %}
-[resolve-cheqd-dids-and-resources.md](resolve-cheqd-dids-and-resources.md)
-{% endcontent-ref %}
