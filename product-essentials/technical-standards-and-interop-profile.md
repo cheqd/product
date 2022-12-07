@@ -10,7 +10,7 @@
 | DID resolver                                     | cheqd DID resolver                                                              | [cheqd/cheqd-did-resolver](https://github.com/cheqd/cheqd-did-resolver)                                              |
 | Universal resolver driver                        | cheqd DID resolver                                                              | [Universal Resolver drivers](https://github.com/decentralized-identity/universal-resolver)                           |
 | Schemas                                          | Schemas represented by DID URLs with DID Documents that dereference to a schema | See [ADR 002: On-ledger Resources](https://docs.cheqd.io/identity/architecture/adr-list/adr-002-on-ledger-resources) |
-| DID-Linked Resources                             | Resources able to be anchored on cheqd and linked to a DID URL                  | [Understanding on-ledger resurces](https://docs.cheqd.io/identity/guides/resources)                                  |
+| DID-Linked Resources                             | Resources able to be anchored on cheqd and linked to a DID URL                  | [Understanding on-ledger resurces](https://docs.cheqd.io/identity/guides/did-linked-resources)                                 |
 
 ## Using Verifiable Credentials with cheqd in different SDKs
 

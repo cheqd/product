@@ -16,7 +16,7 @@ This enables cheqd wants to create **commercially viable SSI ecosystems** throug
 
 ### 🆔 Identity the _**right**_ way
 
-With cheqd network, [you can already](../../updates/changelog/):
+With cheqd network, you can already:
 
 * Anchor [W3C Decentralised Identifiers](https://www.w3.org/TR/did-core/)(DIDs) with complete [DID Documents](https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/what-is-a-did-document)
 * Issue & verify [JSON based JWT](https://www.w3.org/TR/vc-data-model/#json) credentials, secured by cheqd DIDs
@@ -73,8 +73,6 @@ Through our payment rails, new business and revenue models for participants in t
 * As a token holder, [**with our easy to use governance dashboard**](https://commonwealth.im/cheqd/) **** you can vote on key governance decisions, such as whether the network should be improved in the way the core team has suggested, and even decide on how the [network Community Pool](https://gov.cheqd.io/contributing/community-pool) is used
 * You are able to easily propose a new on-chain proposal with a deposit of 8000 $CHEQ using our [governance forum](https://commonwealth.im/cheqd)
 * As an interested community member, you can use our [off-chain governance forum](https://commonwealth.im/cheqd) to propose changes and engage in discussion with the rest of the cheqd community without needing tokens
-
-{% embed url="https://gov.cheqd.io/" %}
 
 ### 🌎 **Community Pool**
 
