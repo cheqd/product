@@ -57,10 +57,6 @@ MD022: true
 # Headings must start at the beginning of the line <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md023>
 MD023: true
 
-# Multiple headings with the same content <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md024>
-MD024:
-  allow_different_nesting: true
-
 # Multiple top level headings in the same document <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md025>
 MD025: false
 
