@@ -12,4 +12,6 @@ In the recent months AFJ has heavily been expanding into a more modular and "les
 
 ### Watch our demo video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PkAJe2ayaJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> [cheqd x AnonCreds demo](https://www.youtube.com/watch?v=8ERjaB6iP48)
+
+![cheqd AnonCreds demo video](../../../.gitbook/assets/cheqd%20anoncreds%20demo.png)
