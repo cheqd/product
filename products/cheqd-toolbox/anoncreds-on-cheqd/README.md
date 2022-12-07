@@ -41,8 +41,6 @@ This mimics how DID Document representation is able to support multiple differen
 
 In September cheqd partnered co-hosted a MeetUp with [Animo Solutions](https://animo.id/) at their office in Utrecht as a pre-event for Rebooting the Web of Trust (RWoT) on the 19th September 2022. During this we were able to show a full end-to-end journey of Ankur, cheqd CTO, using AnonCreds. A full recording of the [AnonCreds Indy-pendence MeetUp hosted by Animo on Monday 19-09-2022 is also available](https://www.youtube.com/watch?v=\_a0BrtkkO5A\&t=990s).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8ERjaB6iP48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 [Animo demo of AnonCreds within AFJ](https://www.youtube.com/watch?v=8ERjaB6iP48)
 
 As you’ll see in the video, using a custom version of Animo’s self-sovereign identity demo we were able to showcase:

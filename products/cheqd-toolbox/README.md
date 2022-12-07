@@ -1,4 +1,6 @@
-# ✅ cheqd Toolbox: Integrate with cheqd
+# ✅ cheqd Toolbox
+
+## Integrate with cheqd
 
 cheqd has created simple tooling to enable third parties to create DIDs and resources, issue and verify Verifiable Credentials, using cheqd DIDs, DID Documents and Schemas.
 
