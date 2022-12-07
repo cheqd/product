@@ -14,8 +14,8 @@ To explore our initial roadmap from the beginning of 2022, [please read our blog
 
 We have broken our roadmap down into three sections:
 
-1. [Identity](identity.md)
-2. [Network-infrastructure.md](network-infrastructure.md)
-3. [cosmos-and-web-3.0.md](cosmos-and-web-3.0.md)
+1. [Identity](product-essentials/roadmap/identity.md)
+2. [Network infrastructure](product-essentials/roadmap/network-infrastructure.md)
+3. [Cosmos and Web-3.0](product-essentials/roadmap/cosmos-and-web-3.0.md)
 
 We would love your feedback on our product vision for 2022. We welcome engagement and feedback across a range of different forums, such as our [Community Slack](http://cheqd.link/join-cheqd-slack), [Governance forum](https://commonwealth.im/cheqd), and [Telegram Group](https://t.me/cheqd).

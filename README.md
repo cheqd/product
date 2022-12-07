@@ -12,9 +12,9 @@ This product site will answer this for you.
 
 You'll find out we what offer in a few key pages across the site:
 
-1. [cheqd Network](products/cheqd-network/README.md)
-2. [cheqd Toolbox](products/cheqd-toolbox/README.md)
-3. [cheqd-pricing.md](product-essentials/why-cheqd/cheqd-pricing.md)
+1. [Network](products/cheqd-network/README.md)
+2. [Toolbox](products/cheqd-toolbox/README.md)
+3. [Pricing](product-essentials/why-cheqd/cheqd-pricing.md)
 4. [How we compare to Indy](product-essentials/why-cheqd/benchmarking-cheqd-vs.-hyperledger-indy.md)
 5. [cheqd Mission - why identity needs a token](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
 
@@ -40,7 +40,7 @@ This work goes beyond purely identity - as we also want to **make it easy** for 
 
 If you want to explore what we have **already released** in our latest software upgrades, have a look at our changelogs:
 
-> [cheqd Network Reelase Notes & Changelog](products/cheqd-network/network-upgrades/README.MD)
+> [cheqd Network Release Notes & Changelog](products/cheqd-network/network-upgrades/README.MD)
 
 ## Standards
 
