@@ -112,36 +112,7 @@ Any project using the CosmosSDK and looking to carry out an airdrop or community
 
 We would much rather other projects do not make the same mistakes as we did when we initially started our airdrop process. What we have come away with, in terms of infrastructure and lessons learned, should be an example of the do’s and the not-to-do’s when carrying out a Cosmos based airdrop.
 
-## 4. Useful Cosmos data API’s for developers and product managers
-
-**Github repositories**: [cheqd/data-api](https://github.com/cheqd/data-api)
-
-We found on our journey that there’s a LOT of stuff that we needed APIs for, but couldn’t directly fetch from base Cosmos SDK’s.
-
-As Cosmonauts are well aware of, the CosmosSDK offers APIs for built-in modules using gRPC, REST & Tendermint RPC, however, we noticed a few that it can’t provide, so we built them:
-
-1. Total Supply
-2. Circulating Supply
-3. Vesting Account Balance
-4. Liquid Account Balance
-5. Total Account Balance
-
-This collection of custom APIs can be deployed as a Cloudflare Worker or compatible serverless platforms.
-
-Further specifics about what these APIs mean can be found within our [repository Readme](https://github.com/cheqd/data-api).
-
-**Why is this valuable?**
-
-These APIs are useful for multiple reasons:
-
-1. Applying for listings on exchanges requires many of these APIs upfront
-2. Auditing and analysing the health of a network
-3. Creating forecasts and projections based on network usage
-4. Providing transparency of metrics to the network’s community
-
-Through open sourcing these APIs, we want to provide an easy way for all other Cosmos projects to track these metrics, hugely reducing the time and energy needed to source these metrics from scratch.
-
-## 🔀 Cosmos Cross chain address convertor CLI
+## 4. Cosmos Cross chain address convertor CLI
 
 > **Github repo**[cheqd](https://github.com/cheqd)/[cosmjs-cli-converter](https://github.com/cheqd/cosmjs-cli-converter)
 
