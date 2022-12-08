@@ -14,5 +14,6 @@
         {
           "pattern": "^https://resolver.cheqd.net/"
         }
-    ]
+    ],
+    "retryOn429": true
 }
