@@ -4,14 +4,14 @@
 
 ## Product Essentials
 
-* [🟢 Why cheqd?](product-essentials/why-cheqd/README.md)
+* [🟢 Why cheqd?](essentials/why-cheqd/README.md)
   * [Our mission](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
-  * [Pricing](product-essentials/why-cheqd/pricing.md)
-  * [Comparison to Hyperledger Indy](product-essentials/why-cheqd/cheqd-vs-indy.md)
-* [🗺 Roadmap](product-essentials/roadmap/README.md)
-  * [Identity](product-essentials/roadmap/identity.md)
-  * [Network infrastructure](product-essentials/roadmap/infrastructure.md)
-  * [Cosmos and Web-3.0](product-essentials/roadmap/cosmos-and-web-3.0.md)
+  * [Pricing](essentials/why-cheqd/pricing.md)
+  * [Comparison to Hyperledger Indy](essentials/why-cheqd/cheqd-vs-indy.md)
+* [🗺 Roadmap](essentials/roadmap/README.md)
+  * [Identity](essentials/roadmap/identity.md)
+  * [Network infrastructure](essentials/roadmap/infrastructure.md)
+  * [Cosmos and Web-3.0](essentials/roadmap/cosmos-and-web-3.0.md)
 
 ## Products
 
