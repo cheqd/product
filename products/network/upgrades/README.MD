@@ -2,9 +2,7 @@
 
 ## Context
 
-Within the Product & Engineering team our goal is to release often.
-
-We plan on releasing an on-chain upgrade once per quarter with point releases where required (i.e. no breaking changes) in between.
+Throughout 2022 we released a breaking upgrade roughly once every quarter. Throughout 2023 we intend to continue with this frequency, however releasing non-breaking point releases consistently.
 
 ## Release Timelines
 
@@ -14,5 +12,3 @@ To ensure we upgrade all nodes on the network in the most efficient way whilst m
 - Testnet upgrade
 - Mainnet Upgrade Proposal
 - Mainnet On Chain Upgrade
-
-Coordination in case of upgrade failure will happen on our Community Slack channel and in Discord.
