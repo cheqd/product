@@ -2,7 +2,7 @@
 
 * [Product Overview](README.md)
 
-## Product Essentials
+## 🚀 Product Essentials
 
 * [🟢 Why cheqd?](product-essentials/why-cheqd/README.md)
   * [Our mission](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
@@ -31,13 +31,13 @@
       * [0.5.0](products/network/upgrades/2022/v0.5.0.md)
       * [0.6.0](products/network/upgrades/2022/v0.6.0.md)
       * [0.6.9](products/network/upgrades/2022/v0.6.9.md)
-    * [2023](product/network/upgrades/2023/README.md)
+    * [2023](products/network/upgrades/2023/README.md)
       * [1.0.x](products/network/upgrades/2023/v1.0.x.md)
 * [🧰 cheqd Toolbox](products/toolbox/README.md)
   * [Veramo SDK](products/toolbox/veramo-sdk/README.md)
   * [AnonCreds](products/toolbox/anoncreds/README.md)
   * [Aries Framework JavaScript](products/toolbox/anoncreds/afj-cheqd.md)
-  * [DID Resolver](products/toolbox/resolver)
+  * [DID Resolver](products/toolbox/resolver/README.md)
   * [Wallet](products/toolbox/wallet/README.md)
 
 ## 🆘 Support
