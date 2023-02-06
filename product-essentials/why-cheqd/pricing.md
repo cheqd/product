@@ -24,12 +24,12 @@ For more information on cheqd's Identity Transaction pricing, see our latest Tok
 
 ## Comparison with other networks
 
-| Metric                                       | cheqd Testnet | cheqd Mainnet       | Sovrin StagingNet | Sovrin MainNet | Indicio   |
-| -------------------------------------------- | ------------- | ------------------- | ----------------- | -------------- | --------- |
-| DID writes                                   | Free          | \~$2.00             | $1.00             | $10.00         | $5000 p/a |
-| DID update                                   | Free          | \~$1.00 _(25 CHEQ)_ | $1.00             | $10.00         | $5000 p/a |
-| DID deactivate                               | Free          | \~$0.10 _(25 CHEQ)_ | $1.00             | $10.00         | $5000 p/a |
-| Resource create - Schema writes              | Free          | \~$0.10 _(25 CHEQ)_ | $5.00             | $50.00         | $5000 p/a |
-| Resource create - Revocation registry write  | Free          | \~$0.10 _(25 CHEQ)_ | $2.50             | $25.00         | $5000 p/a |
-| Resource create - Revocation registry write  | Free          | \~$0.10 _(25 CHEQ)_ | $2.00             | $20.00         | $5000 p/a |
-| Resource create - Revocation registry update | Free          | \~$0.10 _(25 CHEQ)_ | $0.01             | $0.10          | $5000 p/a |
+| Metric                                       | cheqd Testnet | cheqd Mainnet        | Sovrin StagingNet | Sovrin MainNet | Indicio   |
+| -------------------------------------------- | ------------- | -------------------- | ----------------- | -------------- | --------- |
+| DID writes                                   | Free          | \~$2.00              | $1.00             | $10.00         | $5000 p/a |
+| DID update                                   | Free          | \~$1.00 _(25 CHEQ)_  | $1.00             | $10.00         | $5000 p/a |
+| DID deactivate                               | Free          | \~$0.10 _(2.5 CHEQ)_ | $1.00             | $10.00         | $5000 p/a |
+| Resource create - Schema writes              | Free          | \~$0.10 _(2.5 CHEQ)_ | $5.00             | $50.00         | $5000 p/a |
+| Resource create - Revocation registry write  | Free          | \~$0.10 _(2.5 CHEQ)_ | $2.50             | $25.00         | $5000 p/a |
+| Resource create - Revocation registry write  | Free          | \~$0.10 _(2.5 CHEQ)_ | $2.00             | $20.00         | $5000 p/a |
+| Resource create - Revocation registry update | Free          | \~$0.10 _(2.5 CHEQ)_ | $0.01             | $0.10          | $5000 p/a |
