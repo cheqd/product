@@ -26,7 +26,7 @@ For more information on cheqd's Identity Transaction pricing, see our latest Tok
 
 | Metric                                       | cheqd Testnet | cheqd Mainnet        | Sovrin StagingNet | Sovrin MainNet | Indicio   |
 | -------------------------------------------- | ------------- | -------------------- | ----------------- | -------------- | --------- |
-| DID writes                                   | Free          | \~$2.00 _(50 CHEQ)_  | $1.00             | $10.00         | $5000 p/a |
+| DID write                                    | Free          | \~$2.00 _(50 CHEQ)_  | $1.00             | $10.00         | $5000 p/a |
 | DID update                                   | Free          | \~$1.00 _(25 CHEQ)_  | $1.00             | $10.00         | $5000 p/a |
 | DID deactivate                               | Free          | \~$0.40 _(10 CHEQ)_  | $1.00             | $10.00         | $5000 p/a |
 | Resource create - Schema writes              | Free          | \~$0.10 _(2.5 CHEQ)_ | $5.00             | $50.00         | $5000 p/a |
