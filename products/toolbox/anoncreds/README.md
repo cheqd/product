@@ -1,4 +1,4 @@
-# 🔒 AnonCreds on cheqd
+# AnonCreds
 
 ## Overview
 
@@ -16,13 +16,15 @@ Release date: **Completed**
 
 To remove Hyperledger Indy specific assumptions and dependencies
 
-Release date: **January 2023**
+Release date: **Completed**
 
-### Phase 3: Full SDK support for AnonCreds on cheqd: February 2023
+### Phase 3: Full SDK support for AnonCreds on cheqd: March/April 2023
 
 To implement ledger-agnostic specification improvements into existing SDKs.
 
-Release date: **March 2023**
+AFJ Release date: **March 2023**
+
+ACA-Py Release date: **Early April 2023**
 
 ## Phase 1: cheqd AnonCreds Object Method
 
@@ -74,7 +76,7 @@ To make cheqd work with AnonCreds, Aries needs to:
 3. Reconstructs the legacy Indy-style identifier using the AnonCreds Object Metadata
 4. Use the Indy-style identifier to verify the AnonCreds credential.
 
-Therefore, technically AnonCreds is currently supported on cheqd, but currently requires multiple extra steps to produce the desired outcome.&#x20;
+Therefore, technically AnonCreds is currently supported on cheqd, but currently requires multiple extra steps to produce the desired outcome.
 
 ## Phase 2: Ledger-agnostic improvements to AnonCreds specification
 
@@ -82,10 +84,10 @@ In order to achieve and unlock full SDK support for AnonCreds on cheqd, it is ne
 
 ### Timeline
 
-* [ ] Update snake case code (Indy specific) to camel case (more commonly used in wider ecosystem): **November 2022**
-* [ ] Specify and differentiate between particular transaction 'requests' and 'inputs' vs the 'responses' and 'outputs': **December 2022**
-* [ ] Include anything method-specific in a request should be included in a metadata section of the response: **January 2023**
-* [ ] Potentially extend transactions that only require 'revRegId' to require both 'revRegDef' and 'revRegEntry' to enable the SDK to understand transactions from ledgers that don't conform to the Indy URL syntax: **January 2023**
+* [x] Update snake case code (Indy specific) to camel case (more commonly used in wider ecosystem): **November 2022**
+* [x] Specify and differentiate between particular transaction 'requests' and 'inputs' vs the 'responses' and 'outputs': **December 2022**
+* [ ] (Optional) Include anything method-specific in a request should be included in a metadata section of the response: **TBC**
+* [ ] (Optional) Potentially extend transactions that only require 'revRegId' to require both 'revRegDef' and 'revRegEntry' to enable the SDK to understand transactions from ledgers that don't conform to the Indy URL syntax: **TBC**
 
 ## Phase 3: Full SDK support for AnonCreds on cheqd
 
@@ -96,8 +98,8 @@ Most of the following can be read within Timo Glastra's blog post - [How the com
 Animo has submitted a proposal which contains specific work items and cost estimates for the following tasks:
 
 * Creating an open-source rust implementation of the ledger-independent AnonCreds specification
-* Implement ledger-independent AnonCreds into Aries Framework JavaScript with support for 'did:indy' and 'did:cheqd'
-* Implement ledger-independent AnonCreds into Aries Cloud Agent Python with support for 'did:indy' and 'did:cheqd'
+* Implement ledger-independent AnonCreds into **Aries Framework JavaScript** with support for 'did:indy' and 'did:cheqd'
+* Implement ledger-independent AnonCreds into **Aries Cloud Agent Python** with support for 'did:indy' and 'did:cheqd'
 
 As of October end, this is €35.000 is funded, with the remaining €61.000 waiting for the final sign-off.
 
@@ -105,7 +107,8 @@ Going forward, cheqd is supporting these efforts. The current implementation of 
 
 ### Timeline
 
-* [ ] Implement cheqd AnonCreds into Aries Framework JavaScript for issuing and verifying AnonCreds with schemas and credential definitions: **February 2023**
-* [ ] Implement cheqd AnonCreds into Aries Cloud Agent Python for issuing and veridying AnonCreds with schemas, credential definitions and full revocation support: **March 2023**
+* [x] Create cheqd DID Registrar within Universal Registrar: **February 2023**
+* [ ] Implement cheqd AnonCreds into Aries Framework JavaScript for issuing and verifying AnonCreds with schemas and credential definitions, using cheqd SDK: **March 2023**
+* [ ] Implement cheqd AnonCreds into Aries Cloud Agent Python for issuing and veridying AnonCreds with schemas, credential definitions and full revocation support, using cheqd DID Registrar: **Early April 2023**
 
 If you're interested in supporting Animo and cheqd's efforts for building Aries Framework Javascript into cheqd, and in turn support for AnonCreds, please reach out to the cheqd Product team at product@cheqd.io.
