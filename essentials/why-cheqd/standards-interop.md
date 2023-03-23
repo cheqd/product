@@ -9,7 +9,7 @@
 | DID method standard                              | DID Core v1.0                                                                   | [Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/did-core/)                                             |
 | DID resolver                                     | cheqd DID resolver                                                              | [cheqd/cheqd-did-resolver](https://github.com/cheqd/cheqd-did-resolver)                                              |
 | Universal resolver driver                        | cheqd DID resolver                                                              | [Universal Resolver drivers](https://github.com/decentralized-identity/universal-resolver)                           |
-| Schemas                                          | Schemas represented by DID URLs with DID Documents that dereference to a schema | See [ADR 002: On-ledger Resources](https://docs.cheqd.io/identity/architecture/adr-list/adr-002-on-ledger-resources) |
+| Schemas                                          | Schemas represented by DID URLs with DID Documents that dereference to a schema | See [ADR 002: On-ledger Resources](https://docs.cheqd.io/identity/architecture/adr-list/adr-002-did-linked-resources) |
 | DID-Linked Resources                             | Resources able to be anchored on cheqd and linked to a DID URL                  | [Understanding on-ledger resurces](https://docs.cheqd.io/identity/guides/did-linked-resources)                                 |
 
 ## Using Verifiable Credentials with cheqd in different SDKs
