@@ -48,7 +48,7 @@ Building cheqd's product and network in line with formal technical standards is 
 
 We have also Open Sourced all our Product work, so our partners and community can test, remix and extend the work in their own environments.
 
-> [Find out about technical standards and Interoperability](essentials/standards-interop.md)
+> [Find out about technical standards and Interoperability](essentials/why-cheqd/standards-interop.md)
 
 ## Support
 
