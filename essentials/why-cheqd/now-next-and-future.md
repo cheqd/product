@@ -35,7 +35,7 @@
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | [Issue and verify JSON based JWT credentials](https://docs.cheqd.io/identity/guides/software-development-kits-sdks/veramo-sdk-for-cheqd)using Veramo SDK | Issue and verify [JSON-LD](https://github.com/cheqd/identity-docs) credential using Veramo SDK | Revocation of Verifiable Credentials using bespoke cheqd revocation mechanism |
 | Hold JWT/JSON Verifiable Credentials in [web-app Wallet](https://wallet.cheqd.io/)                                                                                              | Use Status List 2021 to create a revocation registry and manage revocation statuses            |                                                                               |
-| [Create a Verifiable Presentation](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-presentations) using Veramo SDK          |                                                                                                |                                                                               |
+| [Create a Verifiable Presentation](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verifiable-presentations) using Veramo SDK          |                                                                                                |                                                                               |
 
 #### AnonCreds
 

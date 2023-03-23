@@ -18,7 +18,7 @@ We have split our documentation into separate repositories for clarity and conve
 * [x] [Creating new Resource Versions](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/create-a-resource/create-a-new-resource-version): Completed
 * [x] [Issuing Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/guides/software-development-kits-sdks/veramo-sdk-for-cheqd): Completed
 * [x] [Verify Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verify-a-verifiable-credential/verify-jwt-vc): Completed
-* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-presentations): Completed&#x20;
+* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verifiable-presentations): Completed&#x20;
 * [ ] Issuing Verifiable Credentials (JSON-LD): In progress
 * [ ] Creating Verifiable Presentations (JSON-LD): In progress&#x20;
 
