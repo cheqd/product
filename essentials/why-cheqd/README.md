@@ -1,6 +1,6 @@
 # 🟢 Why cheqd?
 
-cheqd is a technology scale-up company that provides a market-leading solution for **verifiable data**, enabling participants to share, co-create value and transact.
+cheqd is a technology startup that provides a market-leading solution for **verifiable data**, enabling participants to share, co-create value and transact.
 
 The [cheqd network](https://www.cheqd.io/) delivers first of its kind **payment rails, customisable commercial models and governance structures for trusted data** (also referred to as authentic). This is referred to as **Self-Sovereign Identity (SSI)**, **Decentralised Identity**, or **Web5**.
 
@@ -12,9 +12,9 @@ cheqd provides the foundational **technical and payment infrastructure** for tru
 
 This enables cheqd wants to create **commercially viable SSI ecosystems** through **native payment rails** alongside the flow of Verifiable Credentials (VC) that enables transactions of trusted data. This is achieved through a new blockchain, built using the [Cosmos SDK](https://cosmos.network/), the cheqd Network. The cheqd network facilitates native payments in the [$CHEQ token](https://coinmarketcap.com/currencies/cheqd/) for [W3C Verifiable Credential](https://w3c.github.io/vc-data-model/) exchanges.
 
-## Why should **you choose** cheqd?
+## Why should **you** choose cheqd?
 
-### 🆔 Identity the _**right**_ way
+### 🆔 Identity done the ***right*** way
 
 With cheqd network, you can already:
 
@@ -29,13 +29,11 @@ And [very soon](now-next-and-future.md) you will be able to:
 * Manage Verifiable Credential revocation status;
 * Create customisable payment flows for Verifiable Credentials.
 
-{% hint style="success" %}
-_note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD_](https://www.w3.org/TR/vc-data-model/)_, as well as an_ [_AnonCreds_](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html) _whilst remaining conformant with the_ [_W3C VC Data Model_](https://www.w3.org/TR/vc-data-model/)
-{% endhint %}
+> **Note**: cheqd intends to be the first network to support *both* [JSON and JSON-LD](https://www.w3.org/TR/vc-data-model/), *as well as* [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html) whilst remaining conformant with the [W3C VC Data Model](https://www.w3.org/TR/vc-data-model/)
 
 ### 📈 Peak Performance at low cost
 
-* cheqd is designed as a highly performant Layer 1 with high throughput. Built using the [Cosmos SDK](https://cosmos.network/), cheqd can process an estimated [7,500 TPS](https://learn.bybit.com/blockchain/fastest-cryptocurrencies-high-tps/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
+cheqd is designed as a highly performant Layer 1 with high throughput. Built using the [Cosmos SDK](https://cosmos.network/), cheqd can process an estimated [7,500 TPS](https://learn.bybit.com/blockchain/fastest-cryptocurrencies-high-tps/), benchmarking well beyond other leading networks such as Cardono ([250 TPS](https://messari.io/asset/cardano/metrics/network-activity)), Ethereum ([15 - 30 TPS](https://ethtps.info/))**,** Avalanche ([5000 TPS](https://www.analyticsinsight.net/top-10-cryptocurrencies-with-a-high-transaction-speed-in-2022/)) and Bitcoin ([10 TPS)](https://www.cnbctv18.com/cryptocurrency/us-test-cbdc-hits-record-transaction-speed-12530262.htm)
 
 #### Transactions per second across identity networks
 
@@ -43,17 +41,15 @@ _note: cheqd intends to be the first network to support both_ [_JSON and JSON-LD
 | ----- | --------- | ----- | ----- | -------- | ------- | ---------------- |
 | 7,500 | 5,000     | 1,000 | 1,000 | 20       | 10      | 4                |
 
-* Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
-
 #### Price of identity transactions across ecosystem
 
-{% content-ref url="cheqd-pricing.md" %}
-[cheqd-pricing.md](pricing.md)
-{% endcontent-ref %}
+Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
+
+On average, transactions on cheqd cost **between $2-15**, based on transaction type. Our [pricing table explains costs of DID transactions, on-ledger resources](pricing.md) (e.g., schemas, logos, trusted issuer lists, etc) in more detail.
 
 ### 💰 Get paid for your part
 
-* Whether running a [node on the cheqd network,](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-a-validator-node-operator) or [delegating tokens to a Node Operator](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation) to stake on your behalf, you can earn yield from staking rewards.
+* Whether running a [node on the cheqd network](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-a-validator-node-operator), or [delegating tokens to a node operator](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation) to stake on your behalf, you can earn yield from staking rewards.
 * The average APR for token staking is [8.97%](https://explorer.cheqd.io/)
 
 ### 💡 **New** commercial models for digital identity ecosystems
@@ -66,7 +62,7 @@ cheqd is building payment rails that enable customisable business models:
 
 Through our payment rails, new business and revenue models for participants in the self-sovereign identity ecosystem can accelerate the adoption of the technology, making SSI into a more commercially viable technology, whilst keeping individuals in control of their own data.
 
-### 🗳️ _Truly_ decentralised governance
+### 🗳️ *Truly* decentralised governance
 
 * cheqd has created a highly commended [decentralised Governance Framework](https://docs.cheqd.io/governance/)
 * cheqd uses a [delegated Proof of Stake (DPoS](https://en.bitcoinwiki.org/wiki/DPoS)) model, using its native token $CHEQ, to enable fair and proportionate decision making on the network.
@@ -147,21 +143,29 @@ We are happy to set up multi-stakeholder environments, run webinars, host worksh
 
 > "As SSI matures we're seeing innovation at every layer of the Trust Over IP stack. cheqd is the only ToIP Layer 1 public utility I've seen with a governance framework designed explicitly to evolve from permissioned to permissionless. Add to that cheqd's commitment to interoperability across all SSI ecosystems and its unique focus on SSI-based value exchange and you have one of the most exciting projects in SSI today."
 >
-> **Drummond Reed**\
-> \- _Chief Trust Officer, Avast_\
-> \- _Co-chair, Trust over IP (ToIP) Governance Stack Working Group_\
-> \- _Co-author, "Self-Sovereign Identity"_
-> \
-> "Danube Tech has been a pioneer in DID technologies, and we see cheqd as a promising next step in the evolution of SSI networks. Operating a cheqd node will add value to our mission of enabling global interoperability of decentralized identity infrastructures."
-> \
-> **Markus Sabadello**\
-> \- _CEO, DanubeTech_
-> _"You can't have Web 3 until you have decentralised identity that works at scale and has a business model for network participants hardcoded into it._\
-> \
-> _For this reason we're helping cheqd bring a permissionless, token optimised form of SSI and verifiable claims"_
+> **Drummond Reed**
 >
-> **Jamie Burke**\
-> \- _Founder & CEO, Outlier Ventures_
+> *Chief Trust Officer, Avast*
+>
+> Co-chair, [Trust over IP (ToIP)](https://trustoverip.org/) Governance Stack Working Group
+>
+> Co-author, [*Self-Sovereign Identity: : Decentralized digital identity and verifiable credentials*](https://amzn.to/3uSp5lz)
+
+
+> "DanubeTech has been a pioneer in DID technologies, and we see cheqd as a promising next step in the evolution of SSI networks. Operating a cheqd node will add value to our mission of enabling global interoperability of decentralized identity infrastructures."
+>
+> **Markus Sabadello**
+>
+> *CEO, [DanubeTech](https://danubetech.com/*)
+
+
+> "You can't have Web 3 until you have decentralised identity that works at scale and has a business model for network participants hardcoded into it.
+>
+> For this reason we're helping cheqd bring a permissionless, token optimised form of SSI and verifiable claims"
+>
+> **Jamie Burke**
+>
+> *Founder & CEO, Outlier Ventures*
 > \
 > _“Our well-being depends on reliable data provenance and secure authentication/authorization across humans, organizations, and systems. All the exciting use-cases for digital-first processes are in need of a truly open and portable identity & credentialing fabric, which is exactly what Cheqd provides. Our joint vision is that decentralized identity will be at the core of every cyber-physical system in the near future.”_
 >
