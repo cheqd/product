@@ -26,10 +26,10 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 ### cheqd Network technical resources
 
 1. [Setup node documentation](https://docs.cheqd.io/node)
-2. [Setup cheqd Cosmos CLI](https://docs.cheqd.io/node/docs/cheqd-cli)
-3. [Manage keys with cheqd Cosmos CLI](https://docs.cheqd.io/node/docs/cheqd-cli/cheqd-cli-key-management)
-4. [Manage accounts with cheqd Cosmos CLI](https://docs.cheqd.io/node/docs/cheqd-cli/cheqd-cli-accounts)
-5. [Token transactions with cheqd Cosmos CLI](https://docs.cheqd.io/node/docs/cheqd-cli/cheqd-cli-token-transactions)
+2. [Setup cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli)
+3. [Manage keys with cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli/cheqd-cli-key-management)
+4. [Manage accounts with cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli/cheqd-cli-accounts)
+5. [Token transactions with cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli/cheqd-cli-token-transactions)
 6. [Create DID with cheqd Cosmos CLI](https://docs.cheqd.io/identity/ledger-identity/decentralized-identifiers/cheqd-cosmos-cli)
 7. [Update DID with cheqd Cosmos CLI](https://docs.cheqd.io/identity/ledger-identity/decentralized-identifiers/update-and-manage-did-document)
 8. [Create Resource with cheqd Cosmos CLI](https://docs.cheqd.io/identity/ledger-resources/tutorials)
