@@ -20,7 +20,7 @@ Through a combination of this infrastructure, Validator nodes will be able to sp
 
 We have started using [HashiCorp’s Terraform](https://www.terraform.io/) to define consistent and automated workflows - in order to improve efficiency and streamline the process of setting up a node on cheqd. Terraform is a form of Infra-as-code which is essentially the managing and provisioning of infrastructure through code instead of through manual processes.
 
-You can think of it like dominoes - one click of a button can result in a whole series of outcomes. This automation gives prospective network Validators the choice of whether they want to just install a validator node ([using our install instructions](https://docs.cheqd.io/node/docs/setup-and-configure), or whether they want to set up a sentry+validator architecture for more security.
+You can think of it like dominoes - one click of a button can result in a whole series of outcomes. This automation gives prospective network Validators the choice of whether they want to just install a validator node ([using our install instructions](https://docs.cheqd.io/node/getting-started/setup-and-configure)), or whether they want to set up a sentry+validator architecture for more security.
 
 ### Terragrunt
 
