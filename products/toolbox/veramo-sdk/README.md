@@ -29,7 +29,7 @@ When combining the existing packages provided by the Veramo SDK with some native
 * [Create and manage keys for **signing and encryption**](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/identity-key-handling)
 * [Create and update **Decentralized Identifiers (DID)** and Decentralized Identifiers Documents (DID Docs) on cheqd (did:cheqd)](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations)
 * [**Issue JSON** Verifiable Credentials (VCs) with **JWT** proof format](https://docs.cheqd.io/identity/guides/software-development-kits-sdks/veramo-sdk-for-cheqd)
-* [**Verify JSON** Verifiable Credentials (VCs) with **JWT** proof format](https://docs.cheqd.io/identity/guides/software-development-kits-sdks/veramo-sdk-for-cheqd/verify-jwt-vc)
+* [**Verify JSON** Verifiable Credentials (VCs) with **JWT** proof format](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verify-a-verifiable-credential/verify-jwt-vc)
 * [**Issue JSON** Verifiable Presentations (VPs) with **JWT** proof format](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-presentations)
 * [**Verify JSON** Verifiable Credentials (VPs) with **JWT** proof format](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-presentations/verify-presentation)
 
