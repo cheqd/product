@@ -5,9 +5,10 @@
 ## 🚀 Product Essentials
 
 * [🟢 Why cheqd?](essentials/why-cheqd/README.md)
-  * [Our mission](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
-  * [Pricing](essentials/why-cheqd/pricing.md)
   * [Comparison to Hyperledger Indy](essentials/why-cheqd/cheqd-vs-indy.md)
+  * [Pricing](essentials/why-cheqd/pricing.md)
+  * [Technical standards & interoperability](essentials/why-cheqd/standards-interop.md)
+  * [Our mission](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
 * [🗺 Roadmap](essentials/roadmap/README.md)
   * [Identity](essentials/roadmap/identity.md)
   * [Network infrastructure](essentials/roadmap/infrastructure.md)
