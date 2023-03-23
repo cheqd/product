@@ -64,4 +64,4 @@ Learn about DIDs and what DID resolution is here:
 
 You can look into our architecture and decision making in more detail in our Identity docs:
 
-{% embed url="https://docs.cheqd.io/identity/architecture/adr-list/adr-001-did-resolver" %}
+{% embed url="https://docs.cheqd.io/identity/architecture/adr-list/adr-003-did-resolver" %}
