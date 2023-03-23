@@ -4,7 +4,7 @@
 
 > **Github repos:** [cheqd/did-resolver](https://github.com/cheqd/did-resolver)
 
-After we released our [cheqd DID method in 2021](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
+After we released our [cheqd DID method in 2021](https://docs.cheqd.io/identity/architecture/adr-list/adr-001-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 
 We are pleased to have designed a modular architecture for DID resolution, with multiple options for using and implementing our work, increasing:
 
