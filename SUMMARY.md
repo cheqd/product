@@ -2,7 +2,7 @@
 
 * [Product Overview](README.md)
 
-## Product Essentials
+## 🚀 Product Essentials
 
 * [🟢 Why cheqd?](essentials/why-cheqd/README.md)
   * [Our mission](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
@@ -16,6 +16,8 @@
 ## Products
 
 * [✅ cheqd Network](products/network/README.md)
+  * [RCAs](products/network/rcas/README.md)
+    * [v1.x upgrade RCA](products/network/rcas/v1.x-upgrade-rca.md)
   * [Block Explorer](products/network/monitoring/block-explorer.md)
   * [Network monitoring](products/network/monitoring/README.md)
     * [Validator Status API](products/network/monitoring/validator-status.md)
@@ -31,12 +33,13 @@
       * [0.5.0](products/network/upgrades/2022/v0.5.0.md)
       * [0.6.0](products/network/upgrades/2022/v0.6.0.md)
       * [0.6.9](products/network/upgrades/2022/v0.6.9.md)
-      * [1.0.0](products/network/upgrades/2022/v1.0.0.md)
+    * [2023](products/network/upgrades/2023/README.md)
+      * [1.x](products/network/upgrades/2023/v1.md)
 * [🧰 cheqd Toolbox](products/toolbox/README.md)
   * [Veramo SDK](products/toolbox/veramo-sdk/README.md)
   * [AnonCreds](products/toolbox/anoncreds/README.md)
   * [Aries Framework JavaScript](products/toolbox/anoncreds/afj-cheqd.md)
-  * [DID Resolver](products/toolbox/resolver)
+  * [DID Resolver](products/toolbox/resolver/README.md)
   * [Wallet](products/toolbox/wallet/README.md)
 
 ## 🆘 Support
