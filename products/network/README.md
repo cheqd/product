@@ -32,7 +32,7 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 5. [Token transactions with cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli/cheqd-cli-token-transactions)
 6. [Create DID with cheqd Cosmos CLI](https://docs.cheqd.io/identity/advanced-features-and-alternatives/cheqd-cosmos-cli-for-identity)
 7. [Update DID with cheqd Cosmos CLI](https://docs.cheqd.io/identity/ledger-identity/decentralized-identifiers/update-and-manage-did-document)
-8. [Create Resource with cheqd Cosmos CLI](https://docs.cheqd.io/identity/ledger-resources/tutorials)
+8. [Create Resource with cheqd Cosmos CLI](https://docs.cheqd.io/identity/tutorials/on-ledger-resources)
 
 ### CHEQ token and tokenomics resources
 
