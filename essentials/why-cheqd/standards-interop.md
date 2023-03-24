@@ -29,7 +29,7 @@
 
 | Component                          | Type                         | Link                                                                                                                                    |
 | ---------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Software Development Kit (SDK)     | Veramo SDK with cheqd plugin | [Setting up Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/software-development-kits-sdks/veramo-sdk-for-cheqd)            |
+| Software Development Kit (SDK)     | Veramo SDK with cheqd plugin | [Setting up Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd)            |
 | Verifiable Credential Type/Flavour | JSON JWT                     | [Issue JSON JWT VCs](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verify-a-verifiable-credential/verify-jwt-vc) |
 | Verifiable Credential Type/Flavour | JSON-LD                      | In development                                                                                                                          |
 | Verifiable Credential Type/Flavour | AnonCreds                    | In development                                                                                                                          |
