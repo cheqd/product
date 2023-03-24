@@ -2,7 +2,7 @@
 
 ## Overview
 
-The cheqd network is a highly scalable, enterprise-ready blockchain for identity interactions. Using the native CHEQ token, cheqd network is creating new commercial models for identity writes and trusted interactions.&#x20;
+The cheqd network is a highly scalable, enterprise-ready blockchain for identity interactions. Using the native CHEQ token, cheqd network is creating new commercial models for identity writes and trusted interactions.
 
 Due to the broad nature of blockchain technology, cheqd Network caters to different roles and audiences for different capabilities:
 

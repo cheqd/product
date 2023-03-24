@@ -18,9 +18,9 @@ We have split our documentation into separate repositories for clarity and conve
 * [x] [Creating new Resource Versions](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/create-a-resource/create-a-new-resource-version): Completed
 * [x] [Issuing Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/guides/software-development-kits-sdks/veramo-sdk-for-cheqd): Completed
 * [x] [Verify Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verify-a-verifiable-credential/verify-jwt-vc): Completed
-* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verifiable-presentations): Completed&#x20;
+* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verifiable-presentations): Completed
 * [ ] Issuing Verifiable Credentials (JSON-LD): In progress
-* [ ] Creating Verifiable Presentations (JSON-LD): In progress&#x20;
+* [ ] Creating Verifiable Presentations (JSON-LD): In progress
 
 #### What is the core business value of this work?
 
@@ -37,8 +37,7 @@ Easily digestible and clear documentation is crucial for giving cheqd's partners
 ### DID Resolver
 
 * [x] Full DID Resolver: Completed
-* [ ] Light DID Resolver: Ongoing - Q3/4 expected release
-* [x] Universal Resolver: Completed&#x20;
+* [x] Universal Resolver: Completed
 
 After we released our [cheqd DID method in 2021](https://docs.cheqd.io/identity/architecture/adr-list/adr-001-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 

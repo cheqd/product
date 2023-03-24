@@ -20,7 +20,7 @@ You'll find out we what offer in a few key pages across the site:
 
 cheqd's identity product consists of an **enterprise blockchain** **network** and **an integration toolkit** to enable our partners to utilise the cheqd network's functionality.
 
-The [cheqd network](https://explorer.cheqd.io/) is a Cosmos SDK-based blockchain that facilitates the exchange of trusted, verifiable data _off-chain_ ([Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)), using _on-chain_ identifiers ([Decentralised Identifiers 'DIDs'](https://www.w3.org/TR/did-core/)) to authenticate the verifiable data.&#x20;
+The [cheqd network](https://explorer.cheqd.io/) is a Cosmos SDK-based blockchain that facilitates the exchange of trusted, verifiable data _off-chain_ ([Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)), using _on-chain_ identifiers ([Decentralised Identifiers 'DIDs'](https://www.w3.org/TR/did-core/)) to authenticate the verifiable data.
 
 > This technology is called **"Self-Sovereign Identity"** and has since been labelled **"Web5"**.
 
