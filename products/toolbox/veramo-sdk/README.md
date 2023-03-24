@@ -13,7 +13,7 @@ We chose Veramo for a few key reasons.
 
 ### Setting up Veramo SDK for cheqd
 
-* [Setup guide on Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/software-development-kits-sdks/veramo-sdk-for-cheqd/setup-cli)
+* [Setup guide on Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd/setup)
 
 ### What does the Veramo SDK for cheqd allow you to do on the cheqd network?
 

@@ -35,5 +35,5 @@
 | Verifiable Credential Type/Flavour | AnonCreds                    | In development                                                                                                                          |
 | Peer-to-peer connection layer      | DIDComm v2.0                 | [DIDComm Messaging specification](https://identity.foundation/didcomm-messaging/spec/)                                                  |
 | DID Method                         | cheqd DID method             | [`did:cheqd` method ADR](https://docs.cheqd.io/identity/architecture/adr-list/adr-001-cheqd-did-method)                                     |
-| Command Line Interface (CLI)       | Veramo CLI                   | [Setup Veramo CLI](https://docs.cheqd.io/identity/guides/software-development-kits-sdks/veramo-sdk-for-cheqd/setup-cli)                 |
+| Command Line Interface (CLI)       | Veramo CLI                   | [Setup Veramo CLI](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd/setup)                 |
 | Verifiable Presentation Exchange   | DIF Presentation Exchange    | [Presentation Exchange specification](https://identity.foundation/presentation-exchange/)                                               |
