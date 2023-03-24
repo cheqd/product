@@ -2,7 +2,7 @@
 
 * [Product Overview](README.md)
 
-## 🚀 Product Essentials
+## 👉 Essentials
 
 * [🟢 Why cheqd?](essentials/why-cheqd/README.md)
   * [Comparison to Hyperledger Indy](essentials/why-cheqd/cheqd-vs-indy.md)
@@ -11,36 +11,39 @@
   * [Our mission](https://learn.cheqd.io/overview/cheqd-101/why-identity-needs-a-token)
 * [🗺 Roadmap](essentials/roadmap/README.md)
   * [Identity](essentials/roadmap/identity.md)
-  * [Network infrastructure](essentials/roadmap/infrastructure.md)
-  * [Cosmos and Web-3.0](essentials/roadmap/cosmos-and-web-3.0.md)
+  * [Cosmos and Web 3.0](essentials/roadmap/cosmos-and-web-3.0.md)
+  * [Infrastructure & Tooling](essentials/roadmap/infrastructure.md)
 
-## Products
+## 🚀 Network
 
-* [✅ cheqd Network](products/network/README.md)
-  * [root-cause-analyses](products/network/root-cause-analyses/README.md)
-    * [v1.x upgrade RCA](products/network/root-cause-analyses/v1.x-upgrade-rca.md)
-  * [Block Explorer](products/network/monitoring/block-explorer.md)
-  * [Network monitoring](products/network/monitoring/README.md)
-    * [Validator Status API](products/network/monitoring/validator-status.md)
-    * [cheqd x Cosmos Data APIs](products/network/monitoring/data-api.md)
-  * [Infrastructure](products/network/tooling/README.md)
-  * [Changelog](products/network/upgrades/README.MD)
-    * [2021](products/network/upgrades/2021/README.md)
-      * [0.1.x](products/network/upgrades/2021/v0.1.x.md)
-      * [0.2.x](products/network/upgrades/2021/v0.2.x.md)
-      * [0.3.x](products/network/upgrades/2021/v0.3.x.md)
-    * [2022](products/network/upgrades/2022/README.md)
-      * [0.4.x](products/network/upgrades/2022/v0.4.x.md)
-      * [0.5.x](products/network/upgrades/2022/v0.5.x.md)
-      * [0.6.x](products/network/upgrades/2022/v0.6.x.md)
-    * [2023](products/network/upgrades/2023/README.md)
-      * [1.x](products/network/upgrades/2023/v1.x.md)
-* [🧰 cheqd Toolbox](products/toolbox/README.md)
-  * [Veramo SDK](products/toolbox/veramo-sdk/README.md)
-  * [AnonCreds](products/toolbox/anoncreds/README.md)
-  * [Aries Framework JavaScript](products/toolbox/anoncreds/afj-cheqd.md)
-  * [DID Resolver](products/toolbox/resolver/README.md)
-  * [Wallet](products/toolbox/wallet/README.md)
+* [👋 Intro to cheqd Network](network/README.md)
+* [⬆️ Network-wide Upgrades](network/upgrades/README.MD)
+  * [2021](network/upgrades/2021/README.md)
+    * [0.1.x](network/upgrades/2021/v0.1.x.md)
+    * [0.2.x](network/upgrades/2021/v0.2.x.md)
+    * [0.3.x](network/upgrades/2021/v0.3.x.md)
+  * [2022](network/upgrades/2022/README.md)
+    * [0.4.x](network/upgrades/2022/v0.4.x.md)
+    * [0.5.x](network/upgrades/2022/v0.5.x.md)
+    * [0.6.x](network/upgrades/2022/v0.6.x.md)
+  * [2023](network/upgrades/2023/README.md)
+    * [1.x](network/upgrades/2023/v1.x.md)
+* [🔭 Tools](network/tools/README.md)
+  * [Block Explorer](network/tools/block-explorer.md)
+  * [Validator Status API](network/tools/validator-status.md)
+  * [cheqd x Cosmos Data APIs](network/tools/data-api.md)
+* [🌍 Infrastructure](network/infrastructure/README.md)
+* [⚠️ Root Cause Analysis of outages](network/root-cause-analyses/README.md)
+  * [v1.x upgrade RCA](network/root-cause-analyses/v1.x-upgrade-rca.md)
+
+## 🛠️ Toolbox
+
+* [✅ Build products on cheqd](toolbox/README.md)
+* [🧑‍💻 Veramo SDK](toolbox/veramo-sdk/README.md)
+* [👀 AnonCreds](toolbox/anoncreds/README.md)
+  * [Aries Framework JavaScript](toolbox/anoncreds/afj-cheqd.md)
+* [🔍 DID Resolver](toolbox/resolver/README.md)
+* [💳 Wallet](toolbox/wallet/README.md)
 
 ## 🆘 Support
 
