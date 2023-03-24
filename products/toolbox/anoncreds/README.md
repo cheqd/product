@@ -34,10 +34,10 @@ This mimics how DID Document representation is able to support multiple differen
 
 ### Timelines
 
-* [x] [cheqd AnonCreds Schemas](https://docs.cheqd.io/identity/ledger-resources/using-on-ledger-resources-to-support-anoncreds/schema-object): Completed
-* [x] [cheqd AnonCreds CredDefs](https://docs.cheqd.io/identity/ledger-resources/using-on-ledger-resources-to-support-anoncreds/creddef-object): Completed
-* [x] [cheqd AnonCreds Revocation Registry Definitions](https://docs.cheqd.io/identity/ledger-resources/using-on-ledger-resources-to-support-anoncreds/revocation-registry-definition-object): Completed
-* [x] [cheqd AnonCreds Revocation Registry Entries](https://docs.cheqd.io/identity/ledger-resources/using-on-ledger-resources-to-support-anoncreds/revocation-registry-entry-object): Completed
+* [x] [cheqd AnonCreds Schemas](https://docs.cheqd.io/identity/guides/anoncreds/schema): Completed
+* [x] [cheqd AnonCreds CredDefs](https://docs.cheqd.io/identity/guides/anoncreds/credential-definition): Completed
+* [x] [cheqd AnonCreds Revocation Registry Definitions](https://docs.cheqd.io/identity/guides/anoncreds/revocation-registry-definition): Completed
+* [x] [cheqd AnonCreds Revocation Registry Entries](https://docs.cheqd.io/identity/guides/anoncreds/revocation-registry-entries): Completed
 
 ### Demonstration
 
