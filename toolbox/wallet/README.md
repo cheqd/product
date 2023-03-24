@@ -28,6 +28,8 @@ To implement the credential issuance, we built this on top of [Veramo’s SDK](h
 
 ![Veramo reference app architecture](../../.gitbook/assets/wallet-architecture.jpg)
 
+*Figure: Architecture of demo wallet ([editable Draw.io source file](../../.gitbook/assets/wallet-architecture.drawio))*
+
 ## Developer Guide
 
 If you’re exploring implementing a similar approach, here’s what you should bear in mind, broken down by each key repo / NPM package involved.
