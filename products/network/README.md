@@ -14,6 +14,7 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 | **cheqd partner or developer** | I want to setup a node on the cheqd Network                                                    | [Setting up a new cheqd node](https://docs.cheqd.io/node/getting-started/setup-and-configure)                                                                                                                                                                                                                                                          |
 
 ## Resources
+
 ### Background information
 
 1. [Learn about cheqd](https://learn.cheqd.io/)
@@ -26,14 +27,22 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 
 ### Technical Resources
 
-1. [Setup node documentation](https://docs.cheqd.io/node)
-2. [Setup cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli)
-3. [Manage keys with cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli/cheqd-cli-key-management)
-4. [Manage accounts with cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli/cheqd-cli-accounts)
-5. [Token transactions with cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli/cheqd-cli-token-transactions)
-6. [Create DID with cheqd Cosmos CLI](https://docs.cheqd.io/identity/advanced-features-and-alternatives/cheqd-node-cli)
-7. [Update DID with cheqd Cosmos CLI](https://docs.cheqd.io/identity/ledger-identity/decentralized-identifiers/update-and-manage-did-document)
-8. [Create Resource with cheqd Cosmos CLI](https://docs.cheqd.io/identity/tutorials/on-ledger-resources)
+#### Identity Software Documentation
+
+1. [DID Operations](https://docs.cheqd.io/identity/tutorials/did-operations)
+   1. [DID Resolver](https://docs.cheqd.io/identity/tutorials/did-resolver)
+   2. [DID Registrar](https://docs.cheqd.io/identity/tutorials/did-registrar)
+2. [Verifiable Credentials and Presentations](https://docs.cheqd.io/identity/tutorials/credentials-and-presentations)
+3. [DID-Linked Resources](https://docs.cheqd.io/identity/tutorials/did-linked-resources)
+4. [Identity-related Architecture Decision Records (ADRs)](https://docs.cheqd.io/identity/architecture/adr-list)
+
+#### Ledger Software Documentation
+
+1. [Setup a new node](https://docs.cheqd.io/node/getting-started/setup-and-configure)
+   1. [Understand and use node CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli)
+   2. [Validate on our network](https://docs.cheqd.io/node/validator-guides/validator-guide)
+2. [Network-wide software upgrades](https://docs.cheqd.io/node/validator-guides/upgrades) ([changelog](upgrades/README.MD))
+3. [Ledger-related Architecture Decision Records (ADRs)](https://docs.cheqd.io/node/architecture/adr-list)
 
 ### CHEQ token / tokenomics
 

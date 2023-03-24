@@ -33,7 +33,7 @@ When combining the existing packages provided by the Veramo SDK with some native
 * [**Issue JSON** Verifiable Presentations (VPs) with **JWT** proof format](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verifiable-presentations)
 * [**Verify JSON** Verifiable Credentials (VPs) with **JWT** proof format](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verifiable-presentations/verify-presentation)
 
-With the additional [**Resource module**](https://docs.cheqd.io/identity/tutorials/on-ledger-resources) recently applied to the cheqd ledger, AnonCreds will also be possible through the [cheqd/sdk](https://github.com/cheqd/sdk) which the Veramo SDK for cheqd uses.
+With the additional [**Resource module**](https://docs.cheqd.io/identity/guides/did-linked-resources) recently applied to the cheqd ledger, AnonCreds will also be possible through the [cheqd/sdk](https://github.com/cheqd/sdk) which the Veramo SDK for cheqd uses.
 
 ## Architecture
 
