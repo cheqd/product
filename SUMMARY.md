@@ -34,7 +34,7 @@
       * [0.5.x](products/network/upgrades/2022/v0.5.x.md)
       * [0.6.x](products/network/upgrades/2022/v0.6.x.md)
     * [2023](products/network/upgrades/2023/README.md)
-      * [1.x](products/network/upgrades/2023/v1.md)
+      * [1.x](products/network/upgrades/2023/v1.x.md)
 * [🧰 cheqd Toolbox](products/toolbox/README.md)
   * [Veramo SDK](products/toolbox/veramo-sdk/README.md)
   * [AnonCreds](products/toolbox/anoncreds/README.md)
