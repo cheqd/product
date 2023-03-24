@@ -25,7 +25,6 @@ In short, this architecture improves:
 * Accessibility to cheqd DIDs
 * Flexibility, offering app developers and partners optionality and choice of platforms to run on, according to their security/scalability needs, and at various different levels of how much it costs to run this infrastructure.
 
-
 ## Resolver packages for `did:cheqd`
 
 Having multiple implementations of a DID Resolver accommodates for different clients, developers and customers - each with different needs.
