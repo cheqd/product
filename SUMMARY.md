@@ -22,7 +22,7 @@
   * [Block Explorer](products/network/monitoring/block-explorer.md)
   * [Network monitoring](products/network/monitoring/README.md)
     * [Validator Status API](products/network/monitoring/validator-status.md)
-    * [cheqd x Cosmos Data APIs](products/network/monitoring/data-apis.md)
+    * [cheqd x Cosmos Data APIs](products/network/monitoring/data-api.md)
   * [Infrastructure](products/network/tooling/README.md)
   * [Changelog](products/network/upgrades/README.MD)
     * [2021](products/network/upgrades/2021/README.md)
