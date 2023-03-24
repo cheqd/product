@@ -9,16 +9,16 @@ From our Product research that we have carried out this year ([find our general 
 We have split our documentation into separate repositories for clarity and convenience (below). We will continually improve, add-to and iterate this documentation to keep it up to date.
 
 * [x] [Setup Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd/setup): Completed
-* [x] [Creating DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/create-dids): Completed
+* [x] [Creating DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/create-did): Completed
 * [x] [Query DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/query-did): Completed
 * [x] [Managing keys](https://docs.cheqd.io/identity/tutorials/did-operations/identity-keys): Completed
 * [x] [Updating DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/update-did): Completed
 * [ ] Deactivating DIDs: In progress
 * [x] [Creating Resources/Schemas](https://docs.cheqd.io/identity/tutorials/did-linked-resources/create-resource): Completed
-* [x] [Creating new Resource Versions](https://docs.cheqd.io/identity/tutorials/did-linked-resources/create-resource/create-a-new-resource-version): Completed
+* [x] [Creating new Resource Versions](https://docs.cheqd.io/identity/tutorials/did-linked-resources/create-new-version): Completed
 * [x] [Issuing Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/tutorials/credentials-and-presentations/issue-credential): Completed
-* [x] [Verify Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verify-a-verifiable-credential/verify-jwt-vc): Completed
-* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/tutorials/verifiable-credentials-and-presentations/verifiable-presentations): Completed
+* [x] [Verify Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/tutorials/credentials-and-presentations/verify-jwt-credential): Completed
+* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/tutorials/credentials-and-presentations/verify-jwt-presentation): Completed
 * [ ] Issuing Verifiable Credentials (JSON-LD): In progress
 * [ ] Creating Verifiable Presentations (JSON-LD): In progress
 
