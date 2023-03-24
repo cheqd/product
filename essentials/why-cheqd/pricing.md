@@ -11,7 +11,7 @@
 | Resource create - Type JSON  | 2.5         | \~$0.10                |
 | Resource create - Type image | 10          | \~$0.40                |
 
-cheqd Identity pricing detailed above was implemented on-ledger as part of the January 2023 release - [v1.0.x](../../products/network/upgrades/2021/v0.1.x.md)
+cheqd Identity pricing detailed above was implemented on-ledger as part of the January 2023 release - [v1.0.x](../../network/upgrades/2021/v0.1.x.md)
 
 Examples of JSON resources include:
 

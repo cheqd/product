@@ -26,11 +26,11 @@ We have split our documentation into separate repositories for clarity and conve
 
 Easily digestible and clear documentation is crucial for giving cheqd's partners a smooth experience using the Network's utility. It will also make it easier for developers and end-customers to begin using the cheqd network and to quickly understand how to integrate with the network, SDK and token functionality.
 
-#### Documentation for help setting up and managing a node
+### Documentation for help setting up and managing a node
 
 {% embed url="https://docs.cheqd.io/node" %}
 
-#### Documentation detailing our identity functionality and decisions
+### Documentation detailing our identity functionality and decisions
 
 {% embed url="https://docs.cheqd.io/identity" %}
 
@@ -41,23 +41,9 @@ Easily digestible and clear documentation is crucial for giving cheqd's partners
 
 After we released our [cheqd DID method in 2021](https://docs.cheqd.io/identity/architecture/adr-list/adr-001-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 
-We are pleased to have designed a modular architecture for DID resolution, with multiple options for using and implementing our work.
+Our DID resolver is a package which can be implemented directly into clients' own infrastructure as a library written in Golang. This provides full support for cheqd's resolver, and can be run by anyone, creating a secure and client-controlled environment for resolving cheqd DIDs.
 
-#### Full DID Resolver
-
-Our primary DID resolver is a full resolver package which can be implemented directly into clients' own infrastructure as a library written in Golang. This provides full support for cheqd's resolver, and can be run by anyone, creating a secure and client-controlled environment for resolving cheqd DIDs.
-
-#### Proxy DID Resolver
-
-For those who do not want to run infrastructure themselves, but want to be able to resolve cheqd DIDs, we have created a DID Resolver as a Service - which routes requests to resolve DIDs to our cheqd gRPC endpoint to fetch a valid JSON response.
-
-This is lightweight, simple and easy to use. It is written as a tiny Node.js package designed to run on [Cloudflare Workers](https://workers.cloudflare.com/) which is an extremely light serverless platform for those who want a lower compute footprint that essentially acts as a proxy to a Golang-based “full” resolver.
-
-#### Universal Resolver
-
-The Universal Resolver is a project maintained by DIF which hosts drivers of many different DID Resolvers in a compatible and easy-to-integrate format (Docker Containers).
-
-Through the Universal Resolver, cheqd's DID Resolver will be packaged as a Docker Container, making it compatible with any infrastructure stack.
+The our DID resolver is also available as [a supported driver in Universal Resolver](https://github.com/decentralized-identity/universal-resolver), a project maintained by DIF which hosts drivers of many different DID Resolvers in a compatible and easy-to-integrate format (Docker Containers).
 
 #### What is the core business value of this work?
 
@@ -67,45 +53,13 @@ Having multiple implementations of a DID Resolver accommodates for different cli
 
 You can see our resolver in action, resolving our first DID here:
 
-{% embed url="https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:zF7rhDBfUt9d1gJPjx7s1JXfUY7oVWkY" %}
+{% embed url="https://resolver.cheqd.net/1.0/identifiers/did:cheqd:mainnet:Ps1ysXP2Ae6GBfxNhNQNKN" %}
 
 #### Learn more
 
 Learn about DIDs and what DID resolution is here:
 
-{% embed url="https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-decentralised-identifier-did/how-do-you-resolve-a-did" %}
-
-### DID URL Dereferencer
-
-* [x] DID URL dereferencer: Completed
-
-Similar to a DID Resolver, a DID URL Dereferencer is used to take the input of a DID URL, and return a particular resource.
-
-This can be used to point-to and fetch resources which are stored on ledger, using DIDs, such as:
-
-* Other DIDs or DID Documents
-* Parts of a DID Document (verification keys, sections, etc)
-* Simple files (images, documents)
-* Non-Fungible tokens (NFTs)
-* Resources on-ledger (schemas)
-
-#### What is the core business value of this work?
-
-Being able to fetch resources from DIDs is something that hasn't properly been explored by the identity community. However, there is a vast amount of value that can be drawn out of fetching a resource from a DID.
-
-At cheqd, we are using dereferencing to be able to fetch schemas which are stored on-ledger. The core goal of this is to be able to provide equivalence and compatibility with the AnonCreds spec, whilst remaining compliant with the W3C specifications.
-
-This will enable compatibility between Credential types in a way far greater than on any other network - giving all cheqd's partners a platform to build on, using their existing tech stack and clients.
-
-### cheqd Revocation Registry
-
-* [ ] Status: Ongoing - Q3 expected release
-
-Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.
-
-The revocation registry is also central to how cheqd intends to monetise the use of Verifiable Credentials - via gating requests made to check revocation status.
-
-Proponents of Hyperledger Indy will often point to the way it carries out revocation as a gold standard, since it is functional and privacy-preserving. cheqd intends to extend the way Indy carries out revocation, making it scalable and applicable within W3C-based ecosystems.
+{% embed url="../../toolbox/resolver/README.md" %}
 
 #### What is the core business value in this work?
 
@@ -192,6 +146,16 @@ Through creating AnonCreds compatibility to support AnonCreds-like Credentials o
 A routing layer would also create a harmonised interface with AnonCreds based on Indy AND JSON/JSON-LD Credentials anchored elsewhere.
 
 This type of interoperability is similar to how Visa, Mastercard and Amex can all work interchangeably with payment terminals. Although built separately, on different tech stacks - they can all be understood, used and accepted equally by end-customers and everyday people. This enhances the value of each company, because they are now able to collaborate as well as compete.
+
+### Revocation Registry
+
+* [ ] Status: Ongoing - Q3 expected release
+
+Revocation lists and registries have been one of the components of W3C Verifiable Credentials tech stacks that have lagged behind. There is a clear need for a far more scalable, privacy-preserving revocation registry than what currently exists on the market.
+
+The revocation registry is also central to how cheqd intends to monetise the use of Verifiable Credentials - via gating requests made to check revocation status.
+
+Proponents of Hyperledger Indy will often point to the way it carries out revocation as a gold standard, since it is functional and privacy-preserving. cheqd intends to extend the way Indy carries out revocation, making it scalable and applicable within W3C-based ecosystems.
 
 ## Payment rails
 

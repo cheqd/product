@@ -18,7 +18,7 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 ### Background information
 
 1. [Learn about cheqd](https://learn.cheqd.io/)
-2. [cheqd Network Pricing](../../essentials/why-cheqd/pricing.md)
+2. [Network Pricing](../essentials/why-cheqd/pricing.md)
 3. [Block Explorer](https://explorer.cheqd.io/)
 4. [Dashboard for managing CHEQ tokens](https://cheqd.omniflix.co/)
 5. [Stake and delegate CHEQ tokens](https://learn.cheqd.io/overview/intro-to-defi-aspects-of-cheqd/what-is-staking-and-delegation)
@@ -54,7 +54,7 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 
 ## Integrating with cheqd
 
-We have a [suite a products](tooling/README.md), including ledger software, backend/middleware, front-end SDKs, etc aimed at making developing rich applications on the cheqd network as easy as possible. [Get in touch with our product team](https://calendly.com/cheqd-product) if you want to explore these options.
+We have a [suite a products](../toolbox/README.md), including ledger software, backend/middleware, front-end SDKs, etc aimed at making developing rich applications on the cheqd network as easy as possible. [Get in touch with our product team](https://calendly.com/cheqd-product) if you want to explore these options.
 
 ### Exploratory integration and inbounds
 
