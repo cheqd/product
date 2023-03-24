@@ -27,7 +27,7 @@
   * [Changelog](products/network/upgrades/README.MD)
     * [2021](products/network/upgrades/2021/README.md)
       * [0.1.x](products/network/upgrades/2021/v0.1.x.md)
-      * [0.2.7](products/network/upgrades/2021/v0.2.7.md)
+      * [0.2.7](products/network/upgrades/2021/v0.2.x.md)
       * [0.3.1](products/network/upgrades/2021/v0.3.1.md)
     * [2022](products/network/upgrades/2022/README.md)
       * [0.4.0](products/network/upgrades/2022/v0.4.0.md)
