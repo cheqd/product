@@ -17,8 +17,8 @@
 ## Products
 
 * [✅ cheqd Network](products/network/README.md)
-  * [RCAs](products/network/rcas/README.md)
-    * [v1.x upgrade RCA](products/network/rcas/v1.x-upgrade-rca.md)
+  * [root-cause-analyses](products/network/root-cause-analyses/README.md)
+    * [v1.x upgrade RCA](products/network/root-cause-analyses/v1.x-upgrade-rca.md)
   * [Block Explorer](products/network/monitoring/block-explorer.md)
   * [Network monitoring](products/network/monitoring/README.md)
     * [Validator Status API](products/network/monitoring/validator-status.md)
