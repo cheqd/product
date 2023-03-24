@@ -6,7 +6,7 @@ As strong proponents for [open source software](https://opensource.dev/), over t
 
 Most of the [Cosmos SDK blockchain framework](https://cosmos.network/), as well as [self-sovereign identity (SSI)](https://learn.cheqd.io/overview/introduction-to-decentralised-identity) code is built by community-led efforts where developers open source and make their code available for free. Or at least, that’s how it’s supposed to work. In practice, what quite often happens, unfortunately, is that very few companies or developers contribute code “upstream” or make them available to others leading to the “[one random person in Nebraska” problem](https://xkcd.com/2347/).
 
-![One random person in Nebraska problem](../../../.gitbook/assets/nebraska-image.png)
+![One random person in Nebraska problem](../../.gitbook/assets/nebraska-image.png)
 
 Source: [xkcd #2437 "Dependency"](https://xkcd.com/2347/)
 
@@ -73,7 +73,7 @@ The [cheqd testnet faucet](https://testnet-faucet.cheqd.io/) is a self-serve sit
 
 We built this using [Cloudflare Pages](https://developers.cloudflare.com/pages/) as it provides a fast way to create serverless applications which are able to scale up and down dynamically depending on traffic, especially for something such as a testnet faucet which may not receive consistent levels of traffic. The backend for this faucet works using an existing [CosmJS faucet app](https://github.com/cosmos/cosmjs/tree/main/packages/faucet) to handle requests, run using a Digital Ocean app wrapped in a Dockerfile.
 
-![Testnet faucet](../../../.gitbook/assets/testnet-faucet-screenshot.png)
+![Testnet faucet](../../.gitbook/assets/testnet-faucet-screenshot.png)
 
 *Figure: cheqd [testnet faucet](https://testnet-faucet.cheqd.io/)*
 
@@ -94,7 +94,7 @@ The airdrop tools, used for our [community airdrop rewards](https://github.com/c
 
 In terms of the frontend, we learnt that airdrop reward sites need to be more resilient to traffic spikes than most websites because, when announced, community members will tend to flock to the site to claim their rewards generating a large spike in traffic, followed by a period of much lower traffic.
 
-![Traffic spikes](../../../.gitbook/assets/spike-graph.png)
+![Traffic spikes](../../.gitbook/assets/spike-graph.png)
 
 This type of traffic pattern can make prepping the server to host airdrop claim websites particularly difficult. For example, many projects will choose to purchase a large server capacity to prevent server lag, whilst others may simply become overwhelmed with the traffic.
 
@@ -123,7 +123,7 @@ There is an assumption in the CosmosEcosystem that wallet addresses across diffe
 
 Interestingly, each network’s wallet address can be derived using a common derivation path from the Cosmos Hub wallet address. Using one derivation path #BIP44 means that users that use one secret recovery phrase and core account to interact with multiple networks.
 
-![Cosmos cross-chain converter](../../../.gitbook/assets/cosmos-chain-converter.png)
+![Cosmos cross-chain converter](../../.gitbook/assets/cosmos-chain-converter.png)
 
 Our cross-chain address convertor is able to automate the derivation of any chain address from one Cosmos address to another. We’ve seen some examples of this previously, but they are mostly designed to do one-off conversions in a browser rather than large-scale batch conversions. Emphatically, our converter could do 200k+ addresses in a few minutes. Doing this using any existing CLI tools or shell scripts can take hours.
 

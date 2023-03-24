@@ -16,7 +16,7 @@ Being able to upload existing QR codes to the cheqd wallet is a huge feature, si
 
 This is a great way of demonstrating the power of Verifiable Credentials, since the validity of the ticket can be verified through cryptographic trust.
 
-![Credential JSON preview](../../../../.gitbook/assets/wallet-json-cred-preview-sml.png)
+![Credential JSON preview](../../../.gitbook/assets/wallet-json-cred-preview-sml.png)
 
 ### Combining tickets with a social media proof
 

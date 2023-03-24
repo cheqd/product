@@ -14,4 +14,4 @@ In the recent months AFJ has heavily been expanding into a more modular and "les
 
 > [cheqd x AnonCreds demo](https://www.youtube.com/watch?v=8ERjaB6iP48)
 
-![cheqd AnonCreds demo video](../../../.gitbook/assets/cheqd%20anoncreds%20demo.png)
+![cheqd AnonCreds demo video](../../.gitbook/assets/cheqd%20anoncreds%20demo.png)

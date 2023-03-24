@@ -37,7 +37,7 @@ With the additional [**Resource module**](https://docs.cheqd.io/identity/guides/
 
 ## Architecture
 
-![Veramo SDK for cheqd Architecture](../../../.gitbook/assets/veramo-x-cheqd-architecture.jpeg)
+![Veramo SDK for cheqd Architecture](../../.gitbook/assets/veramo-x-cheqd-architecture.jpeg)
 
 _Figure 1:_ Veramo SDK for cheqd architecture with components ([editable Draw.io version](https://github.com/cheqd/identity-docs/blob/main/.gitbook/assets/veramo-sdk-for-cheqd.drawio))
 
