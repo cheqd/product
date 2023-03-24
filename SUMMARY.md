@@ -31,7 +31,7 @@
       * [0.3.1](products/network/upgrades/2021/v0.3.x.md)
     * [2022](products/network/upgrades/2022/README.md)
       * [0.4.0](products/network/upgrades/2022/v0.4.x.md)
-      * [0.5.0](products/network/upgrades/2022/v0.5.0.md)
+      * [0.5.0](products/network/upgrades/2022/v0.5.x.md)
       * [0.6.0](products/network/upgrades/2022/v0.6.0.md)
       * [0.6.9](products/network/upgrades/2022/v0.6.9.md)
     * [2023](products/network/upgrades/2023/README.md)
