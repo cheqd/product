@@ -34,52 +34,52 @@ If you’re exploring implementing a similar approach, here’s what you should 
 
 ### cheqd wallet
 
-> **repo:** [cheqd](https://github.com/cheqd)/[wallet](https://github.com/cheqd/wallet)
+> 🛠️ **Github repository**: [cheqd/wallet](https://github.com/cheqd/wallet)
 
 [cheqd Wallet](https://wallet.cheqd.io/) allows users to perform standard DeFi activities on Cosmos such as staking/delegating, voting on governance Proposals, and sending tokens. Crucially, the cheqd Wallet goes one step further than this, offering the ability to store and share [Verifiable Credentials](https://learn.cheqd.io/overview/introduction-to-decentralised-identity/what-is-a-verifiable-credential-vc).
 
 ### Wallet frontend
 
-> **repo:**[cheqd](https://github.com/cheqd)/[wallet-frontend-elements](https://github.com/cheqd/wallet-frontend-elements)
+> 🛠️ **Github repository**: [cheqd/wallet-frontend-elements](https://github.com/cheqd/wallet-frontend-elements)
 
 The [NPM package](https://www.npmjs.com/package/@cheqd/wallet-frontend-elements) provides reusable frontend elements to be used in [cheqd Wallet](https://github.com/cheqd/wallet). This repository was a forked version of the Cosmos based [Lum network wallet](https://wallet.lum.network/welcome) ([lum-network](https://github.com/lum-network)/[wallet](https://github.com/lum-network/wallet)).
 
 ### Credential storage
 
-> **repo:** [cheqd](https://github.com/cheqd)/[secret-box-service](https://github.com/cheqd/secret-box-service)
+> 🛠️ **Github repository**: [cheqd/secret-box-service](https://github.com/cheqd/secret-box-service)
 
 The purpose of this [NPM package](https://www.npmjs.com/package/@cheqd/secret-box-service) is to store credentials from the [wallet.cheqd.io](https://wallet.cheqd.io/) web app. As such the [wallet frontend](https://github.com/cheqd)needs to be paired with the [secret box service](https://github.com/cheqd/secret-box-service). This works by only storing an encrypted copy of the credentials which is decrypted within the browser based on the user (holder) entering a passphrase.
 
 ### Credential issuance and verification backend
 
-> **repo:**[cheqd](https://github.com/cheqd)/[credential-service](https://github.com/cheqd/credential-service)
+> 🛠️ **Github repository**: [cheqd/credential-service](https://github.com/cheqd/credential-service)
 
 The purpose of this service is to issue and verify credentials. This service by itself does not take care of storing the credentials. This service is also dependent on [auth0-service](https://github.com/cheqd/auth0-service). Previously [credential service](https://github.com/cheqd/credential-service) used a Cloudflare container however it’s now running in its own node container.
 
 ### User authentication with social media connection
 
-> **repo:**[cheqd](https://github.com/cheqd)/[auth0-service](https://github.com/cheqd/auth0-service)
+> 🛠️ **Github repository**: [chqed/auth0-service](https://github.com/cheqd/auth0-service)
 
 The purpose of this [NPM package](https://www.npmjs.com/package/@cheqd/auth0-service) is to provide an OAuth connection via the Auth0 service for credentials in [wallet.cheqd.io](https://wallet.cheqd.io/) web app.
 
 This enables builders to offer users authentication with a Social Media account, e.g. Twitter and Discord, used in our demo.
 
-### cheqd Software Development Kit
+### cheqd TypeScript SDK
 
-> **repo:**[cheqd](https://github.com/cheqd)/[sdk](https://github.com/cheqd/sdk)
+> 🛠️ **Github repository**: [cheqd/sdk](https://github.com/cheqd/sdk)
 
-The purpose of this [NPM package](https://www.npmjs.com/package/@cheqd/sdk) is to provide a mechanism of integrating cheqd functionality in an application *without* using a 3rd-party SDK like [Veramo SDK for cheqd](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd).
+The purpose of this [NPM package](https://www.npmjs.com/package/@cheqd/sdk) is to provide a mechanism of integrating cheqd functionality in an application *without* using a 3rd-party SDK like [Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd).
 
 This package includes:
 
 * [TypeScript Protobuf definitions](https://github.com/cheqd/ts-proto) for custom cheqd Cosmos SDK modules
 * [CosmJS](https://github.com/cosmos/cosmjs), for base Cosmos SDK module functions
 
-If you are using [Veramo SDK for cheqd](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd), this SDK package is automatically installed and consumed by the [did-provider-cheqd Veramo plugin](https://github.com/cheqd/did-provider-cheqd).
+If you are using [Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd), this SDK package is automatically installed and consumed by the [did-provider-cheqd Veramo plugin](https://github.com/cheqd/did-provider-cheqd).
 
 ### cheqd x Veramo plug-in
 
-> **repo:**[cheqd](https://github.com/cheqd)/[did-provider-cheqd](https://github.com/cheqd/did-provider-cheqd)
+> 🛠️ **Github repository**: [cheqd/did-provider-cheqd](https://github.com/cheqd/did-provider-cheqd)
 
 The purpose of this [NPM package](https://www.npmjs.com/package/@cheqd/did-provider-cheqd) is to enable developers to interact with the cheqd ledger using [Veramo SDK](https://veramo.io/), a modular and pluggable client app SDK for decentralised identity and SSI applications.
 

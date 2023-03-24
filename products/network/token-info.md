@@ -17,4 +17,4 @@
 | **Daemon name**           | cheqd-noded                                                                                                                                                                                                                                |
 | **Genesis file**   | [cheqd-mainnet-1 genesis file](https://raw.githubusercontent.com/cheqd/cheqd-node/main/networks/mainnet/genesis.json)                                         |
 | **DID syntax**            | `did:cheqd:mainnet:<unique identifier>`                                                                                                                                                                                                      |
-| **DID method**            | [`did:cheqd` method ADR](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method) |
+| **DID method**            | [`did:cheqd` method ADR](https://docs.cheqd.io/identity/architecture/adr-list/adr-001-cheqd-did-method) |

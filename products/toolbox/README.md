@@ -16,7 +16,7 @@ This will be useful for:
 
 cheqd is continually integrating into different software development kits to suit the needs of different partners and their clients.
 
-Below is a comparison between our two initial supported SDKs, Veramo SDK for cheqd and Aries Framework JavaScript SDK for cheqd.&#x20;
+Below is a comparison between our two initial supported SDKs, Veramo SDK for cheqd and Aries Framework JavaScript SDK for cheqd.
 
 | Functionality                                                                                                                                            | Veramo SDK for cheqd | Aries Framework JavaScript for cheqd |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------: | :----------------------------------: |

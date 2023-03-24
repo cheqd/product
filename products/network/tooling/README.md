@@ -6,8 +6,9 @@ As strong proponents for [open source software](https://opensource.dev/), over t
 
 Most of the [Cosmos SDK blockchain framework](https://cosmos.network/), as well as [self-sovereign identity (SSI)](https://learn.cheqd.io/overview/introduction-to-decentralised-identity) code is built by community-led efforts where developers open source and make their code available for free. Or at least, that’s how it’s supposed to work. In practice, what quite often happens, unfortunately, is that very few companies or developers contribute code “upstream” or make them available to others leading to the “[one random person in Nebraska” problem](https://xkcd.com/2347/).
 
-![One random person in Nebraska” problem](../../../.gitbook/assets/nebraska-image.png)
-Source: [xkcd #2437 “Dependency”](https://xkcd.com/2347/)
+![One random person in Nebraska problem](../../../.gitbook/assets/nebraska-image.png)
+
+Source: [xkcd #2437 "Dependency"](https://xkcd.com/2347/)
 
 Our intention is to enable others to benefit from our work. For each tool that we are releasing under an open source license ([Apache 2.0](https://snyk.io/learn/apache-license/)), we explain what the **unique value proposition is**, and **which audiences could benefit from the work** we have done.
 
@@ -22,7 +23,7 @@ The tools we are open-sourcing, explained on this page include:
 
 ### 1. Streamlining node setup and management with Infrastructure-as-code
 
-> **Github repo:** [cheqd/infra](https://github.com/cheqd/infra)
+> 🛠️ **Github repository**: [cheqd/infra](https://github.com/cheqd/infra)
 
 Over the past months we’ve been implementing various tools to improve performance, speed up node setup and help to reduce manual effort for our team and external developers as much as possible. We wanted to make installing and running cheqd nodes easy. Therefore, our automation allows people to configure secure, out-of-the-box configurations efficiently and at a low cost.
 
@@ -30,7 +31,7 @@ Over the past months we’ve been implementing various tools to improve performa
 
 We have started using [HashiCorp’s Terraform](https://www.terraform.io/) to define consistent and automated workflows — in order to improve efficiency and streamline the process of setting up a node on cheqd. Terraform is a form of Infra-as-code which is essentially the managing and provisioning of infrastructure through code instead of through manual processes. You can think of it like dominos — one click of a button can result in a whole series of outcomes.
 
-This automation gives prospective network Validators the choice of whether they want to just install a validator node ([using our install instructions](https://github.com/cheqd/node-docs/tree/main/docs/setup-and-configure)), or whether they want to set up a sentry+validator architecture for more security.
+This automation gives prospective network Validators the choice of whether they want to just install a validator node ([using our install instructions](https://docs.cheqd.io/node/getting-started/setup-and-configure)), or whether they want to set up a sentry+validator architecture for more security.
 
 ### Terragrunt: Infra-as-code
 
@@ -60,19 +61,21 @@ This work is important because other Cosmos networks can reuse the role manageme
 
 HashiCorp Vault: Secret Sharing
 
-Sharing secrets in a secure fashion is vital — for this we’ve [HashiCorp Vault](https://www.vaultproject.io/) which offers a script that copies private keys and node keys over to a vault. You can think of this like a[LastPass](https://twitter.com/LastPass) or [1Password](https://1password.com/) for network secrets (e.g. private keys). This way, if for example a node is accidentally deleted and the private key is deleted for a validator, it’s easy to restore it.
+Sharing secrets in a secure fashion is vital — for this we’ve [HashiCorp Vault](https://www.vaultproject.io/) which offers a script that copies private keys and node keys over to a vault. You can think of this like [LastPass](https://twitter.com/LastPass) or [1Password](https://1password.com/) for network secrets (e.g. private keys). This way, if for example a node is accidentally deleted and the private key is deleted for a validator, it’s easy to restore it.
 
 This is hugely valuable for Validator nodes, who may want to add an extra layer of security to the process of backing up private keys and sharing keys between persons internally. Moreover, through using HashiCorp Vault, we hope to reduce the amount of risk teams may incur of losing their private keys and thus, losing the ability to properly manage their nodes.
 
 ## 2. Automated distribution of CHEQ test tokens with our Testnet Faucet
 
-> **Github repo:** [cheqd/faucet-ui](https://github.com/cheqd/faucet-ui)
+> 🛠️ **Github repository**: [cheqd/faucet-ui](https://github.com/cheqd/faucet-ui)
 
 The [cheqd testnet faucet](https://testnet-faucet.cheqd.io/) is a self-serve site that allows app developers and node operators who want to try out our identity functionality or node operations to request test CHEQ tokens, without having to spend money to acquire “real” CHEQ tokens on mainnet.
 
 We built this using [Cloudflare Pages](https://developers.cloudflare.com/pages/) as it provides a fast way to create serverless applications which are able to scale up and down dynamically depending on traffic, especially for something such as a testnet faucet which may not receive consistent levels of traffic. The backend for this faucet works using an existing [CosmJS faucet app](https://github.com/cosmos/cosmjs/tree/main/packages/faucet) to handle requests, run using a Digital Ocean app wrapped in a Dockerfile.
 
 ![Testnet faucet](../../../.gitbook/assets/testnet-faucet-screenshot.png)
+
+*Figure: cheqd [testnet faucet](https://testnet-faucet.cheqd.io/)*
 
 **Why is this valuable?**
 
@@ -85,7 +88,7 @@ This solution:
 
 ## 3. Frontend/backend for running Cosmos SDK airdrops
 
-> **Github repo:**[cheqd/airdrop-ui](https://github.com/cheqd/airdrop-ui) (FE), [cheqd/airdrop-distribution](https://github.com/cheqd/airdrop-distribution)(BE)
+> 🛠️ **Github repository**: [cheqd/airdrop-ui](https://github.com/cheqd/airdrop-ui) (frontend), [cheqd/airdrop-distribution](https://github.com/cheqd/airdrop-distribution)(backend)
 
 The airdrop tools, used for our [community airdrop rewards](https://github.com/cheqd/airdrop-ui) site, are split into two repos; one for managing the actual distribution of airdrop rewards to wallets, and another for the frontend itself to handle claims.
 
@@ -114,7 +117,7 @@ We would much rather other projects do not make the same mistakes as we did when
 
 ## 4. Cosmos Cross chain address convertor CLI
 
-> **Github repo**[cheqd](https://github.com/cheqd)/[cosmjs-cli-converter](https://github.com/cheqd/cosmjs-cli-converter)
+> 🛠️ **Github repository**: [cheqd/cosmjs-cli-converter](https://github.com/cheqd/cosmjs-cli-converter)
 
 There is an assumption in the CosmosEcosystem that wallet addresses across different chains, such as, Cosmos (ATOM), Osmosis (OSMO) and cheqd (CHEQ) are all identical. This is because they all look very similar. However, each chain’s wallet address is actually unique.
 

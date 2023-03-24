@@ -2,9 +2,9 @@
 
 ## Context
 
-> **Github repos:** [cheqd/did-resolver](https://github.com/cheqd/did-resolver)
+> 🛠️ **Github repository**: [cheqd/did-resolver](https://github.com/cheqd/did-resolver)
 
-After we released our [cheqd DID method in 2021](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
+After we released our [cheqd DID method in 2021](https://docs.cheqd.io/identity/architecture/adr-list/adr-001-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 
 We are pleased to have designed a modular architecture for DID resolution, with multiple options for using and implementing our work, increasing:
 
@@ -24,7 +24,6 @@ In short, this architecture improves:
 
 * Accessibility to cheqd DIDs
 * Flexibility, offering app developers and partners optionality and choice of platforms to run on, according to their security/scalability needs, and at various different levels of how much it costs to run this infrastructure.
-
 
 ## Resolver packages for `did:cheqd`
 
@@ -64,4 +63,4 @@ Learn about DIDs and what DID resolution is here:
 
 You can look into our architecture and decision making in more detail in our Identity docs:
 
-{% embed url="https://docs.cheqd.io/identity/architecture/adr-list/adr-001-did-resolver" %}
+{% embed url="https://docs.cheqd.io/identity/architecture/adr-list/adr-003-did-resolver" %}

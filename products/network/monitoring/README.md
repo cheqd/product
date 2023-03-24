@@ -8,6 +8,6 @@ These include:
 
 - [cheqd Block Explorer](block-explorer.md)
 - [Validator Status API](validator-status.md)
-- [cheqd x Cosmos Data API](data-apis.md)
+- [cheqd x Cosmos Data API](data-api.md)
   
 All of these are open sourced and available to be used within your project.

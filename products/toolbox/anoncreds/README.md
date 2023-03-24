@@ -28,16 +28,16 @@ ACA-Py Release date: **Early April 2023**
 
 ## Phase 1: cheqd AnonCreds Object Method
 
-We have now created an extensive body of documentation to explain how we represent each of the [AnonCreds Objects using resources identifed via DID Core conformant DID URLs](https://docs.cheqd.io/identity/guides/resources/using-on-ledger-resources-to-support-anoncreds). Central to this approach has been removing all dependencies on Hyperledger Indy from the core “data” contents of an AnonCreds Object, and moving anything specific to a particular network to “AnonCreds Object Metadata”.
+We have now created an extensive body of documentation to explain how we represent each of the [AnonCreds Objects using resources identified via DID Core conformant DID URLs](https://docs.cheqd.io/identity/guides/anoncreds). Central to this approach has been removing all dependencies on Hyperledger Indy from the core “data” contents of an AnonCreds Object, and moving anything specific to a particular network to “AnonCreds Object Metadata”.
 
 This mimics how DID Document representation is able to support multiple different approaches, where anything network specific should be represented within the “DID Document metadata” section, rather than in the core body of what is returned.
 
 ### Timelines
 
-* [x] [cheqd AnonCreds Schemas](https://docs.cheqd.io/identity/ledger-resources/using-on-ledger-resources-to-support-anoncreds/schema-object): Completed
-* [x] [cheqd AnonCreds CredDefs](https://docs.cheqd.io/identity/ledger-resources/using-on-ledger-resources-to-support-anoncreds/creddef-object): Completed
-* [x] [cheqd AnonCreds Revocation Registry Definitions](https://docs.cheqd.io/identity/ledger-resources/using-on-ledger-resources-to-support-anoncreds/revocation-registry-definition-object): Completed
-* [x] [cheqd AnonCreds Revocation Registry Entries](https://docs.cheqd.io/identity/ledger-resources/using-on-ledger-resources-to-support-anoncreds/revocation-registry-entry-object): Completed
+* [x] [cheqd AnonCreds Schemas](https://docs.cheqd.io/identity/guides/anoncreds/schema): Completed
+* [x] [cheqd AnonCreds CredDefs](https://docs.cheqd.io/identity/guides/anoncreds/credential-definition): Completed
+* [x] [cheqd AnonCreds Revocation Registry Definitions](https://docs.cheqd.io/identity/guides/anoncreds/revocation-registry-definition): Completed
+* [x] [cheqd AnonCreds Revocation Registry Entries](https://docs.cheqd.io/identity/guides/anoncreds/revocation-registry-entries): Completed
 
 ### Demonstration
 

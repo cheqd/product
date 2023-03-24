@@ -8,19 +8,19 @@ From our Product research that we have carried out this year ([find our general 
 
 We have split our documentation into separate repositories for clarity and convenience (below). We will continually improve, add-to and iterate this documentation to keep it up to date.
 
-* [x] [Setup Veramo SDK for cheqd](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/setup-cli): Completed
-* [x] [Creating DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations): Completed
-* [x] [Query DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/query-did): Completed
-* [x] [Managing keys](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/identity-key-handling): Completed
-* [x] [Updating DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/update-did): Completed
+* [x] [Setup Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd/setup): Completed
+* [x] [Creating DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/create-did): Completed
+* [x] [Query DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/query-did): Completed
+* [x] [Managing keys](https://docs.cheqd.io/identity/tutorials/did-operations/identity-keys): Completed
+* [x] [Updating DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/update-did): Completed
 * [ ] Deactivating DIDs: In progress
-* [x] [Creating Resources/Schemas](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/create-a-resource): Completed
-* [x] [Creating new Resource Versions](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/create-a-resource/create-a-new-resource-version): Completed
-* [x] [Issuing Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-credentials): Completed
-* [x] [Verify Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-credentials/verify-jwt-vc): Completed
-* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/verifiable-presentations): Completed&#x20;
+* [x] [Creating Resources/Schemas](https://docs.cheqd.io/identity/tutorials/did-linked-resources/create-resource): Completed
+* [x] [Creating new Resource Versions](https://docs.cheqd.io/identity/tutorials/did-linked-resources/create-new-version): Completed
+* [x] [Issuing Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/tutorials/credentials-and-presentations/issue-credential): Completed
+* [x] [Verify Verifiable Credentials (JSON)](https://docs.cheqd.io/identity/tutorials/credentials-and-presentations/verify-jwt-credential): Completed
+* [x] [Creating Verifiable Presentations (JSON)](https://docs.cheqd.io/identity/tutorials/credentials-and-presentations/verify-jwt-presentation): Completed
 * [ ] Issuing Verifiable Credentials (JSON-LD): In progress
-* [ ] Creating Verifiable Presentations (JSON-LD): In progress&#x20;
+* [ ] Creating Verifiable Presentations (JSON-LD): In progress
 
 #### What is the core business value of this work?
 
@@ -37,10 +37,9 @@ Easily digestible and clear documentation is crucial for giving cheqd's partners
 ### DID Resolver
 
 * [x] Full DID Resolver: Completed
-* [ ] Light DID Resolver: Ongoing - Q3/4 expected release
-* [x] Universal Resolver: Completed&#x20;
+* [x] Universal Resolver: Completed
 
-After we released our [cheqd DID method in 2021](https://docs.cheqd.io/node/architecture/adr-list/adr-002-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
+After we released our [cheqd DID method in 2021](https://docs.cheqd.io/identity/architecture/adr-list/adr-001-cheqd-did-method), creating a way for any person to simply resolve cheqd DIDs and utilise the value of [DID Core](https://www.w3.org/TR/did-core/) was an important next step for Q1 and Q2 2022.
 
 We are pleased to have designed a modular architecture for DID resolution, with multiple options for using and implementing our work.
 
