@@ -8,11 +8,11 @@ From our Product research that we have carried out this year ([find our general 
 
 We have split our documentation into separate repositories for clarity and convenience (below). We will continually improve, add-to and iterate this documentation to keep it up to date.
 
-* [x] [Setup Veramo SDK for cheqd](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/setup-cli): Completed
-* [x] [Creating DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations): Completed
-* [x] [Query DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/query-did): Completed
-* [x] [Managing keys](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/identity-key-handling): Completed
-* [x] [Updating DIDs](https://docs.cheqd.io/identity/building-decentralized-identity-apps/veramo-sdk-for-cheqd/did-operations/update-did): Completed
+* [x] [Setup Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd/setup): Completed
+* [x] [Creating DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/create-dids): Completed
+* [x] [Query DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/query-did): Completed
+* [x] [Managing keys](https://docs.cheqd.io/identity/tutorials/did-operations/identity-keys): Completed
+* [x] [Updating DIDs](https://docs.cheqd.io/identity/tutorials/did-operations/update-did): Completed
 * [ ] Deactivating DIDs: In progress
 * [x] [Creating Resources/Schemas](https://docs.cheqd.io/identity/tutorials/did-linked-resources/create-resource): Completed
 * [x] [Creating new Resource Versions](https://docs.cheqd.io/identity/tutorials/did-linked-resources/create-resource/create-a-new-resource-version): Completed

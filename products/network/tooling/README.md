@@ -22,7 +22,7 @@ The tools we are open-sourcing, explained on this page include:
 
 ### 1. Streamlining node setup and management with Infrastructure-as-code
 
-> **Github repo:** [cheqd/infra](https://github.com/cheqd/infra)
+> 🛠️ **Github repository**: [cheqd/infra](https://github.com/cheqd/infra)
 
 Over the past months we’ve been implementing various tools to improve performance, speed up node setup and help to reduce manual effort for our team and external developers as much as possible. We wanted to make installing and running cheqd nodes easy. Therefore, our automation allows people to configure secure, out-of-the-box configurations efficiently and at a low cost.
 
@@ -30,7 +30,7 @@ Over the past months we’ve been implementing various tools to improve performa
 
 We have started using [HashiCorp’s Terraform](https://www.terraform.io/) to define consistent and automated workflows — in order to improve efficiency and streamline the process of setting up a node on cheqd. Terraform is a form of Infra-as-code which is essentially the managing and provisioning of infrastructure through code instead of through manual processes. You can think of it like dominos — one click of a button can result in a whole series of outcomes.
 
-This automation gives prospective network Validators the choice of whether they want to just install a validator node ([using our install instructions](https://github.com/cheqd/node-docs/tree/main/docs/setup-and-configure)), or whether they want to set up a sentry+validator architecture for more security.
+This automation gives prospective network Validators the choice of whether they want to just install a validator node ([using our install instructions](https://docs.cheqd.io/node/getting-started/setup-and-configure)), or whether they want to set up a sentry+validator architecture for more security.
 
 ### Terragrunt: Infra-as-code
 
@@ -66,7 +66,7 @@ This is hugely valuable for Validator nodes, who may want to add an extra layer 
 
 ## 2. Automated distribution of CHEQ test tokens with our Testnet Faucet
 
-> **Github repo:** [cheqd/faucet-ui](https://github.com/cheqd/faucet-ui)
+> 🛠️ **Github repository**: [cheqd/faucet-ui](https://github.com/cheqd/faucet-ui)
 
 The [cheqd testnet faucet](https://testnet-faucet.cheqd.io/) is a self-serve site that allows app developers and node operators who want to try out our identity functionality or node operations to request test CHEQ tokens, without having to spend money to acquire “real” CHEQ tokens on mainnet.
 
@@ -85,7 +85,7 @@ This solution:
 
 ## 3. Frontend/backend for running Cosmos SDK airdrops
 
-> **Github repo:**[cheqd/airdrop-ui](https://github.com/cheqd/airdrop-ui) (FE), [cheqd/airdrop-distribution](https://github.com/cheqd/airdrop-distribution)(BE)
+> 🛠️ **Github repository**: [cheqd/airdrop-ui](https://github.com/cheqd/airdrop-ui) (frontend), [cheqd/airdrop-distribution](https://github.com/cheqd/airdrop-distribution)(backend)
 
 The airdrop tools, used for our [community airdrop rewards](https://github.com/cheqd/airdrop-ui) site, are split into two repos; one for managing the actual distribution of airdrop rewards to wallets, and another for the frontend itself to handle claims.
 
@@ -114,7 +114,7 @@ We would much rather other projects do not make the same mistakes as we did when
 
 ## 4. Cosmos Cross chain address convertor CLI
 
-> **Github repo**[cheqd](https://github.com/cheqd)/[cosmjs-cli-converter](https://github.com/cheqd/cosmjs-cli-converter)
+> 🛠️ **Github repository**: [cheqd/cosmjs-cli-converter](https://github.com/cheqd/cosmjs-cli-converter)
 
 There is an assumption in the CosmosEcosystem that wallet addresses across different chains, such as, Cosmos (ATOM), Osmosis (OSMO) and cheqd (CHEQ) are all identical. This is because they all look very similar. However, each chain’s wallet address is actually unique.
 

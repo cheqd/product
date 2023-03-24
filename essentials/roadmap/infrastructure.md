@@ -2,7 +2,7 @@
 
 ## Tooling, hosting and analytics
 
-**Github repositories**: [**cheqd/infra**](https://github.com/cheqd/infra)
+> 🛠️ **Github repository**: [**cheqd/infra**](https://github.com/cheqd/infra)
 
 * [x] Terraform: Completed
 * [x] Terragrunt: Completed
@@ -56,7 +56,7 @@ This is valuable for anyone managing private keys, since if a key is lost or acc
 
 ## Testnet token faucet UI
 
-**Github repository**: [cheqd/faucet-ui](https://github.com/cheqd/faucet-ui)
+> 🛠️ **Github repository**: [cheqd/faucet-ui](https://github.com/cheqd/faucet-ui)
 
 The [cheqd testnet faucet](https://testnet-faucet.cheqd.io) is a self-serve site that allows app developers and node operators who want to try out our identity functionality or node operations to request test CHEQ tokens, without having to spend money to acquire “real” CHEQ tokens on mainnet.
 
