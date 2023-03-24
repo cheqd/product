@@ -13,7 +13,8 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 | **Investor**                   | I want to understand how CHEQs short and long term tokenomics affect me                        | [cheqd Tokenomics](https://learn.cheqd.io/overview/tokenomics)                                                                                                                                                                                                                                                                              |
 | **cheqd partner or developer** | I want to setup a node on the cheqd Network                                                    | [Setting up a new cheqd node](https://docs.cheqd.io/node/getting-started/setup-and-configure)                                                                                                                                                                                                                                                          |
 
-### General network resources
+## Resources
+### Background information
 
 1. [Learn about cheqd](https://learn.cheqd.io/)
 2. [cheqd Network Pricing](../../essentials/why-cheqd/pricing.md)
@@ -23,7 +24,7 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 6. [Vote on cheqd Proposals](https://learn.cheqd.io/getting-set-up-on-cheqd/how-to-vote)
 7. [Governance forum](https://commonwealth.im/cheqd)
 
-### cheqd Network technical resources
+### Technical Resources
 
 1. [Setup node documentation](https://docs.cheqd.io/node)
 2. [Setup cheqd Cosmos CLI](https://docs.cheqd.io/node/getting-started/cheqd-cli)
@@ -34,7 +35,7 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 7. [Update DID with cheqd Cosmos CLI](https://docs.cheqd.io/identity/ledger-identity/decentralized-identifiers/update-and-manage-did-document)
 8. [Create Resource with cheqd Cosmos CLI](https://docs.cheqd.io/identity/tutorials/on-ledger-resources)
 
-### CHEQ token and tokenomics resources
+### CHEQ token / tokenomics
 
 1. [Acquire CHEQ token](https://cheqd.io/buy)
 2. [Why SSI needs a token](https://cheqd.io/blog/why-self-sovereign-identity-needs-a-token-an-expanded-version)
@@ -42,11 +43,10 @@ Due to the broad nature of blockchain technology, cheqd Network caters to differ
 4. [CHEQ tokenomics: Distribution](https://learn.cheqd.io/overview/tokenomics/tokenomics-part-2)
 5. [CHEQ tokenomics: Payment Rails](https://learn.cheqd.io/overview/tokenomics/tokenomics-part-3)
 
-### Integrating with cheqd: cheqd Toolbox
+## Integrating with cheqd
 
-1. [cheqd Toolbox](tooling/README.md)
-2. Contact product team on product.cheqd.io.
+We have a [suite a products](tooling/README.md), including ledger software, backend/middleware, front-end SDKs, etc aimed at making developing rich applications on the cheqd network as easy as possible. [Get in touch with our product team](https://calendly.com/cheqd-product) if you want to explore these options.
 
 ### Exploratory integration and inbounds
 
-1. Reach out to cheqd's Head of Partnershops, Tobias Halloran - tobias@cheqd.io.
+For strategic partnetships, please [reach out to Tobias Halloran](mailto:tobias@cheqd.io), Head of Partnerships.
