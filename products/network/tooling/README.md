@@ -6,8 +6,9 @@ As strong proponents for [open source software](https://opensource.dev/), over t
 
 Most of the [Cosmos SDK blockchain framework](https://cosmos.network/), as well as [self-sovereign identity (SSI)](https://learn.cheqd.io/overview/introduction-to-decentralised-identity) code is built by community-led efforts where developers open source and make their code available for free. Or at least, that’s how it’s supposed to work. In practice, what quite often happens, unfortunately, is that very few companies or developers contribute code “upstream” or make them available to others leading to the “[one random person in Nebraska” problem](https://xkcd.com/2347/).
 
-![One random person in Nebraska” problem](../../../.gitbook/assets/nebraska-image.png)
-Source: [xkcd #2437 “Dependency”](https://xkcd.com/2347/)
+![One random person in Nebraska problem](../../../.gitbook/assets/nebraska-image.png)
+
+Source: [xkcd #2437 "Dependency"](https://xkcd.com/2347/)
 
 Our intention is to enable others to benefit from our work. For each tool that we are releasing under an open source license ([Apache 2.0](https://snyk.io/learn/apache-license/)), we explain what the **unique value proposition is**, and **which audiences could benefit from the work** we have done.
 
@@ -60,7 +61,7 @@ This work is important because other Cosmos networks can reuse the role manageme
 
 HashiCorp Vault: Secret Sharing
 
-Sharing secrets in a secure fashion is vital — for this we’ve [HashiCorp Vault](https://www.vaultproject.io/) which offers a script that copies private keys and node keys over to a vault. You can think of this like a[LastPass](https://twitter.com/LastPass) or [1Password](https://1password.com/) for network secrets (e.g. private keys). This way, if for example a node is accidentally deleted and the private key is deleted for a validator, it’s easy to restore it.
+Sharing secrets in a secure fashion is vital — for this we’ve [HashiCorp Vault](https://www.vaultproject.io/) which offers a script that copies private keys and node keys over to a vault. You can think of this like [LastPass](https://twitter.com/LastPass) or [1Password](https://1password.com/) for network secrets (e.g. private keys). This way, if for example a node is accidentally deleted and the private key is deleted for a validator, it’s easy to restore it.
 
 This is hugely valuable for Validator nodes, who may want to add an extra layer of security to the process of backing up private keys and sharing keys between persons internally. Moreover, through using HashiCorp Vault, we hope to reduce the amount of risk teams may incur of losing their private keys and thus, losing the ability to properly manage their nodes.
 
@@ -73,6 +74,8 @@ The [cheqd testnet faucet](https://testnet-faucet.cheqd.io/) is a self-serve sit
 We built this using [Cloudflare Pages](https://developers.cloudflare.com/pages/) as it provides a fast way to create serverless applications which are able to scale up and down dynamically depending on traffic, especially for something such as a testnet faucet which may not receive consistent levels of traffic. The backend for this faucet works using an existing [CosmJS faucet app](https://github.com/cosmos/cosmjs/tree/main/packages/faucet) to handle requests, run using a Digital Ocean app wrapped in a Dockerfile.
 
 ![Testnet faucet](../../../.gitbook/assets/testnet-faucet-screenshot.png)
+
+*Figure: cheqd [testnet faucet](https://testnet-faucet.cheqd.io/)*
 
 **Why is this valuable?**
 
