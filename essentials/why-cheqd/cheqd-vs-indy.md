@@ -1,4 +1,4 @@
-# ⚖ Benchmarking cheqd vs. Hyperledger Indy
+# Comparison to Hyperledger Indy
 
 | Functionality                                                                           |                      cheqd                     |         Hyperledger Indy        |
 | --------------------------------------------------------------------------------------- | :--------------------------------------------: | :-----------------------------: |
@@ -20,7 +20,7 @@
 | **Dereference DID URL**                                                                 |                       ✔️                       |                ✔️               |
 | **Multiple DID Controllers per DIDDoc**                                                 |                       ✔️                       |                ❌                |
 | **Verification relationships with specific keys for a particular verification purpose** |                       ✔️                       |                ❌                |
-| **Support Aries Framework JavaScript**  |                       ✔️                       |                ✔️               |
+| **Support Aries Framework JavaScript**                                                  |                       ✔️                       |                ✔️               |
 | **Support: Aries Framework.NET**                                                        |                   ⌛(roadmap)                   |                ✔️               |
 | **Support: ACA-Py**                                                                     |                ⌛(next 2 months)                |                ✔️               |
 | **Support: Aries Framework Go**                                                         |                   ⌛(roadmap)                   |                ✔️               |

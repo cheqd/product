@@ -1,4 +1,4 @@
-# 🛠 Network Tooling
+# 🌍 Infrastructure
 
 ## Context
 
@@ -37,7 +37,7 @@ This automation gives prospective network Validators the choice of whether they 
 
 [Terragrunt](https://terragrunt.gruntwork.io/) works hand-in-hand with Terraform, making code more modular, reducing repetition and facilitating different configurations of code for different use cases. You can plug in config information like CPU, RAM, Static IPs, Storage, etc., which speed things up whilst making the code more modular and reusable.
 
-Through the use of Terragrunt, we are also able to extend our infrastructure to a full suite of supported cloud providers. This is important since our infrastructure code only works directly with [Hetzner](https://www.google.com/search?q=hetzner&oq=hetzner&aqs=chrome..69i57.3321j0j1&sourceid=chrome&ie=UTF-8) and [DigitalOcean](https://www.digitalocean.com/) cloud providers (for their good balance of cost vs performance). We did, however, recognise that many people use [AWS](https://aws.amazon.com/) or [Azure](https://azure.microsoft.com/en-au/). Terragrunt therefore, performs the role of a wrapper to make our infrastructure available in Hetzner and DigitalOcean, as well as making it easier to utilise with AWS or Azure.
+Through the use of Terragrunt, we are also able to extend our infrastructure to a full suite of supported cloud providers. This is important since our infrastructure code only works directly with [Hetzner](https://www.google.com/search?q=hetzner\&oq=hetzner\&aqs=chrome..69i57.3321j0j1\&sourceid=chrome\&ie=UTF-8) and [DigitalOcean](https://www.digitalocean.com/) cloud providers (for their good balance of cost vs performance). We did, however, recognise that many people use [AWS](https://aws.amazon.com/) or [Azure](https://azure.microsoft.com/en-au/). Terragrunt therefore, performs the role of a wrapper to make our infrastructure available in Hetzner and DigitalOcean, as well as making it easier to utilise with AWS or Azure.
 
 ### Ansible: Infra-as-code
 
@@ -75,7 +75,7 @@ We built this using [Cloudflare Pages](https://developers.cloudflare.com/pages/)
 
 ![Testnet faucet](../../.gitbook/assets/testnet-faucet-screenshot.png)
 
-*Figure: cheqd [testnet faucet](https://testnet-faucet.cheqd.io/)*
+_Figure: cheqd_ [_testnet faucet_](https://testnet-faucet.cheqd.io/)
 
 **Why is this valuable?**
 
@@ -131,4 +131,4 @@ Our cross-chain address convertor is able to automate the derivation of any chai
 
 This is valuable since it can automate airdrops or distributions to any account, just from a Cosmos Hub address in bulk, making data calculations far more efficient.
 
-For new chains in the Cosmos Ecosystem, this makes it much easier for the core team and[Cosmonauts](https://twitter.com/hashtag/cosmonauts?src=hashtag_click) to discover and utilise their account addresses and carry out distributions.
+For new chains in the Cosmos Ecosystem, this makes it much easier for the core team and[Cosmonauts](https://twitter.com/hashtag/cosmonauts?src=hashtag\_click) to discover and utilise their account addresses and carry out distributions.

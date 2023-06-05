@@ -14,7 +14,7 @@ This enables cheqd wants to create **commercially viable SSI ecosystems** throug
 
 ## Why should **you** choose cheqd?
 
-### 🆔 Identity done the ***right*** way
+### 🆔 Identity done the _**right**_ way
 
 With cheqd network, you can already:
 
@@ -29,7 +29,7 @@ And [very soon](now-next-and-future.md) you will be able to:
 * Manage Verifiable Credential revocation status;
 * Create customisable payment flows for Verifiable Credentials.
 
-> **Note**: cheqd intends to be the first network to support *both* [JSON and JSON-LD](https://www.w3.org/TR/vc-data-model/), *as well as* [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html) whilst remaining conformant with the [W3C VC Data Model](https://www.w3.org/TR/vc-data-model/)
+> **Note**: cheqd intends to be the first network to support _both_ [JSON and JSON-LD](https://www.w3.org/TR/vc-data-model/), _as well as_ [AnonCreds](https://hyperledger-indy.readthedocs.io/projects/sdk/en/latest/docs/design/002-anoncreds/README.html) whilst remaining conformant with the [W3C VC Data Model](https://www.w3.org/TR/vc-data-model/)
 
 ### 📈 Peak Performance at low cost
 
@@ -45,7 +45,7 @@ cheqd is designed as a highly performant Layer 1 with high throughput. Built usi
 
 Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
 
-On average, transactions on cheqd cost **between $2-15**, based on transaction type. Our [pricing table explains costs of DID transactions, on-ledger resources](pricing.md) (e.g., schemas, logos, trusted issuer lists, etc) in more detail.
+On average, transactions on cheqd cost **between $2-15**, based on transaction type. Our [pricing table explains costs of DID transactions, on-ledger resources](broken-reference) (e.g., schemas, logos, trusted issuer lists, etc) in more detail.
 
 ### 💰 Get paid for your part
 
@@ -62,11 +62,11 @@ cheqd is building payment rails that enable customisable business models:
 
 Through our payment rails, new business and revenue models for participants in the self-sovereign identity ecosystem can accelerate the adoption of the technology, making SSI into a more commercially viable technology, whilst keeping individuals in control of their own data.
 
-### 🗳️ *Truly* decentralised governance
+### 🗳️ _Truly_ decentralised governance
 
 * cheqd has created a highly commended [decentralised Governance Framework](https://docs.cheqd.io/governance/)
 * cheqd uses a [delegated Proof of Stake (DPoS](https://en.bitcoinwiki.org/wiki/DPoS)) model, using its native token $CHEQ, to enable fair and proportionate decision making on the network.
-* As a token holder, [**with our easy to use governance dashboard**](https://commonwealth.im/cheqd/) **** you can vote on key governance decisions, such as whether the network should be improved in the way the core team has suggested, and even decide on how the [network Community Pool](https://gov.cheqd.io/contributing/community-pool) is used
+* As a token holder, [**with our easy to use governance dashboard**](https://commonwealth.im/cheqd/) \*\*\*\* you can vote on key governance decisions, such as whether the network should be improved in the way the core team has suggested, and even decide on how the [network Community Pool](https://gov.cheqd.io/contributing/community-pool) is used
 * You are able to easily propose a new on-chain proposal with a deposit of 8000 $CHEQ using our [governance forum](https://commonwealth.im/cheqd)
 * As an interested community member, you can use our [off-chain governance forum](https://commonwealth.im/cheqd) to propose changes and engage in discussion with the rest of the cheqd community without needing tokens
 
@@ -145,19 +145,17 @@ We are happy to set up multi-stakeholder environments, run webinars, host worksh
 >
 > **Drummond Reed**
 >
-> *Chief Trust Officer, Avast*
+> _Chief Trust Officer, Avast_
 >
 > Co-chair, [Trust over IP (ToIP)](https://trustoverip.org/) Governance Stack Working Group
 >
-> Co-author, [*Self-Sovereign Identity: : Decentralized digital identity and verifiable credentials*](https://amzn.to/3uSp5lz)
-
+> Co-author, [_Self-Sovereign Identity: : Decentralized digital identity and verifiable credentials_](https://amzn.to/3uSp5lz)
 
 > "DanubeTech has been a pioneer in DID technologies, and we see cheqd as a promising next step in the evolution of SSI networks. Operating a cheqd node will add value to our mission of enabling global interoperability of decentralized identity infrastructures."
 >
 > **Markus Sabadello**
 >
-> *CEO, [DanubeTech](https://danubetech.com/*)
-
+> \*CEO, [DanubeTech](https://danubetech.com/\*)
 
 > "You can't have Web 3 until you have decentralised identity that works at scale and has a business model for network participants hardcoded into it.
 >
@@ -165,13 +163,11 @@ We are happy to set up multi-stakeholder environments, run webinars, host worksh
 >
 > **Jamie Burke**
 >
-> *Founder & CEO, Outlier Ventures*
-> \
+> _Founder & CEO, Outlier Ventures_\
 > _“Our well-being depends on reliable data provenance and secure authentication/authorization across humans, organizations, and systems. All the exciting use-cases for digital-first processes are in need of a truly open and portable identity & credentialing fabric, which is exactly what Cheqd provides. Our joint vision is that decentralized identity will be at the core of every cyber-physical system in the near future.”_
 >
 > **Carsten Stöcker**\
-> \- _CEO, Spherity_
-> \
+> \- _CEO, Spherity_\
 > _"We're excited to join the cheqd community because of its focus on operationalising SSI business models through payment rails. For companies like us that want to build applications based on SSI that enable users to access services, the payment rail component is critical in ensuring that we offer customers a seamless payment experience. Gravity's business model is based on "pay per data", such that customers pay for the data exchanged based on the number of credentials and the types of claims contained within them. Leveraging cheqd's payment rail infrastructure is therefore vital for Gravity as our customer base expands and credential exchanges grow."_
 >
 > **Sharanya Thakur**\

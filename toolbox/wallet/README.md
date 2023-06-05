@@ -1,4 +1,4 @@
-# cheqd Wallet
+# 💳 Wallet
 
 ## Business Context
 
@@ -16,7 +16,7 @@ Features include:
 
 Our starting principle for this wallet example implementation was to build a non-custodial wallet, which works in a browser. This is because a lot of identity wallets are "custodial" (on browser, mobile, desktop), i.e., they rely on having a 3rd party hold / operate actual credential interactions.
 
-Quite often, this is due to technical requirements on software libraries that can *only* work on specific OSes. For example, many Aries frameworks rely on software libraries that are specifically compiled for iOS/Android/Linux/Windows/Mac.
+Quite often, this is due to technical requirements on software libraries that can _only_ work on specific OSes. For example, many Aries frameworks rely on software libraries that are specifically compiled for iOS/Android/Linux/Windows/Mac.
 
 Under the hood, we're doing something very similar to how password managers such as LastPass or 1Password work: only an encrypted copy of credentials is backed up. When you connect via Keplr, the backup is downloaded and decrypted only within your browser.
 
@@ -28,7 +28,7 @@ To implement the credential issuance, we built this on top of [Veramo’s SDK](h
 
 ![Veramo reference app architecture](../../.gitbook/assets/wallet-architecture.jpg)
 
-*Figure: Architecture of demo wallet ([editable Draw.io source file](../../.gitbook/assets/wallet-architecture.drawio))*
+_Figure: Architecture of demo wallet (_[_editable Draw.io source file_](../../.gitbook/assets/wallet-architecture.drawio)_)_
 
 ## Developer Guide
 
@@ -70,7 +70,7 @@ This enables builders to offer users authentication with a Social Media account,
 
 > 🛠️ **Github repository**: [cheqd/sdk](https://github.com/cheqd/sdk)
 
-The purpose of this [NPM package](https://www.npmjs.com/package/@cheqd/sdk) is to provide a mechanism of integrating cheqd functionality in an application *without* using a 3rd-party SDK like [Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd).
+The purpose of this [NPM package](https://www.npmjs.com/package/@cheqd/sdk) is to provide a mechanism of integrating cheqd functionality in an application _without_ using a 3rd-party SDK like [Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sdk/veramo-sdk-for-cheqd).
 
 This package includes:
 
@@ -85,10 +85,10 @@ If you are using [Veramo SDK for cheqd](https://docs.cheqd.io/identity/guides/sd
 
 The purpose of this [NPM package](https://www.npmjs.com/package/@cheqd/did-provider-cheqd) is to enable developers to interact with the cheqd ledger using [Veramo SDK](https://veramo.io/), a modular and pluggable client app SDK for decentralised identity and SSI applications.
 
-This package includes [Veramo SDK Agent methods](https://veramo.io/docs/veramo_agent/plugins) for use with the [Veramo CLI NPM package](https://www.npmjs.com/package/@veramo/cli). It can also be consumed as an NPM package outside Veramo CLI for building your own applications with NPM.
+This package includes [Veramo SDK Agent methods](https://veramo.io/docs/veramo\_agent/plugins) for use with the [Veramo CLI NPM package](https://www.npmjs.com/package/@veramo/cli). It can also be consumed as an NPM package outside Veramo CLI for building your own applications with NPM.
 
 The package's core functionality is borrowed from [Veramo Core NPM package](https://www.npmjs.com/package/@veramo/core). and extends this to include cheqd ledger functionality, such as creating and managing DIDs.
 
-did-provider-cheqd is the first Veramo SDK plug-in that utilises the *DID Manager Update* method to offer a full-body DIDDoc update for a DID on cheqd ledger, rather than individual field update transactions used more commonly in other DID methods such as [did:ethr](https://developer.uport.me/ethr-did/docs/index).
+did-provider-cheqd is the first Veramo SDK plug-in that utilises the _DID Manager Update_ method to offer a full-body DIDDoc update for a DID on cheqd ledger, rather than individual field update transactions used more commonly in other DID methods such as [did:ethr](https://developer.uport.me/ethr-did/docs/index).
 
 New DID creation can also be done by passing a full-body DIDoc payload in JSON, rather than having to assemble the document field-by-field.

@@ -1,4 +1,4 @@
-# 🆔 Identity
+# Identity
 
 ## Decentralised Identifiers (DIDs)
 
@@ -58,8 +58,6 @@ You can see our resolver in action, resolving our first DID here:
 #### Learn more
 
 Learn about DIDs and what DID resolution is here:
-
-{% embed url="../../toolbox/resolver/README.md" %}
 
 #### What is the core business value in this work?
 

@@ -28,7 +28,7 @@
     * [0.6.x](network/upgrades/2022/v0.6.x.md)
   * [2023](network/upgrades/2023/README.md)
     * [1.x](network/upgrades/2023/v1.x.md)
-* [🔭 Tools](network/tools/README.md)
+* [Tools](network/tools/README.md)
   * [Block Explorer](network/tools/block-explorer.md)
   * [Validator Status API](network/tools/validator-status.md)
   * [cheqd x Cosmos Data APIs](network/tools/data-api.md)
@@ -38,11 +38,11 @@
 
 ## 🛠️ Toolbox
 
-* [✅ Build products on cheqd](toolbox/README.md)
+* [🧰 Build products on cheqd](toolbox/README.md)
 * [🧑‍💻 Veramo SDK](toolbox/veramo-sdk/README.md)
-* [👀 AnonCreds](toolbox/anoncreds/README.md)
+* [AnonCreds](toolbox/anoncreds/README.md)
   * [Aries Framework JavaScript](toolbox/anoncreds/afj-cheqd.md)
-* [🔍 DID Resolver](toolbox/resolver/README.md)
+* [DID Resolver](toolbox/resolver/README.md)
 * [💳 Wallet](toolbox/wallet/README.md)
 
 ## 🆘 Support

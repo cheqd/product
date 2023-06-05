@@ -1,4 +1,4 @@
-# ☄ Cosmos and Web 3.0
+# Cosmos and Web 3.0
 
 ## Ethereum bridge
 

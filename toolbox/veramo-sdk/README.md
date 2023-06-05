@@ -1,4 +1,4 @@
-# 📦 Veramo SDK for cheqd
+# 🧑‍💻 Veramo SDK
 
 ## Overview
 
@@ -53,4 +53,4 @@ The `@cheqd/sdk` package adds Cosmos SDK specific functionality such as signing 
 
 For identity-related keys, this plugin uses [Veramo's Key Management System (KMS)](https://www.npmjs.com/package/@veramo/key-manager) to manage keys for create and update operations.
 
-Find out about [other Veramo plug-ins in their official documentation](https://veramo.io/docs/veramo_agent/plugins).
+Find out about [other Veramo plug-ins in their official documentation](https://veramo.io/docs/veramo\_agent/plugins).

@@ -1,4 +1,4 @@
-# 🔄 Resolve cheqd DIDs and Resources
+# DID Resolver
 
 ## Context
 
