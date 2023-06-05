@@ -8,7 +8,7 @@ cheqd has created simple tooling to enable third parties to create DIDs and reso
 
 cheqd is continually integrating into different software development kits to suit the needs of different partners and their clients.
 
-Below is a comparison between our two initial supported SDKs, Veramo SDK for cheqd and Aries Framework JavaScript SDK for cheqd.
+Below is a comparison between our three initial supported SDKs, Veramo SDK for cheqd, Aries Framework JavaScript and Walt.id's SSI Kit.
 
 | Functionality                                                                                                                                            | Veramo SDK for cheqd | Aries Framework JavaScript for cheqd | Walt.id SSI Kit |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------: | :----------------------------------: | :-------------: |
