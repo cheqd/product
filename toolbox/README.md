@@ -12,7 +12,7 @@ Below is a comparison between our two initial supported SDKs, Veramo SDK for che
 
 | Functionality                                                                                                                                            | Veramo SDK for cheqd | Aries Framework JavaScript for cheqd | Walt.id SSI Kit |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------: | :----------------------------------: | :-------------: |
-| **Create cheqd DIDs**                                                                                                                                    |          ✔️          |                  ✔️                  |        ✔️       |
+| **cheqd DID operations (CRUD)**                                                                                                                          |          ✔️          |                  ✔️                  |        ✔️       |
 | **JSON based JWT Verifiable Credential**                                                                                                                 |          ✔️          |                   ❌                  |        ✔️       |
 | **JSON-LD Verifiable Credential**                                                                                                                        |          ✔️          |              ⌛(roadmap)              |        ✔️       |
 | **AnonCreds (ZKP-CL)**                                                                                                                                   |           ❌          |                  ✔️                  |        ❌        |
