@@ -45,7 +45,7 @@ cheqd is designed as a highly performant Layer 1 with high throughput. Built usi
 
 Gas fees on cheqd are a fraction of the cost of other networks, making it far cheaper to transact on the network and in time exchange credentials.
 
-On average, transactions on cheqd cost **between $2-15**, based on transaction type. Our [pricing table explains costs of DID transactions, on-ledger resources](broken-reference) (e.g., schemas, logos, trusted issuer lists, etc) in more detail.
+On average, transactions on cheqd cost **between $2-15**, based on transaction type. Our [pricing table explains costs of DID transactions, on-ledger resources](pricing.md) (e.g., schemas, logos, trusted issuer lists, etc) in more detail.
 
 ### 💰 Get paid for your part
 
