@@ -14,7 +14,7 @@ To explore our initial roadmap from the beginning of 2022, [please read our blog
 
 We have broken our roadmap down into three sections:
 
-1. [Identity](broken-reference)
+1. [Identity](identity.md)
 2. [Network infrastructure](infrastructure.md)
 3. [Cosmos and Web-3.0](cosmos-and-web-3.0.md)
 
