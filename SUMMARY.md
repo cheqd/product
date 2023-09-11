@@ -50,4 +50,3 @@
 * [System Status](https://status.cheqd.net)
 * [Slack Channel](http://cheqd.link/join-cheqd-slack)
 * [Discord](http://cheqd.link/discord-github)
-* [General Support](https://support.cheqd.io)
